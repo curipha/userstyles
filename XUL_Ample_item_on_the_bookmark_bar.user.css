@@ -1,0 +1,3 @@
+/* [XUL] Ample item on the bookmark bar */
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+.bookmark-item { margin: 0 3px !important; }

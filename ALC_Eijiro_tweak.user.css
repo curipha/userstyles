@@ -1,0 +1,33 @@
+/* ALC Eijiro tweak */
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("eow.alc.co.jp") {
+
+#AreaUpperRight, #AreaLowerLeft,
+#gnav, #shop, #introduceEowp, .adArea,
+#head-tab1, #footerInfo, #footer1, #footer2, #footer3,
+#AreaBody > br, #AreaHeaderLeft + div,
+#body-tab0 input:not(#q), #resultsArea td:not(#itemsNumber),
+#resultsArea div[align="right"] span.smallredfont
+{ display: none !important; }
+
+#AreaBody { max-width: 720px !important; margin: 0 80px !important; }
+#AreaUpperLeftContainer { max-width: 100% !important; margin: 0 !important; }
+
+#logo { position: absolute !important; top: 5px !important; left: 575px !important; z-index: 2 !important; }
+
+#q { font-size: 18px !important; width: 24em !important; height: auto !important; }
+
+#itemsNumber { font-size: 14px !important; }
+#itemsNumber strong { font-size: 140% !important; margin: 0 0.4em !important; }
+
+#paging { font-size: 140% !important; float: right !important; }
+.sas { font: 120%/1.5 sans-serif !important; margin-left: 2em !important; clear: both !important; }
+
+#resultsArea { font: 14px/1.4 Arial, sans-serif !important; }
+
+#resultsArea ul { list-style: none outside !important; }
+#resultsArea .midashi { font-size: 120% !important; }
+#resultsArea .midashi + div { margin: 0.2em 0 1.5em 0.5em !important; line-height: 1.6 !important; }
+
+.label:before { content: "\A"; white-space: pre; }
+}

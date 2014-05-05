@@ -1,0 +1,28 @@
+/* The Old Reader tweak */
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document url-prefix("https://theoldreader.com/") {
+/* Sidebar */
+#sidebar .nav-header { margin-top: 0.2em !important; border-top: 1px dashed #ccc !important; }
+
+/* Feed header */
+.page-header .clr { float: right !important; clear: none !important; }
+
+/* Entry */
+.posts .post { padding: 0.8em 1em !important; }
+.posts .post.unread * { color: #888 !important; }
+.posts .post.unread .label-feed { color: #eee !important; }
+
+.post .content * { line-height: 2 !important; }
+
+.post .label-feed + .label-transparent { margin-left: 1em !important; }
+
+.post > .btns { display: none !important; }
+.post > .label { font-size: 14px !important; }
+
+
+/* Advertise */
+.posts .post[data-relative^="http://rss.rssad.jp/rss/ad/"] { padding: 0.2em 1em !important; }
+.posts .post[data-relative^="http://rss.rssad.jp/rss/ad/"] a { color: #ccc !important; font: small/1.0 sans-serif !important; }
+.posts .post[data-relative^="http://rss.rssad.jp/rss/ad/"] .clearfix { display: none !important; }
+}
+

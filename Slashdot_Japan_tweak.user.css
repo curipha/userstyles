@@ -1,0 +1,6 @@
+/* Slashdot Japan tweak */
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("slashdot.jp") {
+.ads-leaderbord, #slashboxes, #ads-footer-rec { display: none !important; }
+#firehose { margin-right: 1em !important; }
+}

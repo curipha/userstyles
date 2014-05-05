@@ -1,0 +1,25 @@
+/* Bye-bye MS Gothic */
+@namespace url(http://www.w3.org/1999/xhtml);
+@font-face {
+  font-family: "ＭＳ Ｐゴシック";
+  src: local("メイリオ"), local("Meiryo"), local("ＭＳ Ｐゴシック");
+}
+@font-face {
+  font-family: "MS PGothic";
+  src: local("メイリオ"), local("Meiryo"), local("ＭＳ Ｐゴシック");
+}
+
+@font-face {
+  font-family: "ＭＳ ゴシック";
+  src: local("Migmix 2M"), local("ＭＳ ゴシック");
+}
+@font-face {
+  font-family: "MS Gothic";
+  src: local("MigMix 2M"), local("ＭＳ ゴシック");
+}
+
+@font-face {
+  font-family: "MS UI Gothic";
+  src: local("Meiryo UI"), local("MS UI Gothic");
+}
+

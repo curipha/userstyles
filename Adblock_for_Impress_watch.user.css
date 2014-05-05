@@ -1,0 +1,6 @@
+/* Adblock for Impress watch */
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("impress.co.jp") {
+.main { margin-right: 20px !important; }
+.extra { display: none !important; }
+}

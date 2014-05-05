@@ -1,0 +1,46 @@
+/* Add file icons to links */
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document url-prefix("http://") {
+a[href$=".pdf"], a[href$=".PDF"] { padding-right: 18px !important; background: url("moz-icon://.pdf?size=16") no-repeat right center; }
+
+a[href$=".txt"] { padding-right: 18px !important; background: url("moz-icon://.txt?size=16") no-repeat right center; }
+a[href$=".rtf"] { padding-right: 18px !important; background: url("moz-icon://.rtf?size=16") no-repeat right center; }
+
+a[href$=".js"]  { padding-right: 18px !important; background: url("moz-icon://.js?size=16") no-repeat right center; }
+a[href$=".css"] { padding-right: 18px !important; background: url("moz-icon://.css?size=16") no-repeat right center; }
+/*
+a[href$=".doc"]  { padding-right: 18px !important; background: url("moz-icon://.doc?size=16") no-repeat right center; }
+a[href$=".xls"]  { padding-right: 18px !important; background: url("moz-icon://.xls?size=16") no-repeat right center; }
+a[href$=".ppt"]  { padding-right: 18px !important; background: url("moz-icon://.ppt?size=16") no-repeat right center; }
+a[href$=".docx"] { padding-right: 18px !important; background: url("moz-icon://.docx?size=16") no-repeat right center; }
+a[href$=".xlsx"] { padding-right: 18px !important; background: url("moz-icon://.xlsx?size=16") no-repeat right center; }
+a[href$=".pptx"] { padding-right: 18px !important; background: url("moz-icon://.pptx?size=16") no-repeat right center; }
+*/
+a[href$=".7z"]  { padding-right: 18px !important; background: url("moz-icon://.7z?size=16") no-repeat right center; }
+a[href$=".zip"] { padding-right: 18px !important; background: url("moz-icon://.zip?size=16") no-repeat right center; }
+a[href$=".lzh"] { padding-right: 18px !important; background: url("moz-icon://.lzh?size=16") no-repeat right center; }
+a[href$=".cab"] { padding-right: 18px !important; background: url("moz-icon://.cab?size=16") no-repeat right center; }
+a[href$=".gz"]  { padding-right: 18px !important; background: url("moz-icon://.gz?size=16") no-repeat right center; }
+a[href$=".bz2"] { padding-right: 18px !important; background: url("moz-icon://.bz2?size=16") no-repeat right center; }
+a[href$=".rar"] { padding-right: 18px !important; background: url("moz-icon://.rar?size=16") no-repeat right center; }
+
+a[href$=".exe"] { padding-right: 18px !important; background: url("moz-icon://.exe?size=16") no-repeat right center; }
+a[href$=".msi"] { padding-right: 18px !important; background: url("moz-icon://.msi?size=16") no-repeat right center; }
+a[href$=".chm"] { padding-right: 18px !important; background: url("moz-icon://.chm?size=16") no-repeat right center; }
+a[href$=".reg"] { padding-right: 18px !important; background: url("moz-icon://.reg?size=16") no-repeat right center; }
+
+a[href$=".m3u"] { padding-right: 18px !important; background: url("moz-icon://.m3u?size=16") no-repeat right center; }
+a[href$=".asx"] { padding-right: 18px !important; background: url("moz-icon://.asx?size=16") no-repeat right center; }
+
+a[href$=".mp3"] { padding-right: 18px !important; background: url("moz-icon://.mp3?size=16") no-repeat right center; }
+a[href$=".asf"] { padding-right: 18px !important; background: url("moz-icon://.asf?size=16") no-repeat right center; }
+a[href$=".wma"] { padding-right: 18px !important; background: url("moz-icon://.wma?size=16") no-repeat right center; }
+a[href$=".wav"] { padding-right: 18px !important; background: url("moz-icon://.wav?size=16") no-repeat right center; }
+
+a[href$=".avi"] { padding-right: 18px !important; background: url("moz-icon://.avi?size=16") no-repeat right center; }
+a[href$=".wmv"] { padding-right: 18px !important; background: url("moz-icon://.wmv?size=16") no-repeat right center; }
+a[href$=".mpg"], a[href$=".mpeg"] { padding-right: 18px !important; background: url("moz-icon://.mpg?size=16") no-repeat right center; }
+
+a[href^="mailto:"] { padding-right: 18px !important; background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAAABGdBTUEAAK%2FINwWK6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAABh0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYyLjcyclqEXQAAAitJREFUKFNVkctPE1EUhwdXRuNf4qo7FywIRg3qoq6NKxO3sjCwQI3RCPEBiQvRGDVGTRRqTBUfMVIqrSDVEhtRKHRaHlNoGW5ph5l2Znrn3p9nBjRh8eWeOzfnO3POabn4YCq%2Bd9%2BBEDP5fsvx9kgoilSgCAok6CQkxf59BygtgvOGwbSsqip3InOq0xTSqHtwPeyiSfd%2FcIo52TzCbHDoVUcc7o7klJ5HM3KLPgy%2B06CWXWzWJRbWBVRdoMAElisCxapEyZBoNIEl3cX14RXMFw2Eb09JpXMwA5fUb6YNDL7XUFh3YdhyV6JuStiUrDEXN1%2Bv4O5oDcxyfAGUcwPpQDCzKvA2vS3xq9RdwE%2BsWJLegdWKi%2F6ohsfjNXyc81AxdwSne1OBYK4s8HtNIDJZwY1hNajmJ%2FozWNt00fdSxcN4BV9yXsB%2FQfjSRCDIUt%2BZZRcj3zfwYoLh%2FgcN%2BZKNQtnGPYqfJxmGJnQkFhxMLu4I%2BqmFo10JOCT4pbn49JORxMFsSSD2x8KT%2BDqeErEZK%2Fi7VMFGlAp8zTlgW34LKSit58dknfY3mmGYLbpYZBKLGxIFIkeoRF6nmLaSpTanlxyM%2FNChbZgI3%2FomldCZZ4VN0xFFVpe1OqcNcJiE5XAapBfQIGwfGogPM2yRntft9q5IXjl4aiAeOhutHur83GztHuNtPeO8%2FXKCH7mS4MeuJnlHb5IfJ070bXOyL9nsuBaz2i68WvZz%2FwIUzVI%2B4pT5cgAAAABJRU5ErkJggg%3D%3D") no-repeat right center; }
+}
+

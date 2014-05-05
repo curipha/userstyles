@@ -1,0 +1,85 @@
+/* [XUL] Hide context menu elements */
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+/* Page Menu
+
+ * [リンクを新しいウィンドウで開く][リンクを新しいプライベートウィンドウで開く][セパレータ]
+ * [戻る][進む][更新][中止][セパレータ]
+ * [...をブックマーク]
+ * [...をメールで送信]
+ * [セパレータ]...
+ * [名前をつけてページを保存]
+ * [選択したURLを開く][選択した部分のソースを表示]
+ * [デスクトップの背景に設定][コントロールを隠す][この検索にキーワードを設定]
+ */
+#context-openlink, #context-openlinkprivate, #context-sep-open,
+#context-back, #context-forward, #context-reload, #context-stop, #context-sep-stop,
+#context-bookmarkpage, #context-bookmarklink,
+#context-sendpage, #context-sendlink, #context-sendimage, #context-sendvideo, #context-sendaudio,
+#context-sep-viewbgimage,  #context-sep-properties,
+#context-savepage,
+#context-openlinkincurrent, #context-viewpartialsource-selection,
+#context-setDesktopBackground, #context-media-hidecontrols, #context-keywordfield,
+
+/* Textarea sidemenu
+
+ * [切り取り][削除][すべて選択][セパレータ]
+ * [すべて選択][セパレータ]
+ * [スペルチェックを行う][セパレータ] */
+#context-cut, #context-delete, #context-sep-paste,
+#context-selectall, #context-sep-selectall,
+#spell-check-enabled, #spell-separator,
+
+/* Frame sidemenu
+
+ * [フレームを新しいウィンドウで開く][このフレームをブックマーク]
+ * [名前を付けてフレームを保存][セパレータ]
+ * [フレームを印刷][セパレータ] */
+#context-openframe, #context-bookmarkframe,
+#context-saveframe, #context-saveframe + menuseparator,
+#context-printframe, #context-printframe + menuseparator,
+
+/* Tab menu
+
+ * [タブを再読み込み][セパレータ]
+ * [タブをピン留め]
+ * [新しいウィンドウへ移動][セパレータ]
+ * [すべてのタブを再読み込み][すべてのタブをブックマーク]
+ * [閉じたタブを元に戻す] */
+#context_reloadTab, #tabContextMenu menuseparator:first-of-type,
+#context_pinTab,
+#context_openTabInWindow, #context_openTabInWindow + menuseparator,
+#context_reloadAllTabs, #context_bookmarkAllTabs,
+#context_undoCloseTab,
+
+/* URL bar menu
+
+ * [切り取り][貼り付け][削除]
+ * [セパレータ]
+ * [すべて選択] */
+#urlbar menuitem[cmd='cmd_cut'], #urlbar menuitem[cmd='cmd_paste'], #urlbar menuitem[cmd='cmd_delete'],
+#urlbar menuitem[cmd='cmd_delete'] + menuseparator,
+#urlbar menuitem[cmd='cmd_selectAll'],
+
+/* Search bar menu
+ * [切り取り][貼り付け][削除]
+ * [セパレータ]
+ * [すべて選択] */
+#searchbar menuitem[cmd='cmd_cut'], #searchbar menuitem[cmd='cmd_paste'], #searchbar menuitem[cmd='cmd_delete'],
+#searchbar menuitem[cmd='cmd_delete'] + menuseparator,
+#searchbar menuitem[cmd='cmd_selectAll'],
+
+/* Bookmark menu
+
+ * [新しいウィンドウで開く]
+ * [新しいブックマーク][新しいフォルダ][新しい区切り]
+ * [切り取り][コピー][貼り付け][プロパティ]
+ * [名前順に並べ替える]
+ * [セパレータ]... */
+#placesContext_open\:newwindow,
+#placesContext_new\:bookmark, #placesContext_new\:folder, #placesContext_new\:separator,
+#placesContext_cut, #placesContext_copy, #placesContext_paste, #placesContext_show\:info,
+#placesContext_sortBy\:name,
+#placesContext_newSeparator, #placesContext_editSeparator, #placesContext_deleteSeparator,
+#placesContext_sortSeparator
+{ display: none !important; }
+

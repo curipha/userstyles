@@ -1,0 +1,49 @@
+/* Amazon.co.jp tweak */
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("amazon.co.jp") {
+#nav-cart { opacity: 0.3 !important; }
+
+/* Old */
+.buying b > a[href*="seller="],
+#BBAvailPlusMerchID b,
+/* New */
+#merchant-info > a[href*="seller="],
+#soldByThirdParty b
+{
+color: #d00 !important;
+font: bold 250% sans-serif !important;
+text-decoration: none !important;
+}
+#BBAvailPlusMerchID b:before, /* Old */
+#soldByThirdParty b:before    /* New */
+{ content: "\A"; white-space: pre !important; }
+
+#soldByThirdParty + .a-button-stack { opacity: 0.3 !important; }
+
+[id*="A9Ads"] * {
+font: 8pt/0.9 sans-serif !important;
+padding: 0 !important;
+margin: 0 !important;
+opacity: 0.9 !important;
+}
+
+#buyboxusedDivId,        /* 中古品を購入 */
+#prime_buybox_lower_div, /* お急ぎ便無料でショッピングカートに入れる */
+#ddmMessage,             /* 住所からお届け予定日を確認 (Old) */
+#dynamicDeliveryMessage_feature_div, /* 住所からお届け予定日を確認 (New) */
+.mbcBox,                 /* こちらからもご購入いただけます (Old) */
+#moreBuyingChoices_feature_div,      /* こちらからもご購入いただけます (New)  */
+#tafContainerDiv,        /* シェアする (Old) */
+#tellAFriendBox_feature_div,        /* シェアする (New) */
+#ftMessage,              /* ○○日にお届けします */
+#olpDivId,               /* 新品の出品 : ○ ￥○○より */
+#olp_feature_div         /* 新品の出品 : ○ ￥○○より (New) */
+{
+opacity: 0.3 !important;
+/* display: none  !important; */
+}
+    
+#nav_sitewide_msg_694_primary object,
+#nav_sitewide_msg_694_movie object
+{ display: none !important; }
+}

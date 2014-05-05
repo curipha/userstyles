@@ -1,0 +1,21 @@
+/* Highlight interlanguage links for Wikipedia */
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("wikipedia.org") {
+#p-lang li.interwiki-en,
+#p-lang li.interwiki-ja {
+font: 18px/1.8 "Arial", sans-serif !important;
+text-align: center !important;
+padding: 0 !important;
+background: #f90 !important;
+position: absolute !important;
+top: -9em !important;
+left: 10em !important;
+display: block !important;
+width: 350px !important;
+}
+
+#p-lang { overflow: visible !important; }
+#p-lang li.interwiki-en a, #p-lang li.interwiki-ja a { color: #fff !important; }
+#p-lang li.interwiki-en a:before, #p-lang li.interwiki-ja a:before { content: "\00BB\00A0 Show "; }
+#p-lang li.interwiki-en a:after, #p-lang li.interwiki-ja a:after { content: " revision"; }
+}

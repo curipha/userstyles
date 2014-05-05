@@ -1,0 +1,3 @@
+/* [XUL] Disable IME on the location bar */
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+#urlbar *|input { ime-mode: disabled !important; }

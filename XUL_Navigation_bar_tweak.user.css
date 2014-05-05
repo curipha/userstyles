@@ -1,0 +1,16 @@
+/* [XUL] Navigation bar tweak */
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+#urlbar dropmarker, #urlbar-go-button, #urlbar-reload-button, #urlbar-stop-button,
+.search-go-button,
+#new-tab-button, .tabs-newtab-button, #alltabs-button 
+{ display: none !important; }
+
+#nav-bar .toolbarbutton-1 {
+margin-top: -5px !important;
+margin-bottom: -5px !important;
+}
+#back-button{
+margin-top: -3px !important
+margin-bottom: -3px !important;
+}
+

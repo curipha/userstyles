@@ -1,0 +1,10 @@
+/* Amazon Cloud Player tweak */
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document url-prefix("https://www.amazon.co.jp/gp/dmusic/mp3/player") {
+.shareSong, .shareAlbum,
+.rec-buyButton-wrapper, .rec-footer,
+.nowPlayingOptionPanel { display: none !important; }
+
+#nowPlayingSection .timer { font: bold 300% "Myriad Pro",sans-serif !important; top: -24px !important; }
+#currentTime              { font-weight: normal !important; }
+}
