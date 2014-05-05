@@ -55,10 +55,7 @@ ${SQLITECMD} 'select id from styles where url is null order by id' \
 
     echo "/* ${DESC} */" > ${FILE}
     ${SQLITECMD} "select code from styles where id = ${id}" | tr -d "\r" >> ${FILE}
+
+    chmod 0644 ${FILE}
   done
-
-
-# Update mode
-chmod 0644 *${USERCSSEXT}
-
 
