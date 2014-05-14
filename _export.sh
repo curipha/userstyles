@@ -25,7 +25,7 @@ if [ ! -f ${STYLISH} ]; then
 fi
 
 
-# Remove current user.js
+# Remove current user.css
 find . -type f -iname "*${USERCSSEXT}" -exec rm {} \;
 
 # Create disable directory if not exists
