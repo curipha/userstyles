@@ -43,7 +43,6 @@ opacity: 0.3 !important;
 /* display: none  !important; */
 }
     
-#nav_sitewide_msg_694_primary object,
-#nav_sitewide_msg_694_movie object
+[id^="nav_sitewide_msg_"] object
 { display: none !important; }
 }
