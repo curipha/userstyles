@@ -20,8 +20,11 @@
 #itemsNumber { font-size: 14px !important; }
 #itemsNumber strong { font-size: 140% !important; margin: 0 0.4em !important; }
 
-#paging { font-size: 140% !important; float: right !important; }
+#paging { font-size: 140% !important; float: right !important; max-width: 100% !important; }
+#paging .blk a, #paging .cur { padding: 0.4em 0.6em !important; }
+
 .sas { font: 120%/1.5 sans-serif !important; margin-left: 2em !important; clear: both !important; }
+.sas, #resultsList { padding-top: 1em !important; }
 
 #resultsArea { font: 14px/1.4 Arial, sans-serif !important; }
 
