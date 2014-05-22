@@ -1,22 +1,21 @@
 /* Excite translation tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document url-prefix("http://www.excite.co.jp/world/") {
-.ad728, .adText,
-#sidebar, .socialModule,
-#spaceArrow, #beforeBox, #toEXTOP,
-.box01, #im, #exUnderNav, #exFooter, #excite_slidead_wrap { display: none !important; }
+#contents > :not(#transForm):not(#webPageMin),
+#sidebar, #exUnderNav, #exFooter, #toEXTOP,
+#tools, #spaceArrow, #beforeBox, #webPageMinSub,
+.ad728
+{ display: none !important; }
+
 
 #contents { margin: 0 !important; }
-#transForm { width: auto !important; }
+#transForm, #auto_detect_box { width: auto !important; }
 
 #leftBox, #rightBox, .inputForm { width: 580px !important; }
 #transForm textarea { width: 550px !important; border: 2px solid #ccc !important; }
+#transferSubmitBtn, #retranceCheck, #inputClear { left: 600px !important; }
 
 .resizable-textarea > span, .inputForm, .hgroup { background: none !important; }
-
-#transferSubmitBtn { left: 600px !important; }
-#retranceCheck     { left: 600px !important; }
-#inputClear        { left: 600px !important; }
 
 .hgroup h3 { font-size: 20px !important; }
 }
