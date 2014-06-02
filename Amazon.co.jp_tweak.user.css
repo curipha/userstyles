@@ -29,15 +29,12 @@ opacity: 0.9 !important;
 
 #buyboxusedDivId,        /* 中古品を購入 */
 #prime_buybox_lower_div, /* お急ぎ便無料でショッピングカートに入れる */
-#ddmMessage,             /* 住所からお届け予定日を確認 (Old) */
-#dynamicDeliveryMessage_feature_div, /* 住所からお届け予定日を確認 (New) */
-.mbcBox,                 /* こちらからもご購入いただけます (Old) */
-#moreBuyingChoices_feature_div,      /* こちらからもご購入いただけます (New)  */
-#tafContainerDiv,        /* シェアする (Old) */
-#tellAFriendBox_feature_div,        /* シェアする (New) */
 #ftMessage,              /* ○○日にお届けします */
-#olpDivId,               /* 新品の出品 : ○ ￥○○より */
-#olp_feature_div         /* 新品の出品 : ○ ￥○○より (New) */
+#primenote_feature_div,  /* 別の出品者から価格が低い商品が出品されています */
+#ddmMessage, #dynamicDeliveryMessage_feature_div, /* 住所からお届け予定日を確認 (Old, New) */
+.mbcBox, #moreBuyingChoices_feature_div,          /* こちらからもご購入いただけます (Old, New)  */
+#tafContainerDiv, #tellAFriendBox_feature_div,    /* シェアする (Old, New) */
+#olpDivId, #olp_feature_div                       /* 新品の出品 : ○ ￥○○より (Old, New) */
 {
 opacity: 0.3 !important;
 /* display: none  !important; */
