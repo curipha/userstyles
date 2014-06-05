@@ -1,7 +1,7 @@
 /* Excite translation tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document url-prefix("http://www.excite.co.jp/world/") {
-#contents > :not(#transForm):not(#webPageMin),
+#contents > :not(#transForm):not(#webPageMin):not(.content),
 #sidebar, #exUnderNav, #exFooter, #toEXTOP,
 #tools, #spaceArrow, #beforeBox, #webPageMinSub,
 .ad728
@@ -15,7 +15,7 @@
 #transForm textarea { width: 550px !important; border: 2px solid #ccc !important; }
 #transferSubmitBtn, #retranceCheck, #inputClear { left: 600px !important; }
 
-.resizable-textarea > span, .inputForm, .hgroup { background: none !important; }
+.resizable-textarea > span, .inputForm, #transForm .hgroup { background: none !important; }
 
 .hgroup h3 { font-size: 20px !important; }
 }
