@@ -1,0 +1,6 @@
+/* [XUL] Change tab order in about:addons */
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+@-moz-document url(about:addons) {
+#category-greasemonkey-user-script { -moz-box-ordinal-group: 2 !important } /* User Script (Greasemonkey) */
+#category-userstyle                { -moz-box-ordinal-group: 3 !important } /* User Style (Stylish) */
+}
