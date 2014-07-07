@@ -31,6 +31,7 @@ opacity: 0.9 !important;
 #prime_buybox_lower_div, /* お急ぎ便無料でショッピングカートに入れる */
 #ftMessage,              /* ○○日にお届けします */
 #primenote_feature_div,  /* 別の出品者から価格が低い商品が出品されています */
+.itemUsedAndNew,         /* ○○点の新品/中古品 ○○円より @wishlist */
 #ddmMessage, #dynamicDeliveryMessage_feature_div, /* 住所からお届け予定日を確認 (Old, New) */
 .mbcBox, #moreBuyingChoices_feature_div,          /* こちらからもご購入いただけます (Old, New)  */
 #tafContainerDiv, #tellAFriendBox_feature_div,    /* シェアする (Old, New) */
@@ -39,7 +40,16 @@ opacity: 0.9 !important;
 opacity: 0.3 !important;
 /* display: none  !important; */
 }
-    
+
+/* 値下がりしました ○○% @wishlist */
+.itemPriceDrop { font: bold 120% sans-serif !important; }
+.itemPriceDrop .a-text-bold {
+color: #d00 !important;
+font: bold 180% sans-serif !important; /* 120% * 180% = 216% */
+}
+.itemPriceDrop .a-text-bold:after { content: "\A"; white-space: pre !important; }
+
+/* Flash Ads */
 [id^="nav_sitewide_msg_"] object
 { display: none !important; }
 }
