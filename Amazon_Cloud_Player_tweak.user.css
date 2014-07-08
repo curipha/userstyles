@@ -3,7 +3,9 @@
 @-moz-document url-prefix("https://www.amazon.co.jp/gp/dmusic/cloudplayer/player") {
 .rec-footer, .rec-description .button,
 .actionButtons a[href*="#remove"],
-.signout { display: none !important; }
+#ctaElement,
+#accountOptions .signout, #accountOptions .setting
+{ display: none !important; }
 
 #nowPlayingSection .timer { font: bold 280% "Myriad Pro",sans-serif !important; top: -0.75em !important; }
 #currentTime              { font-weight: normal !important; }
