@@ -11,9 +11,9 @@
 .page-header .clr { float: right !important; clear: none !important; }
 
 /* Entry */
-.posts .post { padding: 0.8em 1em !important; }
-.posts .post.unread * { color: #888 !important; }
-.posts .post.unread .label-feed { color: #eee !important; }
+.post { padding: 0.8em 1em !important; }
+.post.unread * { color: #888 !important; }
+.post.unread .label-feed { color: #eee !important; }
 
 .post .content * { line-height: 2 !important; }
 
@@ -24,8 +24,8 @@
 
 
 /* Advertise */
-.posts .post[data-relative^="http://rss.rssad.jp/rss/ad/"] { padding: 0.2em 1em !important; }
-.posts .post[data-relative^="http://rss.rssad.jp/rss/ad/"] a { color: #ccc !important; font: small/1.0 sans-serif !important; }
-.posts .post[data-relative^="http://rss.rssad.jp/rss/ad/"] .clearfix { display: none !important; }
+.post[data-relative^="http://rss.rssad.jp/rss/ad/"] { padding: 0.2em 1em !important; }
+.post[data-relative^="http://rss.rssad.jp/rss/ad/"] a { color: #ccc !important; font: small/1.0 sans-serif !important; }
+.post[data-relative^="http://rss.rssad.jp/rss/ad/"] .clearfix { display: none !important; }
 }
 
