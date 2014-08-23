@@ -35,7 +35,10 @@ opacity: 0.9 !important;
 #ddmMessage, #dynamicDeliveryMessage_feature_div, /* 住所からお届け予定日を確認 (Old, New) */
 .mbcBox, #moreBuyingChoices_feature_div,          /* こちらからもご購入いただけます (Old, New)  */
 #tafContainerDiv, #tellAFriendBox_feature_div,    /* シェアする (Old, New) */
-#olpDivId, #olp_feature_div                       /* 新品の出品 : ○ ￥○○より (Old, New) */
+#tellAFriendBylineBox_feature_div, #tell-a-friend,/* シェアする (New) */
+#olpDivId, #olp_feature_div,                      /* 新品の出品 : ○ ￥○○より (Old, New) */
+.tmm-olp-links,                                   /* \○○ からの ○ 中古 (New) */
+#sellYoursHere_feature_div                        /* この商品をお持ちですか？ (New) */
 {
 opacity: 0.3 !important;
 /* display: none  !important; */
