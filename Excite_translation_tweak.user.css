@@ -4,7 +4,7 @@
 #contents > :not(#transForm):not(#webPageMin):not(.content),
 #sidebar, #exUnderNav, #exFooter, #toEXTOP,
 #tools, #spaceArrow, #beforeBox, #webPageMinSub,
-.ad728
+.ad728, #excite_slidead_wrap
 { display: none !important; }
 
 
