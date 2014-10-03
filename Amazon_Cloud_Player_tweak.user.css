@@ -1,12 +1,12 @@
 /* Amazon Cloud Player tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document url-prefix("https://www.amazon.co.jp/gp/dmusic/cloudplayer/player") {
-.rec-footer, .rec-description .button,
-.actionButtons a[href*="#remove"],
-#ctaElement,
-#accountOptions .signout, #accountOptions .setting
+.rec-footer, .rec-description .button, .bucket .title,
+.currentSongActions, .optionCell > a, .actionButtons > a[href*="#remove"],
+.gridOptions, .albumSongCount,
+#accountOptions .setting
 { display: none !important; }
 
-#nowPlayingSection .timer { font: bold 280% "Myriad Pro",sans-serif !important; top: -0.75em !important; }
+#nowPlayingSection .timer { font: bold 280% "Myriad Pro",sans-serif !important; top: -0.8em !important; }
 #currentTime              { font-weight: normal !important; }
 }
