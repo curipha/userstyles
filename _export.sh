@@ -38,7 +38,7 @@ fi
 
 
 # Remove current user.css
-find . -type f -iname "*${USERCSSEXT}" -exec rm {} \;
+find . -name "${DISABLEDIR}" -prune -o -type f -iname "*${USERCSSEXT}" -print0 | xargs -0 rm
 
 # Create disable directory if not exists
 if [ ! -e ${DISABLEDIR} ]; then
