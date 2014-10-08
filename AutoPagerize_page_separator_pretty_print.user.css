@@ -3,7 +3,7 @@
 @-moz-document url-prefix("http://") {
 .autopagerize_page_separator { border: none !important; }
 
-p.autopagerize_page_info {
+.autopagerize_page_info {
 color: #fff !important;
 font: 14px/2.5 "Segoe UI",sans-serif !important;
 text-align: center !important;
@@ -15,7 +15,7 @@ background: #666 !important;
 border-radius: 0.5em !important;
 clear: both !important;
 }
-p.autopagerize_page_info a {
+.autopagerize_page_info a {
 color: #fff !important;
 font-weight: bold !important;
 text-decoration: none !important;
