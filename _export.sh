@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 # Stylish extractor
 # * Extract stylish.sqlite to *.user.css files
