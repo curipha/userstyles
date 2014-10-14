@@ -1,36 +1,26 @@
 /* ALC Eijiro tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("eow.alc.co.jp") {
-
-#AreaUpperRight, #AreaLowerLeft,
-#gnav, #shop, #introduceEowp, .adArea,
-#head-tab1, #footerInfo, #footer1, #footer2, #footer3,
-#AreaBody > br, #AreaHeaderLeft + div,
-#body-tab0 input:not(#q), #resultsArea td:not(#itemsNumber),
-#resultsArea div[align="right"] span.smallredfont
+#AreaUpperRight, #AreaFooter, #introduceEowp, #SS_mainColumn,
+#sw, #eijiro_img, .pr_text, .sns, .tango, #clearBtn,
+#searchHeader > dl, #AreaBody > .clearfix, #AreaBody > br
 { display: none !important; }
 
-#AreaBody { max-width: 720px !important; margin: 0 80px !important; }
-#AreaUpperLeftContainer { max-width: 100% !important; margin: 0 !important; }
+#itemsNumber .smallredfont { visibility: hidden !important; }
 
-#logo { position: absolute !important; top: 5px !important; left: 575px !important; z-index: 2 !important; }
+#q { font: 22px/1 monospace !important; width: 20em !important; }
 
-#q { font-size: 18px !important; width: 24em !important; height: auto !important; }
+.sas { font: 120%/1.4 sans-serif !important; margin: 1em 0 !important; }
 
-#itemsNumber { font-size: 14px !important; }
-#itemsNumber strong { font-size: 140% !important; margin: 0 0.4em !important; }
+#resultsArea { font: 0.9rem/1.7 Arial, sans-serif !important; }
 
-#paging { font-size: 140% !important; float: right !important; max-width: 100% !important; }
-#paging .blk a, #paging .cur { padding: 0.4em 0.6em !important; }
+.midashi, .midashi_je { font-size: 120% !important; padding: 0 !important; }
+.midashi + div, .midashi_je + div { margin: 0.2em 0 1em !important; padding: 0 !important; line-height: 1.7 !important; }
 
-.sas { font: 120%/1.5 sans-serif !important; margin-left: 2em !important; clear: both !important; }
-.sas, #resultsList { padding-top: 1em !important; }
-
-#resultsArea { font: 14px/1.4 Arial, sans-serif !important; }
-
-#resultsArea ul { list-style: none outside !important; }
-#resultsArea .midashi { font-size: 120% !important; }
-#resultsArea .midashi + div { margin: 0.2em 0 1.5em 0.5em !important; line-height: 1.6 !important; }
+#navigation { height: auto !important; margin: 0 !important; }
+.navif { border-style: none !important; margin: 0 !important; padding: 0 !important; }
+#paging { font-size: 140% !important; width: 100% !important; text-align: right !important; }
+#paging span, #paging a { margin:0 !important; padding: 0 !important; }
 
 .label:before { content: "\A"; white-space: pre; }
 }
