@@ -1,0 +1,11 @@
+/* Impress watch tweak */
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("impress.co.jp") {
+/* Display original size image for each resource page */
+#main-image { max-width: none !important; }
+.resource-plus, .resource-minus { display: none !important; }
+
+/* Ad blocker */
+.main { margin-right: 20px !important; }
+.extra { display: none !important; }
+}
