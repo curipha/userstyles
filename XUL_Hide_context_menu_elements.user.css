@@ -7,7 +7,8 @@
  * [このリンクをブックマーク]
  * [...をメールで送信]
  * [セパレータ]...
- * [名前をつけてページを保存][画像だけを表示]
+ * [名前をつけてページを保存][画像だけを表示][動画だけを表示]
+ * [名前をつけて画像を保存][名前をつけて動画を保存][名前をつけてオーディオを保存][スナップショットを保存]
  * [選択したURLを開く][選択した部分のソースを表示]
  * [デスクトップの背景に設定][コントロールを隠す][この検索にキーワードを設定]
  */
@@ -15,8 +16,9 @@
 #context-navigation, #context-sep-navigation,
 #context-bookmarklink,
 #context-sendpage, #context-sendlink, #context-sendimage, #context-sendvideo, #context-sendaudio,
-#context-sep-viewbgimage, #context-sep-properties,
-#context-savepage, #context-viewimage,
+#context-sep-viewbgimage, #context-sep-properties, #context-sep-copyimage,
+#context-savepage, #context-viewimage, #context-viewvideo,
+#context-saveimage, #context-savevideo, #context-saveaudio, #context-video-saveimage,
 #context-openlinkincurrent, #context-viewpartialsource-selection,
 #context-setDesktopBackground, #context-media-hidecontrols, #context-keywordfield,
 
