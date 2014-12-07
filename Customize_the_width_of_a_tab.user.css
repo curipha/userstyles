@@ -1,0 +1,5 @@
+/* Customize the width of a tab */
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document url-prefix("http://") {
+code, pre { -moz-tab-size: 4; }
+}
