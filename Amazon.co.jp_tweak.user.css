@@ -47,14 +47,7 @@ opacity: 0.3 !important;
 .itemPriceDrop .a-text-bold:after { content: "\A"; white-space: pre !important; }
 
 
-/* Flash Ads */
+/* Ads */
 [id^="nav_sitewide_msg_"] object { display: none !important; }
-
-/* A9 Ads */
-[id*="A9Ads"] * {
-font: 8pt/0.9 sans-serif !important;
-padding: 0 !important;
-margin: 0 !important;
-opacity: 0.9 !important;
 }
 }
