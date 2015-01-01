@@ -9,9 +9,9 @@ font: 14px/2.5 "Segoe UI",sans-serif !important;
 text-align: center !important;
 text-transform: capitalize !important;
 letter-spacing: 0.2em !important;
-margin: 2em !important;
+margin: 3em !important;
 padding: 0 2em !important;
-background: #666 !important;
+background: #777 !important;
 border-radius: 0.5em !important;
 clear: both !important;
 }
@@ -19,6 +19,6 @@ clear: both !important;
 color: #fff !important;
 font-weight: bold !important;
 text-decoration: none !important;
-background: #666 !important;
+background: #777 !important;
 }
 }
