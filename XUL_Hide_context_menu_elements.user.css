@@ -79,5 +79,5 @@
 #placesContext_sortBy\:name,
 #placesContext_newSeparator, #placesContext_editSeparator, #placesContext_deleteSeparator,
 #placesContext_sortSeparator
-{ display: none !important; }
+{ visibility: collapse !important; }
 
