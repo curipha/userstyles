@@ -1,6 +1,3 @@
 /* [XUL] Kill useless margins on Stylish toolbar button */
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
-#stylish-toolbar-button[cui-areatype="toolbar"] > .toolbarbutton-icon{
-padding-left:  7px !important;
-padding-right: 3px !important;
-} 
+#stylish-toolbar-button { padding: 0 !important; }
