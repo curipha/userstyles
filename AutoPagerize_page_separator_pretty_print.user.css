@@ -1,7 +1,7 @@
 /* AutoPagerize page separator pretty print */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document url-prefix("http://") {
-.autopagerize_page_separator { border: none !important; }
+.autopagerize_page_separator { display: none !important; }
 
 .autopagerize_page_info {
 color: #fff !important;
