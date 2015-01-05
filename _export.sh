@@ -25,22 +25,22 @@ abort()
 [[ ! -x "`which ${SQLITE} 2> /dev/null`" ]] && abort "ERR: SQLite (${SQLITE}) is not exists."
 
 # Get stylish.sqlite from Firefox's user profile directory
-[[ -e "${STYLISH_LIST}" ]] && rm "${STYLISH_LIST}"
+[[ -e "${STYLISH_LIST}" ]] && rm -fv "${STYLISH_LIST}"
 
 find "${FXPROFILE}" -type f -iname "${STYLISH}" -fprint "${STYLISH_LIST}"
 
 if [[ ! -s "${STYLISH_LIST}" ]]; then
-  rm "${STYLISH_LIST}"
+  rm -fv "${STYLISH_LIST}"
 
   abort "ERR: Cannot find ${STYLISH} from your Firefox profile directory."
 fi
 
 
 # Remove current user.css
-find . -name "${DISABLEDIR}" -prune -o -type f -iname "*${USERCSSEXT}" -print0 | xargs -0 rm
+find . -name "${DISABLEDIR}" -prune -o -type f -iname "*${USERCSSEXT}" -print0 | xargs -0 rm -fv
 
 # Create disable directory if not exists
-[[ ! -d "${DISABLEDIR}" ]] && mkdir "${DISABLEDIR}"
+[[ ! -d "${DISABLEDIR}" ]] && mkdir -vp "${DISABLEDIR}"
 
 
 # Execute each stylish.sqlite
@@ -51,7 +51,7 @@ cat "${STYLISH_LIST}" \
     echo Opening "${file}"...
 
     # Remove older stylish.sqlite
-    [[ -e "${STYLISH}" ]] && rm "${STYLISH}"
+    [[ -e "${STYLISH}" ]] && rm -fv "${STYLISH}"
 
     # Copy stylish.sqlite
     cp "${file}" "${STYLISH}"
@@ -84,6 +84,6 @@ cat "${STYLISH_LIST}" \
 done
 
 # Remove temporary file
-[[ -e "${STYLISH}" ]]      && rm "${STYLISH}"
-[[ -e "${STYLISH_LIST}" ]] && rm "${STYLISH_LIST}"
+[[ -e "${STYLISH}" ]]      && rm -fv "${STYLISH}"
+[[ -e "${STYLISH_LIST}" ]] && rm -fv "${STYLISH_LIST}"
 
