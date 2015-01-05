@@ -40,7 +40,7 @@ fi
 find . -name "${DISABLEDIR}" -prune -o -type f -iname "*${USERCSSEXT}" -print0 | xargs -0 rm
 
 # Create disable directory if not exists
-[[ ! -e "${DISABLEDIR}" ]] && mkdir "${DISABLEDIR}"
+[[ ! -d "${DISABLEDIR}" ]] && mkdir "${DISABLEDIR}"
 
 
 # Execute each stylish.sqlite
