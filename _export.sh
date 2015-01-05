@@ -21,8 +21,14 @@ abort()
   exit 1
 }
 
+
 # Check settings/environments
 [[ ! -x "`which ${SQLITE} 2> /dev/null`" ]] && abort "ERR: SQLite (${SQLITE}) is not exists."
+
+
+# Change directory to the same level as this script
+cd `dirname "${0}"`
+
 
 # Get stylish.sqlite from Firefox's user profile directory
 [[ -e "${STYLISH_LIST}" ]] && rm -fv "${STYLISH_LIST}"
