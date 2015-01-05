@@ -3,7 +3,7 @@
 # Stylish extractor
 # * Extract stylish.sqlite to *.user.css files
 
-FXPROFILE=${USERPROFILE//\\/\/}/AppData/Roaming/Mozilla/Firefox/Profiles
+FXPROFILE="${USERPROFILE//\\/\/}/AppData/Roaming/Mozilla/Firefox/Profiles"
 STYLISH_LIST=list.tmp
 
 SQLITE=sqlite3
@@ -27,14 +27,14 @@ if [ ! -x "`which ${SQLITE} 2> /dev/null`" ]; then
 fi
 
 # Get stylish.sqlite from Firefox's user profile directory
-if [ -e ${STYLISH_LIST} ]; then
-  rm ${STYLISH_LIST}
+if [ -e "${STYLISH_LIST}" ]; then
+  rm "${STYLISH_LIST}"
 fi
 
 find "${FXPROFILE}" -type f -iname "${STYLISH}" -fprint "${STYLISH_LIST}"
 
-if [ ! -s ${STYLISH_LIST} ]; then
-  rm ${STYLISH_LIST}
+if [ ! -s "${STYLISH_LIST}" ]; then
+  rm "${STYLISH_LIST}"
 
   abort "ERR: Cannot find ${STYLISH} from your Firefox profile directory."
 fi
@@ -44,20 +44,20 @@ fi
 find . -name "${DISABLEDIR}" -prune -o -type f -iname "*${USERCSSEXT}" -print0 | xargs -0 rm
 
 # Create disable directory if not exists
-if [ ! -e ${DISABLEDIR} ]; then
-  mkdir ${DISABLEDIR}
+if [ ! -e "${DISABLEDIR}" ]; then
+  mkdir "${DISABLEDIR}"
 fi
 
 
 # Execute each stylish.sqlite
-cat ${STYLISH_LIST} \
+cat "${STYLISH_LIST}" \
   | \
   while read file; do
 
     echo Opening "${file}"...
 
     # Remove older stylish.sqlite
-    if [ -e ${STYLISH} ]; then
+    if [ -e "${STYLISH}" ]; then
       rm "${STYLISH}"
     fi
 
@@ -69,33 +69,33 @@ cat ${STYLISH_LIST} \
       | \
       while read id; do
         NAME=`${SQLITECMD} "select name from styles where id = ${id}"`
-        DESC=`echo ${NAME} | perl -pe 's/^(?!\[XUL\])(\[[^\]]+\])\s*(.+)$/\2/g'`
+        DESC=`echo "${NAME}" | perl -pe 's/^(?!\[XUL\])(\[[^\]]+\])\s*(.+)$/\2/g'`
 
         ENABLED=`${SQLITECMD} "select enabled from styles where id = ${id}"`
         if [ ${ENABLED} = "1" ]; then
           DIR=./
         else
-          DIR=./${DISABLEDIR}/
+          DIR="./${DISABLEDIR}/"
         fi
 
-        BASE=`echo ${DESC} | sed -e 's/ \+/_/g' | tr -cd 'A-Za-z0-9._-'`
+        BASE=`echo "${DESC}" | sed -e 's/ \+/_/g' | tr -cd 'A-Za-z0-9._-'`
         FILE="${DIR}${BASE}${USERCSSEXT}"
 
         echo Processing "${NAME}"...
 
-        echo "/* ${DESC} */" > ${FILE}
-        ${SQLITECMD} "select code from styles where id = ${id}" | tr -d "\r" >> ${FILE}
+        echo "/* ${DESC} */" > "${FILE}"
+        ${SQLITECMD} "select code from styles where id = ${id}" | tr -d "\r" >> "${FILE}"
 
-        chmod 0644 ${FILE}
+        chmod 0644 "${FILE}"
       done
 
 done
 
 # Remove temporary file
-if [ -e ${STYLISH} ]; then
-  rm ${STYLISH}
+if [ -e "${STYLISH}" ]; then
+  rm "${STYLISH}"
 fi
-if [ -e ${STYLISH_LIST} ]; then
-  rm ${STYLISH_LIST}
+if [ -e "${STYLISH_LIST}" ]; then
+  rm "${STYLISH_LIST}"
 fi
 
