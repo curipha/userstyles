@@ -1,4 +1,4 @@
 /* [XUL] Change the location bar color for secure sites */
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
-#urlbar[level="high"][pageproxystate="valid"] > .autocomplete-textbox-container { background-color: #ffc !important; }
-#urlbar[level="broken"] > .autocomplete-textbox-container { background-color: #fdd !important; }
+#urlbar[level="high"][pageproxystate="valid"] > .autocomplete-textbox-container { background-color: #ffb !important; }
+#urlbar[level="broken"] > .autocomplete-textbox-container { background-color: #fcc !important; }
