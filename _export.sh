@@ -22,18 +22,14 @@ abort()
 }
 
 # Check settings/environments
-if [ ! -x "`which ${SQLITE} 2> /dev/null`" ]; then
-  abort "ERR: SQLite (${SQLITE}) is not exists."
-fi
+[[ ! -x "`which ${SQLITE} 2> /dev/null`" ]] && abort "ERR: SQLite (${SQLITE}) is not exists."
 
 # Get stylish.sqlite from Firefox's user profile directory
-if [ -e "${STYLISH_LIST}" ]; then
-  rm "${STYLISH_LIST}"
-fi
+[[ -e "${STYLISH_LIST}" ]] && rm "${STYLISH_LIST}"
 
 find "${FXPROFILE}" -type f -iname "${STYLISH}" -fprint "${STYLISH_LIST}"
 
-if [ ! -s "${STYLISH_LIST}" ]; then
+if [[ ! -s "${STYLISH_LIST}" ]]; then
   rm "${STYLISH_LIST}"
 
   abort "ERR: Cannot find ${STYLISH} from your Firefox profile directory."
@@ -44,9 +40,7 @@ fi
 find . -name "${DISABLEDIR}" -prune -o -type f -iname "*${USERCSSEXT}" -print0 | xargs -0 rm
 
 # Create disable directory if not exists
-if [ ! -e "${DISABLEDIR}" ]; then
-  mkdir "${DISABLEDIR}"
-fi
+[[ ! -e "${DISABLEDIR}" ]] && mkdir "${DISABLEDIR}"
 
 
 # Execute each stylish.sqlite
@@ -57,9 +51,7 @@ cat "${STYLISH_LIST}" \
     echo Opening "${file}"...
 
     # Remove older stylish.sqlite
-    if [ -e "${STYLISH}" ]; then
-      rm "${STYLISH}"
-    fi
+    [[ -e "${STYLISH}" ]] && rm "${STYLISH}"
 
     # Copy stylish.sqlite
     cp "${file}" "${STYLISH}"
@@ -72,7 +64,7 @@ cat "${STYLISH_LIST}" \
         DESC=`echo "${NAME}" | perl -pe 's/^(?!\[XUL\])(\[[^\]]+\])\s*(.+)$/\2/g'`
 
         ENABLED=`${SQLITECMD} "select enabled from styles where id = ${id}"`
-        if [ ${ENABLED} = "1" ]; then
+        if [[ "${ENABLED}" = "1" ]]; then
           DIR=./
         else
           DIR="./${DISABLEDIR}/"
@@ -92,10 +84,6 @@ cat "${STYLISH_LIST}" \
 done
 
 # Remove temporary file
-if [ -e "${STYLISH}" ]; then
-  rm "${STYLISH}"
-fi
-if [ -e "${STYLISH_LIST}" ]; then
-  rm "${STYLISH_LIST}"
-fi
+[[ -e "${STYLISH}" ]]      && rm "${STYLISH}"
+[[ -e "${STYLISH_LIST}" ]] && rm "${STYLISH_LIST}"
 
