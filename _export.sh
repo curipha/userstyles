@@ -15,11 +15,15 @@ DISABLEDIR=obsolete
 
 SQLITECMD="${SQLITE} ${SQLITEOPTION} ${STYLISH}"
 
+abort()
+{
+  echo $@
+  exit 1
+}
 
 # Check settings/environments
 if [ ! -x "`which ${SQLITE} 2> /dev/null`" ]; then
-  echo "ERR: SQLite (${SQLITE}) is not exists."
-  exit 1
+  abort "ERR: SQLite (${SQLITE}) is not exists."
 fi
 
 # Get stylish.sqlite from Firefox's user profile directory
@@ -32,8 +36,7 @@ find "${FXPROFILE}" -type f -iname "${STYLISH}" -fprint "${STYLISH_LIST}"
 if [ ! -s ${STYLISH_LIST} ]; then
   rm ${STYLISH_LIST}
 
-  echo "ERR: Cannot find ${STYLISH} from your Firefox profile directory."
-  exit 1
+  abort "ERR: Cannot find ${STYLISH} from your Firefox profile directory."
 fi
 
 
