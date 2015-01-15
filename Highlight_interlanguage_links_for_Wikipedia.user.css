@@ -1,22 +1,22 @@
 /* Highlight interlanguage links for Wikipedia */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("wikipedia.org") {
-#p-lang li.interwiki-en a,
-#p-lang li.interwiki-ja a {
-color: #fff !important;
-font: 1.4rem/1.8 sans-serif !important;
-text-align: center !important;
-text-decoration: none !important;
-padding: 0 !important;
-background: #f90 !important;
-position: fixed !important;
-top: 0 !important;
-left: 11rem !important;
-display: block !important;
-width: 14em !important;
-border-radius: 0 0 0.4em 0.4em !important;
-}
+  #p-lang li.interwiki-en a,
+  #p-lang li.interwiki-ja a {
+    color: #fff !important;
+    font: 1.4rem/1.8 sans-serif !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    padding: 0 !important;
+    background: #f90 !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 11rem !important;
+    display: block !important;
+    width: 14em !important;
+    border-radius: 0 0 0.4em 0.4em !important;
+  }
 
-#p-lang li.interwiki-en a:before, #p-lang li.interwiki-ja a:before { content: "\BB\A0 "; }
-#p-lang li.interwiki-en a:hover,  #p-lang li.interwiki-ja a:hover  { background: #fc0 !important; }
+  #p-lang li.interwiki-en a:before, #p-lang li.interwiki-ja a:before { content: "\BB\A0 "; }
+  #p-lang li.interwiki-en a:hover,  #p-lang li.interwiki-ja a:hover  { background: #fc0 !important; }
 }
