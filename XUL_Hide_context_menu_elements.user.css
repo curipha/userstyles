@@ -42,11 +42,11 @@
 /* Tab menu
 
  * [タブを再読み込み][タブをピン留め][新しいウィンドウへ移動]
- * [すべてのタブを再読み込み][すべてのタブをブックマーク][閉じたタブを元に戻す]
+ * [すべてのタブを再読み込み][すべてのタブをブックマーク][閉じたタブを元に戻す][タブを閉じる]
  * [セパレータ] */
 #context_reloadTab, #context_pinTab, #context_openTabInWindow,
-#context_reloadAllTabs, #context_bookmarkAllTabs, #context_undoCloseTab,
-#tabContextMenu menuseparator:not(:nth-of-type(3)),
+#context_reloadAllTabs, #context_bookmarkAllTabs, #context_undoCloseTab, #context_closeTab,
+#tabContextMenu menuseparator,
 
 /* URL bar menu
 
