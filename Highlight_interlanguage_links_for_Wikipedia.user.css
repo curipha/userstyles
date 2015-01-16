@@ -4,10 +4,10 @@
   #p-lang li.interwiki-en a,
   #p-lang li.interwiki-ja a {
     color: #fff !important;
-    font: 1.4rem/1.8 sans-serif !important;
+    font: 1.2rem/1 sans-serif !important;
     text-align: center !important;
     text-decoration: none !important;
-    padding: 0 !important;
+    padding: 0.4em !important;
     background: #f90 !important;
     position: fixed !important;
     top: 0 !important;
