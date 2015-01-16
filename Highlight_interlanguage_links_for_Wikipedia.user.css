@@ -13,10 +13,13 @@
     top: 0 !important;
     left: 11rem !important;
     display: block !important;
-    width: 14em !important;
+    width: 28em !important;
     border-radius: 0 0 0.4em 0.4em !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
   }
 
-  #p-lang li.interwiki-en a:before, #p-lang li.interwiki-ja a:before { content: "\BB\A0 "; }
+  #p-lang li.interwiki-en a:after,  #p-lang li.interwiki-ja a:after  { content: " \bb\a0 " attr(title) ; }
   #p-lang li.interwiki-en a:hover,  #p-lang li.interwiki-ja a:hover  { background: #f70 !important; }
 }
