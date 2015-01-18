@@ -33,7 +33,6 @@ a[href$=".m3u"] { padding-right: 18px !important; background: url("moz-icon://.m
 a[href$=".asx"] { padding-right: 18px !important; background: url("moz-icon://.asx?size=16") no-repeat right center; }
 
 a[href$=".mp3"] { padding-right: 18px !important; background: url("moz-icon://.mp3?size=16") no-repeat right center; }
-a[href$=".asf"] { padding-right: 18px !important; background: url("moz-icon://.asf?size=16") no-repeat right center; }
 a[href$=".wma"] { padding-right: 18px !important; background: url("moz-icon://.wma?size=16") no-repeat right center; }
 a[href$=".wav"] { padding-right: 18px !important; background: url("moz-icon://.wav?size=16") no-repeat right center; }
 
