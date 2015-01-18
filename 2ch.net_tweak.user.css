@@ -1,11 +1,17 @@
 /* 2ch.net tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("2ch.net"), domain("bbspink.com"), domain("2ch.sc") {
-form, hr, iframe { display: none !important; }
+  form, hr, iframe { display: none !important; }
 
-h1 { font: bold x-large/1.8 sans-serif !important; clear: both !important; }
+  h1 {
+    font: bold x-large/1.8 sans-serif !important;
+    clear: both !important;
+  }
 
-dt a[href^="mailto:"]:after { content: " [" attr(href) "]"; }
-dt a { color: #080 !important; text-decoration: none !important; }
-dd { line-height: 1.7 !important; }
+  dt a {
+    color: #080 !important;
+    text-decoration: none !important;
+  }
+  dt a[href^="mailto:"]:after { content: " [" attr(href) "]"; }
+  dd { line-height: 1.7 !important; }
 }
