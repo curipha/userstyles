@@ -1,5 +1,5 @@
 /* Fix font-family of a form element */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document url-prefix("http://") {
-input, textarea, select { font-family: "Migmix 2M", monospace !important; }
+  input, textarea, select { font-family: "Migmix 2M", monospace !important; }
 }
