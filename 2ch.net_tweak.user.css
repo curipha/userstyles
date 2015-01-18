@@ -1,7 +1,7 @@
 /* 2ch.net tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("2ch.net"), domain("bbspink.com"), domain("2ch.sc") {
-form[method="POST"], hr, iframe, div[style^="float"] { display: none !important; }
+form, hr, iframe { display: none !important; }
 
 h1 { font: bold large/1.8 "Migmix 2P", sans-serif !important; clear: both !important; }
 
