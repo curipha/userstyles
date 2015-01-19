@@ -2,7 +2,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document url-prefix("https://www.google.com/search") {
 .mw #center_col { width: 46em !important; }
-.mw #rhs { margin-left: 60em !important; }
+.mw #rhs { margin-left: 62em !important; }
 .s { max-width: 45em !important; }
 
 }
