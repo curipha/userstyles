@@ -3,6 +3,6 @@
 @-moz-document url-prefix("https://www.google.com/search") {
 .mw #center_col { width: 46em !important; }
 .mw #rhs { margin-left: 62em !important; }
+.mw #nyc { margin-left: 55em !important; }
 .mw .s { max-width: 45em !important; line-height: 1.5 !important;  }
-
 }
