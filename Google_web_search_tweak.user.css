@@ -5,8 +5,4 @@
 .mw #rhs { margin-left: 60em !important; }
 .s { max-width: 45em !important; }
 
-#tads, #bottomads, .ads-container, /* ADs       */
-.vspib,                            /* Preview   */
-.esc, .esw, .pplsrsl               /* +1 Button */
-{ display: none !important; }
 }
