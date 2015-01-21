@@ -22,4 +22,6 @@
 
   #p-lang li.interwiki-en a:after,  #p-lang li.interwiki-ja a:after  { content: " \bb\a0 " attr(title) ; }
   #p-lang li.interwiki-en a:hover,  #p-lang li.interwiki-ja a:hover  { background: #f70 !important; }
+
+  .mw-headline:target { padding-top: 3rem !important; }
 }
