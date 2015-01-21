@@ -7,14 +7,14 @@
     font: 1.2rem/1 sans-serif !important;
     text-align: center !important;
     text-decoration: none !important;
-    padding: 0.4em !important;
+    padding: 0.5rem !important;
     background: #fa0 !important;
     position: fixed !important;
     top: 0 !important;
     left: 11rem !important;
     display: block !important;
-    width: 28em !important;
-    border-radius: 0 0 0.4em 0.4em !important;
+    width: 32rem !important;
+    border-radius: 0 0 0.5rem 0.5rem !important;
     white-space: nowrap !important;
     overflow: hidden !important;
     text-overflow: ellipsis !important;
