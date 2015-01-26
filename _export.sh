@@ -82,7 +82,7 @@ cat "${STYLISH_LIST}" \
         echo Processing "${NAME}"...
 
         echo "/* ${DESC} */" > "${FILE}"
-        ${SQLITECMD} "select code from styles where id = ${id}" | tr -d "\r" >> "${FILE}"
+        ${SQLITECMD} "select code from styles where id = ${id}" | tr -d "\r" | sed -e 's/ \+$//' >> "${FILE}"
 
         chmod 0644 "${FILE}"
       done
