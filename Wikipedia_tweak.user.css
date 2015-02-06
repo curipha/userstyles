@@ -1,6 +1,7 @@
 /* Wikipedia tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("wikipedia.org") {
+  /* Highlight interlanguage links */
   #p-lang li.interwiki-en a,
   #p-lang li.interwiki-ja a {
     color: #fff !important;
@@ -26,6 +27,7 @@
   .mw-headline:target { padding-top: 3rem !important; }
 
 
+  /* Show last modified timestamp at header section */
   #footer-info-lastmod {
     color: #888 !important;
     font: 0.8rem/1 sans-serif !important;
