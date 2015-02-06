@@ -24,4 +24,19 @@
   #p-lang li.interwiki-en a:hover, #p-lang li.interwiki-ja a:hover { background: #f70 !important; }
 
   .mw-headline:target { padding-top: 3rem !important; }
+
+
+  #footer-info-lastmod {
+    color: #888 !important;
+    font: 0.8rem/1 sans-serif !important;
+    padding: 0.2rem 0 !important;
+    position: absolute !important;
+    top: 3.5rem !important;
+    left: 18rem !important;
+    display: block !important;
+    width: 28rem !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
 }
