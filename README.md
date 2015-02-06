@@ -12,9 +12,6 @@ About styles for Web page
 - Change headline look and feel
 - Show email address explicitly
 
-### Adblock_for_Impress_watch.user.css
-- Just Adblock
-
 ### Add_file_icons_to_links.user.css
 - Add file icons to links (e.g. Be ready to open PDF :D)
 
@@ -48,16 +45,8 @@ About styles for Web page
 - Simplification
 - Expand the width of the snippet
 
-### Highlight_interlanguage_links_for_Wikipedia.user.css
-- Highlight interlanguage links for Wikipedia (JA and EN only)
-
 ### Slashdot_Japan_tweak.user.css
 - Adblock
-
-### The_Old_Reader_tweak.user.css
-- Simplification
-- Obscure feed ads
-- Put flexibility into entry area
 
 ### Vpass_tweak.user.css
 - Prohibit a line break of specification text
@@ -89,11 +78,6 @@ About styles for Firefox UI
 This workaround is prepared for the environment on which [Tree style tab](https://addons.mozilla.org/firefox/addon/tree-style-tab/) and [Informational tab](https://addons.mozilla.org/firefox/addon/informational-tab/) are installed.
 
 - Add a gap between thumbnail and tab label
-
-### (obsolete) XUL_Bring_back_a_status_bar_using_the_add-on_bar.user.css
-Add-on bar is killed in Firefox29.
-
-- Bring back the status bar
 
 
 About script
