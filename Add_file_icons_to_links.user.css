@@ -8,14 +8,15 @@ a[href$=".rtf"] { padding-right: 18px !important; background: url("moz-icon://.r
 
 a[href$=".js"]  { padding-right: 18px !important; background: url("moz-icon://.js?size=16") no-repeat right center; }
 a[href$=".css"] { padding-right: 18px !important; background: url("moz-icon://.css?size=16") no-repeat right center; }
-/*
-a[href$=".doc"]  { padding-right: 18px !important; background: url("moz-icon://.doc?size=16") no-repeat right center; }
-a[href$=".xls"]  { padding-right: 18px !important; background: url("moz-icon://.xls?size=16") no-repeat right center; }
-a[href$=".ppt"]  { padding-right: 18px !important; background: url("moz-icon://.ppt?size=16") no-repeat right center; }
-a[href$=".docx"] { padding-right: 18px !important; background: url("moz-icon://.docx?size=16") no-repeat right center; }
-a[href$=".xlsx"] { padding-right: 18px !important; background: url("moz-icon://.xlsx?size=16") no-repeat right center; }
-a[href$=".pptx"] { padding-right: 18px !important; background: url("moz-icon://.pptx?size=16") no-repeat right center; }
-*/
+
+/* Icon resource: http://www.famfamfam.com/lab/icons/silk/ */
+a[href$=".doc"], a[href$=".docx"], a[href$=".DOC"], a[href$=".DOCX"]
+  { padding-right: 18px !important; background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIdSURBVDjLjZO7a5RREMV/9/F9yaLBzQY3CC7EpBGxU2O0EBG0sxHBUitTWYitYCsiiJL0NvlfgoWSRpGA4IMsm43ZXchmv8e9MxZZN1GD5MCBW8yce4aZY1QVAGPMaWAacPwfm8A3VRUAVJWhyIUsy7plWcYQgh7GLMt0aWnpNTADWFX9Q2C+LMu4s7Oj/X5/xF6vp51OR1utloYQtNls6vLy8kjE3Huz9qPIQjcUg/GZenVOokIEiSBBCKUSQ+TFwwa1Wo2iKBARVlZW3iwuLr7izssPnwZ50DLIoWz9zPT+s/fabrf/GQmY97GIIXGWp28/08si5+oV1jcGTCSO6nHH2pddYqmkaUq320VECCFQr9cBsBIVBbJcSdXQmK7Q6Qsnq54sj2gBplS896RpSpIkjI2NjVZitdh7jAOSK6trXcpC2GjlfP1esHD+GDYozjm893jvSZJkXyAWe+ssc6W5G9naLqkaw/pGxBrl1tVpJCrWWpxzI6GRgOQKCv2BYHPl5uUatROeSsVy7eIkU9UUiYoxBgDnHNbagw4U6yAWwpmphNvXT6HAhAZuLNRx1iDDWzHG/L6ZEbyJVLa2c54/PgsKgyzw5MHcqKC9nROK/aaDvwN4KYS7j959DHk2PtuYnBUBFUEVVBQRgzX7I/wNM7RmgEshhFXAcDSI9/6KHQZKAYkxDgA5SnOMcReI5kCcG8M42yM6iMDmL261eaOOnqrOAAAAAElFTkSuQmCC") no-repeat right center; }
+a[href$=".xls"], a[href$=".xlsx"], a[href$=".XLS"], a[href$=".XLSX"], a[href$=".csv"]
+  { padding-right: 18px !important; background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAABSlBMVEUAAAD///8AAAAAAAD8/PwAAAD7+/sAAAAAAACUlJT4+PgAAACVlZWZmZkAAAD8/Pz5+fn5+fn8/Pz19fVwuE/4+Pj6+vr29vb////5+fk5aij09PTq6ury8vI+cSw1ZSbx8fFprkr7+/vX5NLv7+9kp0ZEeS/t7e1utk5en0NAfilSiTyvyKWExXJ2qGZ7oWj3+vbn5+et0Juu5opVlDsucRY/fiVrsUtdk0nr6+uHq3hts0yivpdcm0COuH1AeSrS4MxJgTTz8/N4qV5/pHKRz3NRjTibu4+pxZ6mwprI2cGUs4VWjUBRjTtBeyhPijiPyYR7r3B/p2+Gqnd5qWVmqkhPizdho0Q9fCVdmkNolldrmlplnFZnl1RQijlMhTZWkzxGfTJBdS48bio3Zyc0YiQyYCOAr2np6ens7OyevZPm5uajv5mzzai6GE1RAAAAEnRSTlM2ADMg/QL9NB2R8ByRkQH+9fNkuh68AAAAzElEQVR4Xj3IU5PFQBQA4TNJrpczE/Pa9tq2beP/v+6prVT6rT8gJCGAnxgiBEGIh+l/cgwFAcImY8zLfNDmiBgCznlhup88zZ5bVDVHReCa3+yQYgCXV+/LK72zu4sH79P6Rkj+/LZbxyeD9D6zM3mErDY1szo3v6AtyuqSjVBMl8qVaq3eyCm6qiJ0uju7e18Hh0dOStdlhLX1jc2t7eubW0NRZAS41/xcBUN4zD05z8aL+/qWwhDIGIzTIAmBRCak4CcFhGgEgoToH+/FH6s5CAJZAAAAAElFTkSuQmCC") no-repeat right center; }
+a[href$=".ppt"], a[href$=".pptx"], a[href$=".PPT"], a[href$=".PPTX"]
+  { padding-right: 18px !important; background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHeSURBVDjLjZO/i1NBEMc/u+/lBYxiLkgU7vRstLEUDyxtxV68ykIMWlocaGHrD1DxSAqxNf4t115jo6DYhCRCEsk733s7u2PxkuiRoBkYdmGZz3xndsaoKgDGmC3gLBDxbxsA31U1AKCqzCBXsywbO+e8iOgqz7JM2+32W+AiYFX1GGDHOeen06mmabrwyWSio9FI+/2+ioj2ej3tdDoLiJm+bimAhgBeUe9RmbkrT5wgT97RaDQoioIQAt1ud7/Var1h+uq+/s9+PLilw+FwqSRgJ1YpexHSKenHF4DFf/uC3b7CydsPsafraO5IkoTxeEwIARGh2WwCYNUJAOmHZ5y4eY/a7h4hPcIdHvDz/fMSnjviOCZJEiqVCtVqdfEl8RygHkz9DLZWQzOHisd9OizfckcURRhjMMbMm14CQlEC/NfPjPd2CSJQCEEEDWYBsNZijFkaCqu5Ky+blwl5geaOUDg0c8TnNssSClkER1GEtXYZcOruI6ILl1AJqATirW02Hr8sFThBVZfklyXMFdQbbDzdXzm78z4Bx7KXTcwdgzs3yizuzxAhHvVh4avqBzAzaQa4JiIHgGE9C3EcX7ezhVIgeO9/AWGdYO/9EeDNX+t8frbOdk0FHhj8BvUsfP0TH5dOAAAAAElFTkSuQmCC") no-repeat right center; }
+
 a[href$=".7z"]  { padding-right: 18px !important; background: url("moz-icon://.7z?size=16") no-repeat right center; }
 a[href$=".zip"] { padding-right: 18px !important; background: url("moz-icon://.zip?size=16") no-repeat right center; }
 a[href$=".lzh"] { padding-right: 18px !important; background: url("moz-icon://.lzh?size=16") no-repeat right center; }
