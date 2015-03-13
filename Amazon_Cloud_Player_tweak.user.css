@@ -3,7 +3,6 @@
 @-moz-document url-prefix("https://www.amazon.co.jp/gp/dmusic/cloudplayer/player") {
 .recFooter, .bucket .title,
 .currentSongActions, .optionCell > a, .actionButtons > a[href*="#remove"],
-.gridOptions, .albumSongCount,
 #accountOptions .setting
 { display: none !important; }
 
