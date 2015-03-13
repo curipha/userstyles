@@ -1,14 +1,14 @@
 /* Amazon Cloud Player tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document url-prefix("https://www.amazon.co.jp/gp/dmusic/cloudplayer/player") {
-.recFooter, .bucket .title,
-.currentSongActions, .optionCell > a, .actionButtons > a[href*="#remove"],
-#accountOptions .setting
-{ display: none !important; }
+  .recFooter, .bucket .title,
+  .currentSongActions, .optionCell > a, .actionButtons > a[href*="#remove"],
+  #accountOptions .setting
+  { display: none !important; }
 
-.countText { display: none !important; }
-.countNumber::after { content: " song(s)" }
+  .countText { display: none !important; }
+  .countNumber::after { content: " song(s)" }
 
-#nowPlayingSection .timer { font-size: 2.2rem !important; top: -2.8rem !important; }
-#currentDuration          { font-size: 2.8rem !important; font-weight: bold !important; }
+  #nowPlayingSection .timer { font-size: 2.2rem !important; top: -2.8rem !important; }
+  #currentDuration          { font-size: 2.8rem !important; font-weight: bold !important; }
 }
