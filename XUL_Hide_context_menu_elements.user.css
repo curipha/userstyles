@@ -69,12 +69,12 @@
 
  * [新しいウィンドウで開く]
  * [新しいブックマーク][新しいフォルダ][新しい区切り]
- * [切り取り][コピー][貼り付け][プロパティ]
+ * [切り取り][コピー][貼り付け]
  * [名前順に並べ替える]
  * [セパレータ]... */
 #placesContext_open\:newwindow,
 #placesContext_new\:bookmark, #placesContext_new\:folder, #placesContext_new\:separator,
-#placesContext_cut, #placesContext_copy, #placesContext_paste, #placesContext_show\:info,
+#placesContext_cut, #placesContext_copy, #placesContext_paste,
 #placesContext_sortBy\:name,
 #placesContext_newSeparator, #placesContext_editSeparator, #placesContext_deleteSeparator,
 #placesContext_sortSeparator
