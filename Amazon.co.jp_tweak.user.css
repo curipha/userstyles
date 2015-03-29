@@ -25,6 +25,7 @@ font: bold 240% sans-serif !important;
 #ddmShippingMessage { padding: 0.7em 1.2em 1em !important; background: #efe !important; }
 #ddmShippingMessage b, #ddmFastestCountdown { font: bold 170% sans-serif !important; }
 
+#kcpAppBaseBox_embed_atf,/* Kindle無料アプリ */
 #buyboxusedDivId,        /* 中古品を購入 */
 #prime_buybox_lower_div, /* お急ぎ便無料でショッピングカートに入れる */
 #ftMessage,              /* ○○日にお届けします */
