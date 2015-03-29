@@ -49,6 +49,7 @@ opacity: 0.3 !important;
 
 
 /* Ads */
+#dp-ads-middle_feature_div, #DAae1,
 [id^="nav_sitewide_msg_"] object { display: none !important; }
 }
 }
