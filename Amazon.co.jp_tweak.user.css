@@ -1,55 +1,48 @@
 /* Amazon.co.jp tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("amazon.co.jp") {
-#nav-cart { opacity: 0.3 !important; }
+  #nav-cart { opacity: 0.3 !important; }
 
-/* Old */
-.buying b > a[href*="seller="],
-#BBAvailPlusMerchID b,
-/* New */
-#merchant-info > a[href*="seller="],
-#soldByThirdParty b
-{
-color: #d00 !important;
-font: bold 240% sans-serif !important;
+  /* 3rd party reseller */
+  .buying b > a[href*="seller="], #BBAvailPlusMerchID b,   /* Old */
+  #merchant-info > a[href*="seller="], #soldByThirdParty b /* New */
+  { color: #d00 !important; font: bold 240% sans-serif !important; }
+
+  #BBAvailPlusMerchID b:before, /* Old */
+  #soldByThirdParty b:before    /* New */
+  { content: "\A"; white-space: pre !important; }
+
+
+  /* お客様は〇〇にこの商品を注文しました (New) */
+  .a-alert-info      { border-color: #fa0 !important; width: 720px !important; }
+  .a-alert-container { background-color: #feb !important; }
+
+  /* 〇〇日にお届けするには今から〇〇時間以内にお急ぎ便 */
+  #ddmShippingMessage { padding: 0.7em 1.2em 1em !important; background: #efe !important; }
+  #ddmShippingMessage b, #ddmFastestCountdown { font: bold 170% sans-serif !important; }
+
+  #kcpAppBaseBox_embed_atf,/* Kindle無料アプリ */
+  #buyboxusedDivId,        /* 中古品を購入 */
+  #prime_buybox_lower_div, /* お急ぎ便無料でショッピングカートに入れる */
+  #ftMessage,              /* ○○日にお届けします */
+  #primenote_feature_div,  /* 別の出品者から価格が低い商品が出品されています */
+  .itemUsedAndNew,         /* ○○点の新品/中古品 ○○円より @wishlist */
+  .mbcBox, #moreBuyingChoices_feature_div,          /* こちらからもご購入いただけます (Old, New)  */
+  #tafContainerDiv, #tellAFriendBox_feature_div,    /* シェアする (Old, New) */
+  #tellAFriendBylineBox_feature_div, #tell-a-friend,/* シェアする (New) */
+  #olpDivId, #olp_feature_div,                      /* 新品の出品 : ○ ￥○○より (Old, New) */
+  .tmm-olp-links,                                   /* \○○ からの ○ 中古 (New) */
+  #sellYoursHere_feature_div                        /* この商品をお持ちですか？ (New) */
+  { opacity: 0.3 !important; }
+
+  /* 値下がりしました ○○% @wishlist */
+  .itemPriceDrop { font: bold 120% sans-serif !important; }
+  .itemPriceDrop .a-text-bold { color: #d00 !important; font: bold 180% sans-serif !important; }
+  .itemPriceDrop .a-text-bold:after { content: "\A"; white-space: pre !important; }
+
+
+  /* Ads */
+  #dp-ads-middle_feature_div, #DAae1,
+  [id^="nav_sitewide_msg_"] object { display: none !important; }
 }
-#BBAvailPlusMerchID b:before, /* Old */
-#soldByThirdParty b:before    /* New */
-{ content: "\A"; white-space: pre !important; }
 
-/* お客様は〇〇にこの商品を注文しました (New) */
-.a-alert-info      { border-color: #fa0 !important; width: 720px !important; }
-.a-alert-container { background-color: #feb !important; }
-
-/* 〇〇日にお届けするには今から〇〇時間以内にお急ぎ便 */
-#ddmShippingMessage { padding: 0.7em 1.2em 1em !important; background: #efe !important; }
-#ddmShippingMessage b, #ddmFastestCountdown { font: bold 170% sans-serif !important; }
-
-#kcpAppBaseBox_embed_atf,/* Kindle無料アプリ */
-#buyboxusedDivId,        /* 中古品を購入 */
-#prime_buybox_lower_div, /* お急ぎ便無料でショッピングカートに入れる */
-#ftMessage,              /* ○○日にお届けします */
-#primenote_feature_div,  /* 別の出品者から価格が低い商品が出品されています */
-.itemUsedAndNew,         /* ○○点の新品/中古品 ○○円より @wishlist */
-.mbcBox, #moreBuyingChoices_feature_div,          /* こちらからもご購入いただけます (Old, New)  */
-#tafContainerDiv, #tellAFriendBox_feature_div,    /* シェアする (Old, New) */
-#tellAFriendBylineBox_feature_div, #tell-a-friend,/* シェアする (New) */
-#olpDivId, #olp_feature_div,                      /* 新品の出品 : ○ ￥○○より (Old, New) */
-.tmm-olp-links,                                   /* \○○ からの ○ 中古 (New) */
-#sellYoursHere_feature_div                        /* この商品をお持ちですか？ (New) */
-{
-opacity: 0.3 !important;
-/* display: none  !important; */
-}
-
-/* 値下がりしました ○○% @wishlist */
-.itemPriceDrop { font: bold 120% sans-serif !important; }
-.itemPriceDrop .a-text-bold { color: #d00 !important; font: bold 180% sans-serif !important; }
-.itemPriceDrop .a-text-bold:after { content: "\A"; white-space: pre !important; }
-
-
-/* Ads */
-#dp-ads-middle_feature_div, #DAae1,
-[id^="nav_sitewide_msg_"] object { display: none !important; }
-}
-}
