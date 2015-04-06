@@ -76,7 +76,7 @@
 #placesContext_new\:bookmark, #placesContext_new\:folder, #placesContext_new\:separator,
 #placesContext_cut, #placesContext_copy, #placesContext_paste,
 #placesContext_sortBy\:name,
-#placesContext_newSeparator, #placesContext_editSeparator, #placesContext_deleteSeparator,
+#placesContext_openSeparator, #placesContext_newSeparator, #placesContext_deleteSeparator,
 #placesContext_sortSeparator
 { visibility: collapse !important; }
 
