@@ -3,7 +3,8 @@
 @-moz-document domain("eow.alc.co.jp") {
 #AreaUpperRight, #AreaFooter, #introduceEowp, #SS_mainColumn,
 #sw, #eijiro_img, .pr_text, .sns, .tango, #clearBtn,
-#searchHeader > dl, #AreaBody > .clearfix, #AreaBody > br
+#searchHeader > dl, #AreaBody > .clearfix, #AreaBody > br,
+.ex_sentence /* 文例ボタン */
 { display: none !important; }
 
 #itemsNumber .smallredfont { visibility: hidden !important; }
