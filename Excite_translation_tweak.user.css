@@ -1,11 +1,11 @@
 /* Excite translation tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document url-prefix("http://www.excite.co.jp/world/") {
-#contents > :not(#transForm):not(#webPageMin):not(#techDict),
-#sidebar, #exUnderNav, #exFooter, #afterBox, #excite_slidead_wrap,
-.ad728
-{ display: none !important; }
+  #contents > :not(#transForm):not(#webPageMin):not(#techDict),
+  #sidebar, #exUnderNav, #exFooter, #afterBox, #excite_slidead_wrap,
+  .ad728
+  { display: none !important; }
 
-#contents { margin: 0 !important; }
+  #contents { margin: 0 !important; }
 }
 
