@@ -2,5 +2,5 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("srad.jp") {
 .ads-leaderbord, #slashboxes, #ads-footer-rec { display: none !important; }
-#firehose { margin-right: 1em !important; }
+#firehoselist { margin: 0 10px !important; }
 }
