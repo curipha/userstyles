@@ -19,6 +19,7 @@
     white-space: nowrap !important;
     overflow: hidden !important;
     text-overflow: ellipsis !important;
+    z-index: 255 !important;
   }
 
   #p-lang li.interwiki-en a:after, #p-lang li.interwiki-ja a:after { content: " \bb\a0 " attr(title); }
