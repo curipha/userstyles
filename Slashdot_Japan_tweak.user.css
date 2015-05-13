@@ -1,6 +1,10 @@
 /* Slashdot Japan tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("srad.jp") {
-.ads-leaderbord, #slashboxes, #ads-article-left, #ads-article-right, #ads-footer-rec { display: none !important; }
-#firehoselist { margin: 0 10px !important; }
+  #slashboxes,
+  .ads-leaderbord,
+  #ads-article-left, #ads-article-right, #ads-footer-rec
+  { display: none !important; }
+
+  #firehoselist { margin: 0 10px !important; }
 }
