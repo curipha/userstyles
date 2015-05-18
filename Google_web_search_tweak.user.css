@@ -7,7 +7,8 @@
   .mw #rhs { margin-left: 62em !important; }
   .mw #nyc { margin-left: 55em !important; }
 
-  .mw .mfr { font: x-small/1.4 sans-serif !important; }
+  .mw .mfr   { font: x-small/1.4 sans-serif !important; opacity: 0.6 !important; }
+  .mw .mfr i { font-style: normal !important; }
 
   .mw ._Tib   { font: bold large/2 sans-serif !important; }
   .mw ._Tib s { text-decoration: none !important; }
