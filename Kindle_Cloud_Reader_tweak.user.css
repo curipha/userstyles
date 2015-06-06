@@ -1,6 +1,7 @@
 /* Kindle Cloud Reader tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("read.amazon.co.jp") {
+  /* Paging arrow */
   .pageArrow {
     background: floralwhite !important;
   }
@@ -17,9 +18,11 @@
     left: 97% !important;
   }
 
+  /* Overray element opacity */
   .immersive_slide_area { opacity: 0.4 !important; }
   .immersive_slide_area:hover { opacity: 0.8 !important; }
 
+  /* Footer height adjustment */
   #kindleReader_footer {
     height: 40px !important;
   }
