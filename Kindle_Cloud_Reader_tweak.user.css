@@ -1,7 +1,9 @@
 /* Kindle Cloud Reader tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("read.amazon.co.jp") {
-  .pageArrow { background: floralwhite !important; }
+  .pageArrow {
+    background: floralwhite !important;
+  }
 
   #kindleReader_center {
     left: 3% !important;
