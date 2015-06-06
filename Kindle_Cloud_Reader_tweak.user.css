@@ -3,6 +3,18 @@
 @-moz-document domain("read.amazon.co.jp") {
   .pageArrow { background: floralwhite !important; }
 
+  #kindleReader_center {
+    left: 3% !important;
+    right: 3% !important;
+  }
+  #kindleReader_pageTurnAreaLeft {
+    width: 3% !important;
+  }
+  #kindleReader_pageTurnAreaRight {
+    width: 3% !important;
+    left: 97% !important;
+  }
+
   .immersive_slide_area { opacity: 0.4 !important; }
   .immersive_slide_area:hover { opacity: 0.8 !important; }
 
