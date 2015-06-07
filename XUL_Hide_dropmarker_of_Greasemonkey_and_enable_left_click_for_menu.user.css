@@ -1,6 +1,6 @@
 /* [XUL] Hide dropmarker of Greasemonkey and enable left click for menu */
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 #greasemonkey-tbb[cui-areatype="toolbar"] > dropmarker {
-margin-left: -28px !important;
-opacity: 0 !important;
+  margin-left: -28px !important;
+  opacity: 0 !important;
 }
