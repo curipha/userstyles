@@ -1,16 +1,16 @@
 /* JMA tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("www.jma.go.jp") {
-/* Common */
-#main, table.forecast { width: 45em !important; }
-#others td:first-of-type { float: left !important; white-space: nowrap !important; }
+  /* Common */
+  #main, table.forecast { width: 45em !important; }
+  #others td:first-of-type { float: left !important; white-space: nowrap !important; }
 
-#yjsearch { display: none !important; }
-#header_link { float: right !important; width: 28em !important; }
+  #yjsearch    { display: none !important; }
+  #header_link { float: right !important; width: 28em !important; }
 
-/* Forecast */
-.info { width: 18em !important; }
+  /* Forecast */
+  .info { width: 18em !important; }
 
-/* Weekly forecast */
-.for { width: 6.2em !important; }
+  /* Weekly forecast */
+  .for { width: 6.2em !important; }
 }
