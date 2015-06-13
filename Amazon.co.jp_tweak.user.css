@@ -39,9 +39,5 @@
   .itemPriceDrop { font: bold 120% sans-serif !important; }
   .itemPriceDrop .a-text-bold { color: #d00 !important; font: bold 180% sans-serif !important; }
   .itemPriceDrop .a-text-bold:after { content: "\A"; white-space: pre !important; }
-
-  /* Ads */
-  #dp-ads-middle_feature_div, #DAae1,
-  [id^="nav_sitewide_msg_"] object { display: none !important; }
 }
 
