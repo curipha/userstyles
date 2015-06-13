@@ -1,7 +1,7 @@
 /* [XUL] Navigation bar tweak */
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 #urlbar dropmarker, #urlbar-go-button, #urlbar-reload-button, #urlbar-stop-button,
-.search-go-button, #new-tab-button, .tabs-newtab-button, #alltabs-button {
+.search-go-button, .tabs-newtab-button {
   visibility: collapse !important;
 }
 
