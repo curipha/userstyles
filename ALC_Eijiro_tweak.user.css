@@ -4,10 +4,10 @@
   #AreaBody > :not(#AreaUpperLeft),
   #AreaUpperLeftInner > :not(#resultsArea),
   #search_area > :not(.search_area_left),
-  #sw, #eijiro_img, #clearBtn, #searchHeader > dl, .tango, .ex_sentence
+  #sw, #eijiro_img, #clearBtn, #searchHeader > dl, .tango, .ex_sentence,
+  #itemsNumber .smallredfont
   { display: none !important; }
 
-  #itemsNumber .smallredfont { visibility: hidden !important; }
 
   #q { font: 22px/1 monospace !important; width: 20em !important; }
 
