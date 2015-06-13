@@ -1,10 +1,10 @@
 /* ALC Eijiro tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("eow.alc.co.jp") {
-  #AreaUpperRight, #AreaFooter, #introduceEowp, #SS_mainColumn,
-  #sw, #eijiro_img, .pr_text, .sns, .tango, #clearBtn,
-  #searchHeader > dl, #AreaBody > .clearfix, #AreaBody > br,
-  .ex_sentence /* 文例ボタン */
+  #AreaBody > :not(#AreaUpperLeft),
+  #AreaUpperLeftInner > :not(#resultsArea),
+  #search_area > :not(.search_area_left),
+  #sw, #eijiro_img, #clearBtn, #searchHeader > dl, .tango, .ex_sentence
   { display: none !important; }
 
   #itemsNumber .smallredfont { visibility: hidden !important; }
