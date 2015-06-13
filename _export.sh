@@ -31,19 +31,19 @@ cd `dirname "${0}"`
 
 
 # Get stylish.sqlite from Firefox's user profile directory
-[[ -e "${STYLISH_LIST}" ]] && rm -fv "${STYLISH_LIST}"
+[[ -e "${STYLISH_LIST}" ]] && rm -f "${STYLISH_LIST}"
 
 find "${FXPROFILE}" -type f -iname "${STYLISH}" -fprint "${STYLISH_LIST}"
 
 if [[ ! -s "${STYLISH_LIST}" ]]; then
-  rm -fv "${STYLISH_LIST}"
+  rm -f "${STYLISH_LIST}"
 
   abort "ERR: Cannot find ${STYLISH} from your Firefox profile directory."
 fi
 
 
 # Remove current user.css
-find . -name "${DISABLEDIR}" -prune -o -type f -iname "*${USERCSSEXT}" -print0 | xargs -0 rm -fv
+find . -name "${DISABLEDIR}" -prune -o -type f -iname "*${USERCSSEXT}" -print0 | xargs -0 rm -f
 
 # Create disable directory if not exists
 [[ ! -d "${DISABLEDIR}" ]] && mkdir -vp "${DISABLEDIR}"
@@ -90,6 +90,6 @@ cat "${STYLISH_LIST}" \
 done
 
 # Remove temporary file
-[[ -e "${STYLISH}" ]]      && rm -fv "${STYLISH}"
-[[ -e "${STYLISH_LIST}" ]] && rm -fv "${STYLISH_LIST}"
+[[ -e "${STYLISH}" ]]      && rm -f "${STYLISH}"
+[[ -e "${STYLISH_LIST}" ]] && rm -f "${STYLISH_LIST}"
 
