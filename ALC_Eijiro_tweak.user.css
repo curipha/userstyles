@@ -32,6 +32,12 @@
     padding: 0 !important;
   }
 
+  .itemPostion {
+    margin : 0 !important;
+  }
+  #itemsNumber {
+    clear: both !important;
+  }
   #navigation {
     height: auto !important;
     margin: 0 !important;
@@ -42,7 +48,9 @@
   }
   #paging {
     font-size: 120% !important;
-    width: 100% !important;
+    margin: 0 0 1rem !important;
+    width: 70% !important;
+    float: right !important;
     text-align: right !important;
   }
   #paging span, #paging a {
