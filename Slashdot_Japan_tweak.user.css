@@ -2,6 +2,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("srad.jp") {
   .ads-leaderbord,
-  #ads-article-left, #ads-article-right, #ads-footer-rec
-  { display: none !important; }
+  #ads-article-left, #ads-article-right, #ads-footer-rec {
+    display: none !important;
+  }
 }

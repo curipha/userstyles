@@ -5,22 +5,51 @@
   #AreaUpperLeftInner > :not(#resultsArea),
   #search_area > :not(.search_area_left),
   #sw, #eijiro_img, #clearBtn, #searchHeader > dl, .tango, .ex_sentence,
-  #itemsNumber .smallredfont
-  { display: none !important; }
+  #itemsNumber .smallredfont {
+    display: none !important;
+  }
 
+  #q {
+    font: 22px/1 monospace !important;
+    width: 20em !important;
+  }
 
-  #q { font: 22px/1 monospace !important; width: 20em !important; }
+  #resultsArea {
+    font: 0.9rem/1.7 Arial, sans-serif !important;
+  }
+  .sas {
+    font: 120%/1.4 sans-serif !important;
+    margin: 1em 0 !important;
+  }
 
-  #resultsArea { font: 0.9rem/1.7 Arial, sans-serif !important; }
-  .sas { font: 120%/1.4 sans-serif !important; margin: 1em 0 !important; }
+  .midashi, .midashi_je {
+    font-size: 120% !important;
+    padding: 0 !important;
+  }
+  .midashi + div, .midashi_je + div {
+    line-height: 1.75 !important;
+    margin: 0.2em 0 1em !important;
+    padding: 0 !important;
+  }
 
-  .midashi, .midashi_je { font-size: 120% !important; padding: 0 !important; }
-  .midashi + div, .midashi_je + div { margin: 0.2em 0 1em !important; padding: 0 !important; line-height: 1.75 !important; }
-
-  #navigation { height: auto !important; margin: 0 !important; }
-  .navif  { border-style: none !important; margin: 0 !important; padding: 0 !important; }
-  #paging { font-size: 140% !important; width: 100% !important; text-align: right !important; }
-  #paging span, #paging a { margin: 0 !important; padding: 0 !important; }
+  #navigation {
+    height: auto !important;
+    margin: 0 !important;
+  }
+  .navif  {
+    border-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  #paging {
+    font-size: 140% !important;
+    width: 100% !important;
+    text-align: right !important;
+  }
+  #paging span, #paging a {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 
   .label:before { content: "\A"; white-space: pre; }
 }
