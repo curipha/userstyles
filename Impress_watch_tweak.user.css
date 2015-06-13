@@ -6,6 +6,6 @@
   .resource-plus, .resource-minus { display: none !important; }
 
   /* Ad blocker */
-  .main { margin-right: 20px !important; }
+  .main-wrap > .main { margin-right: 20px !important; }
   .extra { display: none !important; }
 }
