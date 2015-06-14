@@ -11,11 +11,11 @@
 
 @font-face {
   font-family: "ＭＳ ゴシック";
-  src: local("Migmix 2M"), local("MS Gothic");
+  src: local("MigMix 2M Regular"), local("MS Gothic");
 }
 @font-face {
   font-family: "MS Gothic";
-  src: local("MigMix 2M"), local("MS Gothic");
+  src: local("MigMix 2M Regular"), local("MS Gothic");
 }
 
 @font-face {
