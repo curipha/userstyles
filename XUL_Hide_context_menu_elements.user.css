@@ -30,14 +30,10 @@
 #context-selectall, #context-sep-selectall,
 #spell-check-enabled, #spell-separator,
 
-/* Frame menu
+/* Frame menu */
+#context-openframe, #context-bookmarkframe, #context-saveframe, #context-printframe,
+#frame menuseparator:not(:last-of-type),
 
- * [フレームを新しいウィンドウで開く][このフレームをブックマーク]
- * [名前を付けてフレームを保存][セパレータ]
- * [フレームを印刷][セパレータ] */
-#context-openframe, #context-bookmarkframe,
-#context-saveframe, #context-saveframe + menuseparator,
-#context-printframe, #context-printframe + menuseparator,
 
 /* Tab menu
 
