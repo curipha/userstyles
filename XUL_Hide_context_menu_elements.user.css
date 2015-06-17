@@ -34,12 +34,7 @@
 #context-openframe, #context-bookmarkframe, #context-saveframe, #context-printframe,
 #frame menuseparator:not(:last-of-type),
 
-
-/* Tab menu
-
- * [タブを再読み込み][タブをピン留め][新しいウィンドウへ移動]
- * [すべてのタブを再読み込み][すべてのタブをブックマーク][閉じたタブを元に戻す][タブを閉じる]
- * [セパレータ] */
+/* Tab menu */
 #context_reloadTab, #context_pinTab, #context_openTabInWindow,
 #context_reloadAllTabs, #context_bookmarkAllTabs, #context_undoCloseTab, #context_closeTab,
 #tabContextMenu menuseparator,
@@ -55,8 +50,7 @@
 #placesContext menuitem:not(:-moz-any(#placesContext_open, #placesContext_open\:newtab, #placesContext_openContainer\:tabs)),
 #placesContext menuseparator,
 
-/* Toolbar menu (Dismiss all)
-*/
+/* Toolbar menu */
 #toolbar-context-menu
 { visibility: collapse !important; }
 
