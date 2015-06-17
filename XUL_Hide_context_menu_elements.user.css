@@ -52,6 +52,8 @@
 :-moz-any(#urlbar, #searchbar) menuitem:-moz-any([cmd='cmd_cut'], [cmd='cmd_paste'], [cmd='cmd_delete'], [cmd='cmd_selectAll']),
 :-moz-any(#urlbar, #searchbar) menuitem[cmd='cmd_delete'] + menuseparator,
 
+/* Search bar menu */
+#searchbar menuitem[cmd="cmd_clearhistory"],
 
 
 /* Bookmark menu
