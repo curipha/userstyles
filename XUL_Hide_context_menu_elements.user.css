@@ -48,22 +48,11 @@
 #context_reloadAllTabs, #context_bookmarkAllTabs, #context_undoCloseTab, #context_closeTab,
 #tabContextMenu menuseparator,
 
-/* URL bar menu
+/* URL bar/Search bar menu */
+:-moz-any(#urlbar, #searchbar) menuitem:-moz-any([cmd='cmd_cut'], [cmd='cmd_paste'], [cmd='cmd_delete'], [cmd='cmd_selectAll']),
+:-moz-any(#urlbar, #searchbar) menuitem[cmd='cmd_delete'] + menuseparator,
 
- * [切り取り][貼り付け][削除]
- * [セパレータ]
- * [すべて選択] */
-#urlbar menuitem[cmd='cmd_cut'], #urlbar menuitem[cmd='cmd_paste'], #urlbar menuitem[cmd='cmd_delete'],
-#urlbar menuitem[cmd='cmd_delete'] + menuseparator,
-#urlbar menuitem[cmd='cmd_selectAll'],
 
-/* Search bar menu
- * [切り取り][貼り付け][削除]
- * [セパレータ]
- * [すべて選択] */
-#searchbar menuitem[cmd='cmd_cut'], #searchbar menuitem[cmd='cmd_paste'], #searchbar menuitem[cmd='cmd_delete'],
-#searchbar menuitem[cmd='cmd_delete'] + menuseparator,
-#searchbar menuitem[cmd='cmd_selectAll'],
 
 /* Bookmark menu
 
