@@ -21,6 +21,19 @@
   #ddmShippingMessage { padding: 0.7em 1.2em 1em !important; background: #efe !important; }
   #ddmShippingMessage b, #ddmFastestCountdown { font: bold 170% sans-serif !important; }
 
+  /* Amazonプライム会員資格は〇〇に終了します */
+  .prime-alert-warning {
+    font: x-small/1.4 sans-serif !important;
+    position: absolute !important;
+    right: 1rem !important;
+    padding: 0.4em 1em !important;
+    width: 480px !important;
+    border: none !important;
+    background: #fee !important;
+  }
+  .prime-alert-content { padding: 0 !important; }
+
+
   #kcpAppBaseBox_embed_atf,/* Kindle無料アプリ */
   #buyboxusedDivId,        /* 中古品を購入 */
   #prime_buybox_lower_div, /* お急ぎ便無料でショッピングカートに入れる */
