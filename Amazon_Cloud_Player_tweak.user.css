@@ -1,6 +1,6 @@
 /* Amazon Cloud Player tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
-@-moz-document url-prefix("https://www.amazon.co.jp/gp/dmusic/cloudplayer/player") {
+@-moz-document url-prefix("https://www.amazon.co.jp/gp/dmusic/cloudplayer/") {
   .recFooter, .bucket .title,
   .currentSongActions, .optionCell > a, .actionButtons > a[href*="#remove"],
   #accountOptions .setting {
