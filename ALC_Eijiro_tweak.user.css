@@ -51,13 +51,12 @@
     clear: both !important;
   }
   #navigation {
-    height: auto !important;
     margin: 0 !important;
   }
-  .navif  {
+  .navif {
     border-style: none !important;
-    margin: 0 !important;
   }
+
   #paging {
     font-size: 120% !important;
     margin: 0 0 1rem !important;
@@ -65,8 +64,7 @@
     float: right !important;
     text-align: right !important;
   }
-  #paging span, #paging a {
-    margin: 0 !important;
+  #paging a {
     padding: 0 !important;
   }
 
