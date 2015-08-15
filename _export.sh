@@ -55,15 +55,15 @@ find . -name "${DISABLEDIR}" -prune -o -type f -iname "*${USERCSSEXT}" -print0 |
 # Execute each stylish.sqlite
 cat "${STYLISH_LIST}" \
   | \
-  while read file; do
+  while read elem; do
 
-    echo Opening "${file}"...
+    echo Opening "${elem}"...
 
     # Remove older stylish.sqlite
     [[ -e "${STYLISH}" ]] && rm -fv "${STYLISH}"
 
     # Copy stylish.sqlite
-    cp "${file}" "${STYLISH}"
+    cp "${elem}" "${STYLISH}"
 
     # Extract userstyles from stylish.sqlite
     ${SQLITECMD} 'select id from styles where url is null order by id' \
