@@ -3,6 +3,9 @@
 # Stylish extractor
 # * Extract stylish.sqlite to *.user.css files
 
+set -o nounset
+set -o errexit
+
 FXPROFILE="${USERPROFILE//\\/\/}/AppData/Roaming/Mozilla/Firefox/Profiles"
 STYLISH_LIST=list.tmp
 
