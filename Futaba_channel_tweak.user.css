@@ -1,0 +1,131 @@
+/* Futaba channel tweak */
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("2chan.net") {
+  /* General */
+  body {
+    margin: 1rem auto !important;
+    width: 80% !important;
+  }
+  hr {
+   visibility: hidden !important;
+   clear: both !important;
+   height: 1em !important;
+  }
+  a {
+    text-decoration: none !important;
+  }
+
+  /* Catalog */
+  body > table[align="center"] tr {
+    display: inline !important;
+    border-style: none !important;
+  }
+  body > table[align="center"] td {
+    display: block !important;
+    float: left !important;
+    width: 100px !important;
+    height: 140px !important;
+    border-style: none !important;
+  }
+  body > table[align="center"] img {
+    width: 70px !important;
+    height: auto !important;
+  }
+
+  /* Form */
+  body > form:first-of-type {
+    position: fixed !important;
+    right: 1em !important;
+    bottom: 1em !important;
+
+    border: 1px #800000 solid !important;
+    border-radius: 0.2em !important;
+    padding: 0.4em !important;
+    background: #ffe !important;
+  }
+
+  #reszb,
+  .chui li:not(:nth-of-type(2)),
+  .chui br {
+    display: none !important;
+  }
+
+  /* Res */
+  table[border="0"] {
+    clear: both !important;
+    padding-top: 1em !important;
+  }
+  .rtd {
+    width: 800px !important;
+    padding: 0.8em !important;
+    border-radius: 4px !important;
+  }
+  .rtd blockquote {
+    margin: 0; /* w/o !important. Give a priority to site-style. */
+    padding-top: 0.4em !important;
+    border-top: 1px dashed #800000 !important;
+  }
+
+  /* Reply */
+  .hsbn {
+    font-size: 1.8rem !important;
+  }
+
+  /* Reload */
+  #contres {
+    position: static !important;
+    display: block !important;
+    margin: 1em 1em 0 !important;
+    font-size: 1.8rem !important;
+  }
+  #contdisp {
+    margin-left: 1.4em !important;
+  }
+
+  #contres + hr {
+    display: none !important;
+  }
+
+  /* Text (Thumbnail view) */
+  body > form:not(:first-of-type) > small:nth-of-type(2n+1), /* for /b/futaba.htm */
+  .rtd > small {
+    display: none !important;
+  }
+
+  /* EOL */
+  body > form:not(:first-of-type) > small:nth-of-type(2n) {
+    display: block !important;
+    float: right !important;
+    font: x-large/1.8 sans-serif !important;
+    color: #800000 !important;
+    background: #ea8 !important;
+    padding : 0.4em 0.8em !important;
+    border-radius: 0.5em !important;
+  }
+
+  form > blockquote + font[color] > b {
+    font: bold x-large/1 sans-serif !important;
+  }
+
+  /* del */
+  .deleted {
+    display: table !important;
+  }
+
+  #ddel, .del, input[value="delete"] {
+    display: none !important;
+  }
+
+  /* Soudane */
+  .sod {
+    display: none !important;
+  }
+
+  /* Ad blocker */
+  body > div,
+  body > form > div,
+  .chui > div,
+  .tue {
+    display: none !important;
+  }
+}
