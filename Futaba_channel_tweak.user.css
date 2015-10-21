@@ -65,6 +65,15 @@
     padding-top: 0.4em !important;
     border-top: 1px dashed #800000 !important;
   }
+  .rtd > font:first-of-type::before {
+    counter-increment: res;
+    content: counter(res) " : ";
+    color: #800000 !important;
+    font-weight: bold !important;
+  }
+  hr {
+    counter-reset: res;
+  }
 
   /* Reply */
   .hsbn {
