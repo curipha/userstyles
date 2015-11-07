@@ -5,7 +5,7 @@
   visibility: collapse !important;
 }
 
-#nav-bar .toolbarbutton-1 {
+#nav-bar .toolbarbutton-1:not(#forward-button) {
   margin-top: -5px !important;
   margin-bottom: -5px !important;
 }
