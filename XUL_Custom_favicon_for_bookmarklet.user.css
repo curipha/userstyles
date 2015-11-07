@@ -1,0 +1,3 @@
+/* [XUL] Custom favicon for bookmarklet */
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+.bookmark-item[scheme="javascript"] { list-style-image: url("moz-icon://.js?size=16") !important; }
