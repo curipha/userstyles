@@ -1,8 +1,31 @@
 /* Vpass tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
-@-moz-document url-prefix("https://www.smbc-card.com/vp/web_meisai/") {
-  .bdc td,
-  #MeisaiAnsForm > table table td {
-   white-space: nowrap !important;
+@-moz-document url-prefix("https://www.smbc-card.com/mem/") {
+  #header, #gNavi, #contWrap {
+    max-width: 1200px !important;
+    min-width: 1200px !important;
   }
 }
+@-moz-document url-prefix("https://www.smbc-card.com/memx/") {
+  #header, #gNavi, .wrapper, .wrap_inner {
+    width: 1200px !important;
+    overflow-x: visible !important;
+  }
+  .left      { width: 220px !important; }
+  .container { width: 950px !important; }
+
+  body > div[style]:first-child { display: none !important; }
+
+  #meisaiTable  td {
+    padding: 0.4em !important;
+    line-height: 1 !important;
+    white-space: nowrap !important;
+  }
+  #meisaiTable td:not([rowspan]):nth-of-type(2) { text-align: center !important; }
+  #meisaiTable td:only-child { background-color: #ffc !important; }
+
+  a[href^="/memx/atrevodiv/"] {
+    opacity: 0.2 !important;
+  }
+}
+
