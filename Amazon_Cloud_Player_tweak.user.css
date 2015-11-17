@@ -1,15 +1,17 @@
 /* Amazon Cloud Player tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document url-prefix("https://www.amazon.co.jp/gp/dmusic/cloudplayer/") {
-  .recFooter, .bucket .title,
-  .currentSongActions, .optionCell > a, .actionButtons > a[href*="#remove"],
-  #accountOptions .setting {
+  .recFooter,                             /* Not interested */
+  .recDescription > span[action="buy"],   /* Buy */
+  #optionPanel li:nth-last-of-type(-n+2), /* Share */
+  .headerActions > .grey,                 /* Delete */
+  .ractiveContextMenu > li:nth-child(3)   /* Remove from library */
+  {
     display: none !important;
   }
 
-  .countText          { display: none !important; }
-  .countNumber::after { content: " song(s)" }
-
-  #nowPlayingSection .timer { font-size: 2.2rem !important; top: -2.8rem !important; }
-  #currentDuration          { font-size: 2.8rem !important; font-weight: bold !important; }
+  .listViewDuration {
+    font-weight: 300 !important;
+    font-size: 1.8rem !important;
+  }
 }
