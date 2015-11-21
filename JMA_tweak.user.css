@@ -2,7 +2,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("www.jma.go.jp") {
   /* Common */
-  #main, table.forecast { width: 45em !important; }
+  #main, table.forecast { width: 50rem !important; }
   #others td:first-of-type { float: left !important; white-space: nowrap !important; }
 
   #yjsearch    { display: none !important; }
