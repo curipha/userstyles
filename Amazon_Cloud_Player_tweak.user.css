@@ -10,7 +10,7 @@
     display: none !important;
   }
 
-  .listViewDuration {
+  #header .listViewDuration {
     font-weight: 300 !important;
     font-size: 1.8rem !important;
   }
