@@ -7,6 +7,10 @@
   img[alt^='Attachment'][title$='.txt'] { background: url("moz-icon://.txt?size=16") no-repeat right center !important; }
   img[alt^='Attachment'][title$='.rtf'] { background: url("moz-icon://.rtf?size=16") no-repeat right center !important; }
 
+  img[alt^='Attachment'][title$='.htm'], img[alt^='Attachment'][title$='.html'],
+  img[alt^='Attachment'][title$='.HTM'], img[alt^='Attachment'][title$='.HTML']
+    { background: url("moz-icon://.html?size=16") no-repeat right center !important; }
+
   img[alt^='Attachment'][title$='.c']   { background: url("moz-icon://.c?size=16") no-repeat right center !important; }
   img[alt^='Attachment'][title$='.cpp'] { background: url("moz-icon://.cpp?size=16") no-repeat right center !important; }
 
