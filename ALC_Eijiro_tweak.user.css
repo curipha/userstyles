@@ -68,5 +68,5 @@
     padding: 0 !important;
   }
 
-  .label:before { content: "\A"; white-space: pre; }
+  .label::before { content: "\A"; white-space: pre; }
 }

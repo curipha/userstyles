@@ -12,6 +12,6 @@
     color: #080 !important;
     text-decoration: none !important;
   }
-  dt a[href^="mailto:"]:after { content: " [" attr(href) "]"; }
+  dt a[href^="mailto:"]::after { content: " [" attr(href) "]"; }
   dd { line-height: 1.7 !important; }
 }

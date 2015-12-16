@@ -8,8 +8,8 @@
   #merchant-info > a[href*="seller="], #soldByThirdParty b /* New */
   { color: #d00 !important; font: bold 240% sans-serif !important; }
 
-  #BBAvailPlusMerchID b:before, /* Old */
-  #soldByThirdParty b:before    /* New */
+  #BBAvailPlusMerchID b::before, /* Old */
+  #soldByThirdParty b::before    /* New */
   { content: "\A"; white-space: pre !important; }
 
 
@@ -51,6 +51,6 @@
   /* 値下がりしました ○○% @wishlist */
   .itemPriceDrop { font: bold 120% sans-serif !important; }
   .itemPriceDrop .a-text-bold { color: #d00 !important; font: bold 180% sans-serif !important; }
-  .itemPriceDrop .a-text-bold:after { content: "\A"; white-space: pre !important; }
+  .itemPriceDrop .a-text-bold::after { content: "\A"; white-space: pre !important; }
 }
 
