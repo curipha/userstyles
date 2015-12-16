@@ -9,6 +9,14 @@
   background-color: #ffb !important;
 }
 
+#urlbar[pageproxystate="valid"] #identity-box.verifiedDomain::after,
+#urlbar[pageproxystate="valid"] #identity-box.mixedActiveBlocked::after {
+  content: attr(tooltiptext);
+  display: flex !important;
+  color: #888 !important;
+  padding: 0 2px !important;
+}
+
 #urlbar[pageproxystate="valid"] #identity-box.mixedDisplayContent,
 #urlbar[pageproxystate="valid"] #identity-box.mixedDisplayContentLoadedActiveBlocked {
   background-color: #fdd !important;
