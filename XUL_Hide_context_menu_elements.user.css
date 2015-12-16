@@ -28,7 +28,7 @@
 #frame menuseparator:not(:last-of-type),
 
 /* Tab menu */
-#context_reloadTab, #context_pinTab, #context_openTabInWindow,
+#context_reloadTab, #context_toggleMuteTab, #context_pinTab, #context_openTabInWindow,
 #context_reloadAllTabs, #context_bookmarkAllTabs, #context_undoCloseTab, #context_closeTab,
 #tabContextMenu menuseparator,
 
