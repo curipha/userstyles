@@ -11,5 +11,5 @@
 
 #urlbar[pageproxystate="valid"] #identity-box.mixedDisplayContent,
 #urlbar[pageproxystate="valid"] #identity-box.mixedDisplayContentLoadedActiveBlocked {
-  background-color: #fcc !important;
+  background-color: #fdd !important;
 }
