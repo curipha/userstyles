@@ -1,6 +1,9 @@
 /* [XUL] Change the location bar color for secure sites */
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
-#urlbar[pageproxystate="valid"] #identity-box.verifiedIdentity,
+#urlbar[pageproxystate="valid"] #identity-box.verifiedIdentity {
+  background-color: #efe !important;
+}
+
 #urlbar[pageproxystate="valid"] #identity-box.verifiedDomain,
 #urlbar[pageproxystate="valid"] #identity-box.mixedActiveBlocked {
   background-color: #ffb !important;
