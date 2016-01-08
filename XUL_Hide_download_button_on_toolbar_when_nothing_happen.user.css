@@ -1,5 +1,5 @@
 /* [XUL] Hide download button on toolbar when nothing happen */
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
-#downloads-button[cui-areatype="toolbar"]:not(:-moz-any([progress], [attention])) {
+#downloads-button[cui-areatype="toolbar"]:not(:-moz-any([progress], [attention], [open])) {
   visibility: collapse !important;
 }
