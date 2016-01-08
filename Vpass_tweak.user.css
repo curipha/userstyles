@@ -21,7 +21,7 @@
     line-height: 1 !important;
     white-space: nowrap !important;
   }
-  #meisaiTable td:not([rowspan]):nth-of-type(2) { text-align: center !important; }
+  #meisaiTable td:not([bgcolor]):nth-of-type(2) { text-align: center !important; }
   #meisaiTable td:only-child { background-color: #ffc !important; }
 
   a[href^="/memx/atrevodiv/"] {
