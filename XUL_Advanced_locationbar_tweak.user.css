@@ -28,3 +28,8 @@
 .textbox-presentation-fragment {
   color: #bbb !important;
 }
+
+.textbox-presentation-query[value="?"],
+.textbox-presentation-fragment[value="#"] {
+  visibility: collapse !important;
+}
