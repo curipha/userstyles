@@ -1,0 +1,30 @@
+/* [XUL] Advanced locationbar tweak */
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+/* for the environment on which "Advanced locationbar" is installed */
+.textbox-presentation-protocol,
+/* .textbox-presentation-subdomain, */
+/* .textbox-presentation-port, */
+.textbox-presentation-domain,
+.textbox-presentation-slash,
+.textbox-presentation-segment-label,
+.textbox-presentation-file,
+.textbox-presentation-query,
+.textbox-presentation-fragment {
+  margin-right: 1px !important;
+}
+.textbox-presentation-port[value^=":"] {
+  margin-left: -1px !important;
+}
+
+.textbox-presentation-protocol[value^="https:"] {
+  color: #0a0 !important;
+}
+.textbox-presentation-domain {
+  font-weight: bold !important;
+  color: #000 !important;
+}
+.textbox-presentation-slash,
+.textbox-presentation-query,
+.textbox-presentation-fragment {
+  color: #bbb !important;
+}
