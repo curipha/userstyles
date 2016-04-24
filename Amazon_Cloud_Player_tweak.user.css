@@ -1,6 +1,6 @@
 /* Amazon Cloud Player tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
-@-moz-document url-prefix("https://www.amazon.co.jp/gp/dmusic/cloudplayer/") {
+@-moz-document domain("music.amazon.co.jp") {
   .recFooter,                             /* Not interested */
   .recDescription > span[action="buy"],   /* Buy */
   #optionPanel li:nth-last-of-type(-n+2), /* Share */
