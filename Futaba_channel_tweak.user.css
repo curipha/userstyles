@@ -102,7 +102,8 @@
   }
 
   /* EOL */
-  body > form:not(:first-of-type) > small:nth-of-type(2n) {
+  body > form:not(:first-of-type) > small:nth-of-type(2n),
+  .thre > small:nth-of-type(2) {
     display: block !important;
     float: right !important;
     font: x-large/1.8 sans-serif !important;
@@ -133,7 +134,7 @@
   /* Ad blocker */
   iframe,
   body > div,
-  body > form > div,
+  body > form > div:not(.thre),
   .chui > div,
   .tue {
     display: none !important;
