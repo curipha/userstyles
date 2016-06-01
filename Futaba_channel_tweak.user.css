@@ -96,14 +96,13 @@
   }
 
   /* Text (Thumbnail view) */
-  body > form:not(:first-of-type) > small:nth-of-type(2n+1), /* for /b/futaba.htm */
-  .rtd > small {
+  small {
     display: none !important;
   }
 
   /* EOL */
-  body > form:not(:first-of-type) > small:nth-of-type(2n),
-  .thre > small:nth-of-type(2) {
+  body > form:not(:first-of-type) > .sod + small,
+  .thre > .del + small {
     display: block !important;
     float: right !important;
     font: x-large/1.8 sans-serif !important;
