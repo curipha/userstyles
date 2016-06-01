@@ -1,11 +1,30 @@
 /* Impress watch tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("impress.co.jp") {
-  /* Display original size image for each resource page */
-  #main-image { max-width: none !important; }
-  .resource-plus, .resource-minus { display: none !important; }
+  /* Loose page width */
+  #page-wrap { width: 100% !important; }
+  #page, #global-nav > div { width: 80% !important; }
 
-  /* Ad blocker */
-  .main-wrap > .main { margin-right: 20px !important; }
-  .extra { display: none !important; }
+  #main {
+    float: none !important;
+    width: auto !important;
+
+    line-height: 1.8 !important;
+  }
+
+
+  /* Show bigger image by default */
+  #zoom #page { width: 100% !important; }
+  #main-image-wrap, #main-image { max-width: none !important; }
+
+  #zoom-btn { display: none !important; }
+
+
+  /* Hide category menu */
+  #category-nav { display: none !important; }
+  .gnav-hide header { padding-bottom: 0 !important; }
+
+
+  /* Hide gadgets */
+  .social { display: none !important; }
 }
