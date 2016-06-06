@@ -15,4 +15,7 @@
   /* Missing words and/or Recently visited page*/
   .mw ._Tib   { font: bold large/2 sans-serif !important; }
   .mw ._Tib s { text-decoration: none !important; }
+
+  /* Google promotion */
+  .mw #wmxmsg { opacity: 0.3 !important; }
 }
