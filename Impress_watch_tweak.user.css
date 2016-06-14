@@ -12,7 +12,6 @@
     line-height: 1.8 !important;
   }
 
-
   /* Show bigger image by default */
   #zoom #page { width: 100% !important; }
   #main-image-wrap, #main-image { max-width: none !important; }
@@ -23,7 +22,6 @@
   /* Hide category menu */
   #category-nav { display: none !important; }
   .gnav-hide header { padding-bottom: 0 !important; }
-
 
   /* Hide gadgets */
   .social { display: none !important; }
