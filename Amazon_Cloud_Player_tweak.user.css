@@ -3,9 +3,8 @@
 @-moz-document domain("music.amazon.co.jp") {
   .recFooter,                             /* Not interested */
   .recDescription > span[action="buy"],   /* Buy */
-  #optionPanel li:nth-last-of-type(-n+2), /* Share */
-  .headerActions > .grey,                 /* Delete */
-  .ractiveContextMenu > li:nth-child(3)   /* Remove from library */
+  a[href^="#remove/"],                    /* Delete */
+  #contextMenu > li:nth-child(2)          /* Remove from library */
   {
     display: none !important;
   }
