@@ -25,4 +25,7 @@
 
   /* Hide gadgets */
   .social { display: none !important; }
+
+  /* Kill ads */
+  .ad.billboard { display: none !important; }
 }
