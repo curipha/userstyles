@@ -101,8 +101,7 @@
   }
 
   /* EOL */
-  body > form:not(:first-of-type) > .sod + small,
-  .thre > .del + small {
+  .thre > :-moz-any(.sod, .del) + small {
     display: block !important;
     float: right !important;
     font: x-large/1.8 sans-serif !important;
@@ -112,7 +111,7 @@
     border-radius: 0.5em !important;
   }
 
-  form > blockquote + font[color] > b {
+  .thre > blockquote + font[color] > b {
     font: bold x-large/1 sans-serif !important;
   }
 
