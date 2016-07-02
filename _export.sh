@@ -20,7 +20,7 @@ SQLITECMD="${SQLITE} ${SQLITEOPTION} ${STYLISH}"
 
 abort()
 {
-  echo $@
+  echo "$@"
   exit 1
 }
 
