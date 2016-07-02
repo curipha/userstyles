@@ -53,9 +53,7 @@ find . -name "${DISABLEDIR}" -prune -o -type f -iname "*${USERCSSEXT}" -print0 |
 
 
 # Execute each stylish.sqlite
-cat "${STYLISH_LIST}" \
-  | \
-  while read elem; do
+while read -r elem; do
 
     echo Opening "${elem}"...
 
@@ -90,7 +88,7 @@ cat "${STYLISH_LIST}" \
         chmod 0644 "${FILE}"
       done
 
-done
+done < "${STYLISH_LIST}"
 
 # Remove temporary file
 [[ -e "${STYLISH}" ]]      && rm -f "${STYLISH}"
