@@ -68,7 +68,7 @@ cat "${STYLISH_LIST}" \
     # Extract userstyles from stylish.sqlite
     ${SQLITECMD} 'select id from styles where url is null order by id' \
       | \
-      while read id; do
+      while read -r id; do
         NAME=$(${SQLITECMD} "select name from styles where id = ${id}")
         DESC=$(echo "${NAME}" | perl -pe 's/^(?!\[XUL\])(\[[^\]]+\])\s*(.+)$/\2/g')
 
