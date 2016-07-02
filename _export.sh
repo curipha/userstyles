@@ -26,11 +26,11 @@ abort()
 
 
 # Check settings/environments
-[[ ! -x "`which ${SQLITE} 2> /dev/null`" ]] && abort "ERR: SQLite (${SQLITE}) is not exists."
+[[ ! -x $(which ${SQLITE} 2> /dev/null) ]] && abort "ERR: SQLite (${SQLITE}) is not exists."
 
 
 # Change directory to the same level as this script
-cd `dirname "${0}"`
+cd "$(dirname "${0}")"
 
 
 # Get stylish.sqlite from Firefox's user profile directory
@@ -69,17 +69,17 @@ cat "${STYLISH_LIST}" \
     ${SQLITECMD} 'select id from styles where url is null order by id' \
       | \
       while read id; do
-        NAME=`${SQLITECMD} "select name from styles where id = ${id}"`
-        DESC=`echo "${NAME}" | perl -pe 's/^(?!\[XUL\])(\[[^\]]+\])\s*(.+)$/\2/g'`
+        NAME=$(${SQLITECMD} "select name from styles where id = ${id}")
+        DESC=$(echo "${NAME}" | perl -pe 's/^(?!\[XUL\])(\[[^\]]+\])\s*(.+)$/\2/g')
 
-        ENABLED=`${SQLITECMD} "select enabled from styles where id = ${id}"`
+        ENABLED=$(${SQLITECMD} "select enabled from styles where id = ${id}")
         if [[ "${ENABLED}" = "1" ]]; then
           DIR=./
         else
           DIR="./${DISABLEDIR}/"
         fi
 
-        BASE=`echo "${DESC}" | sed -e 's/ \+/_/g' | tr -cd 'A-Za-z0-9._-'`
+        BASE=$(echo "${DESC}" | sed -e 's/ \+/_/g' | tr -cd 'A-Za-z0-9._-')
         FILE="${DIR}${BASE}${USERCSSEXT}"
 
         echo Processing "${NAME}"...
