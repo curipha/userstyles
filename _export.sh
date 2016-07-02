@@ -55,38 +55,38 @@ find . -name "${DISABLEDIR}" -prune -o -type f -iname "*${USERCSSEXT}" -print0 |
 # Execute each stylish.sqlite
 while read -r elem; do
 
-    echo Opening "${elem}"...
+  echo Opening "${elem}"...
 
-    # Remove older stylish.sqlite
-    [[ -e "${STYLISH}" ]] && rm -fv "${STYLISH}"
+  # Remove older stylish.sqlite
+  [[ -e "${STYLISH}" ]] && rm -fv "${STYLISH}"
 
-    # Copy stylish.sqlite
-    cp "${elem}" "${STYLISH}"
+  # Copy stylish.sqlite
+  cp "${elem}" "${STYLISH}"
 
-    # Extract userstyles from stylish.sqlite
-    ${SQLITECMD} 'select id from styles where url is null order by id' \
-      | \
-      while read -r id; do
-        NAME=$(${SQLITECMD} "select name from styles where id = ${id}")
-        DESC=$(echo "${NAME}" | perl -pe 's/^(?!\[XUL\])(\[[^\]]+\])\s*(.+)$/\2/g')
+  # Extract userstyles from stylish.sqlite
+  ${SQLITECMD} 'select id from styles where url is null order by id' \
+    | \
+    while read -r id; do
+      NAME=$(${SQLITECMD} "select name from styles where id = ${id}")
+      DESC=$(echo "${NAME}" | perl -pe 's/^(?!\[XUL\])(\[[^\]]+\])\s*(.+)$/\2/g')
 
-        ENABLED=$(${SQLITECMD} "select enabled from styles where id = ${id}")
-        if [[ "${ENABLED}" = "1" ]]; then
-          DIR=./
-        else
-          DIR="./${DISABLEDIR}/"
-        fi
+      ENABLED=$(${SQLITECMD} "select enabled from styles where id = ${id}")
+      if [[ "${ENABLED}" = "1" ]]; then
+        DIR=./
+      else
+        DIR="./${DISABLEDIR}/"
+      fi
 
-        BASE=$(echo "${DESC}" | sed -e 's/ \+/_/g' | tr -cd 'A-Za-z0-9._-')
-        FILE="${DIR}${BASE}${USERCSSEXT}"
+      BASE=$(echo "${DESC}" | sed -e 's/ \+/_/g' | tr -cd 'A-Za-z0-9._-')
+      FILE="${DIR}${BASE}${USERCSSEXT}"
 
-        echo Processing "${NAME}"...
+      echo Processing "${NAME}"...
 
-        echo "/* ${DESC} */" > "${FILE}"
-        ${SQLITECMD} "select code from styles where id = ${id}" | tr -d "\r" | sed -e 's/ \+$//' >> "${FILE}"
+      echo "/* ${DESC} */" > "${FILE}"
+      ${SQLITECMD} "select code from styles where id = ${id}" | tr -d "\r" | sed -e 's/ \+$//' >> "${FILE}"
 
-        chmod 0644 "${FILE}"
-      done
+      chmod 0644 "${FILE}"
+    done
 
 done < "${STYLISH_LIST}"
 
