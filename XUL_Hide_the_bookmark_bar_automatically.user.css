@@ -1,10 +1,10 @@
 /* [XUL] Hide the bookmark bar automatically */
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
-#PersonalToolbar {
+#main-window:not([customizing="true"]) #PersonalToolbar {
   visibility: collapse !important;
 }
 
-#nav-bar:hover ~ #PersonalToolbar,
-#PersonalToolbar:hover {
+#main-window:not([customizing="true"]) #nav-bar:hover ~ #PersonalToolbar,
+#main-window:not([customizing="true"]) #PersonalToolbar:hover {
   visibility: visible !important;
 }
