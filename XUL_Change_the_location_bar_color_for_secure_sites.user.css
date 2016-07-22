@@ -5,12 +5,12 @@
 }
 
 #urlbar[pageproxystate="valid"] #identity-box.verifiedDomain,
-#urlbar[pageproxystate="valid"] #identity-box.mixedActiveBlocked {
+#urlbar[pageproxystate="valid"] #identity-box.mixedActiveBlocked:not(.verifiedIdentity) {
   background-color: #ffb !important;
 }
 
 #urlbar[pageproxystate="valid"] #identity-box.verifiedDomain::after,
-#urlbar[pageproxystate="valid"] #identity-box.mixedActiveBlocked::after {
+#urlbar[pageproxystate="valid"] #identity-box.mixedActiveBlocked:not(.verifiedIdentity)::after {
   content: attr(tooltiptext);
   display: flex !important;
   color: #888 !important;
