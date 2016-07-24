@@ -2,7 +2,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("www.amazon.co.jp") {
   /* Cart button on top navigation */
-  #nav-cart { opacity: 0.3 !important; }
+  #nav-cart[aria-label$="：0"]:not(:hover) { opacity: 0.3 !important; }
 
   /* 3rd party reseller */
   .buying b > a[href*="seller="], #BBAvailPlusMerchID b,    /* Old */
