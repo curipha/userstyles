@@ -4,9 +4,9 @@
   #nav-cart { opacity: 0.3 !important; }
 
   /* 3rd party reseller */
-  .buying b > a[href*="seller="], #BBAvailPlusMerchID b,   /* Old */
-  #merchant-info > a[href*="seller="], #soldByThirdParty b,/* New */
-  .sc-seller > a[href*="seller="]                          /* Shopping cart */
+  .buying b > a[href*="seller="], #BBAvailPlusMerchID b,    /* Old */
+  #merchant-info > a[href*="seller="], #soldByThirdParty b, /* New */
+  .sc-seller > a[href*="seller="]                           /* Shopping cart */
   { color: #d00 !important; font: bold 240% sans-serif !important; word-wrap: break-word !important; }
 
   #BBAvailPlusMerchID b::before, /* Old */
