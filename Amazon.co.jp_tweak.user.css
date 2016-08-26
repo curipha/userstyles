@@ -22,7 +22,7 @@
 
   /* 〇〇日にお届けするには今から〇〇時間以内にお急ぎ便 */
   #ddmShippingMessage { text-align: left !important; padding: 0.7em 1.2em 1em !important; background: #efe !important; }
-  #ddmShippingMessage b, #ddmFastestCountdown { font: bold 170% sans-serif !important; white-space: nowrap !important; }
+  #ddmShippingMessage b, #ddmFastestCountdown { font: bold 150% sans-serif !important; white-space: nowrap !important; }
 
   /* Amazonプライム会員資格は〇〇に終了します */
   .prime-alert-warning {
