@@ -1,6 +1,9 @@
 /* Google web search tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
-@-moz-document url-prefix("https://www.google.com/search"), url-prefix("https://www.google.co.jp/search") {
+@-moz-document url-prefix("https://www.google.com/search"),
+               url-prefix("https://www.google.co.jp/search"),
+               url-prefix("https://www.google.com/#q="),
+               url-prefix("https://www.google.co.jp/#q=") {
   .mw #center_col { width: 46em !important; }
   .mw .s { max-width: 45em !important; line-height: 1.5 !important;  }
 
