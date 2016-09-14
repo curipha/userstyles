@@ -36,6 +36,16 @@
   }
   .prime-alert-content { padding: 0 !important; }
 
+  /* 品薄または希少等の理由により参考価格よりも高い価格で販売されている */
+  .listPriceAlertPopover   { transform: scale(1.5) !important; margin: 0.4em 0.8em !important; }
+  .listPriceAlertPopover i { vertical-align: middle !important; }
+
+  .listPriceAlertPopover + a { vertical-align: bottom !important; }
+  .listPriceAlertPopover + a > span:first-child {
+    font-weight: normal !important;
+    text-decoration: line-through double !important;
+  }
+
 
   #kcpAppBaseBox_embed_atf,/* Kindle無料アプリ */
   #buyboxusedDivId,        /* 中古品を購入 */
