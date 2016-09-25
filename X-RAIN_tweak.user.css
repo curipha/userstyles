@@ -1,6 +1,7 @@
 /* X-RAIN tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document url-prefix("http://www.river.go.jp/x/krd0107010.php") {
+  /* Display map in full screen */
   #main { width: 100% !important; }
   #map-contents { width: auto !important; }
 
@@ -24,6 +25,7 @@
   #map-size-btn { display: none !important; }
 
 
+  /* Adjust top menu position */
   #logo { float: left !important; }
   .menu { float: right !important; }
   header > div:empty { display: none !important; }
