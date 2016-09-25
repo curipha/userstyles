@@ -8,6 +8,13 @@
     width: auto !important;
     height: 920px !important;
   }
+
+  #legendPanel1 {
+    top: initial !important;
+    left: initial !important;
+    bottom: 255px !important;
+    right: 80px !important;
+  }
   #mapDate {
     top: initial !important;
     bottom: 4px !important;
