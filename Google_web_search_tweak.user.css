@@ -10,6 +10,8 @@
   .mw #rhs { margin-left: 62em !important; }
   .mw #nyc { margin-left: 55em !important; }
 
+  /* ADs */
+  .mw :-moz-any(#tads, #bottomads) { background: #ffd !important; }
 
   /* ChillingEffects */
   .mw .mfr   { font: x-small/1.4 sans-serif !important; opacity: 0.6 !important; }
