@@ -6,15 +6,15 @@
   #nav-cart[aria-label$="：0"]:not(:hover) { opacity: 0.3 !important; }
 
   /* 3rd party reseller */
-  #merchant-info > a[href*="seller="], #soldByThirdParty b, /* New */
-  .sc-seller > a[href*="seller="]                           /* Shopping cart */
+  #merchant-info > a[href*="seller="], /* Item page (Description) */
+  #soldByThirdParty b,                 /* Item page (Add to Cart) */
+  .sc-seller > a[href*="seller="]      /* Shopping cart */
   { color: #d00 !important; font: bold 240% sans-serif !important; word-wrap: break-word !important; }
 
-  #soldByThirdParty b::before    /* New */
-  { content: "\A"; white-space: pre !important; }
+  #soldByThirdParty b::before { content: "\A"; white-space: pre !important; }
 
 
-  /* お客様は〇〇にこの商品を注文しました (New) */
+  /* お客様は〇〇にこの商品を注文しました */
   .a-alert-info      { border-color: #fa0 !important; width: 720px !important; }
   .a-alert-container { background-color: #feb !important; }
 
