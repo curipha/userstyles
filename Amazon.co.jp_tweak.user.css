@@ -44,6 +44,11 @@
     text-decoration: line-through double !important;
   }
 
+  /* 値下がりしました ○○% @wishlist */
+  .itemPriceDrop { font: bold 120% sans-serif !important; }
+  .itemPriceDrop .a-text-bold { color: #d00 !important; font: bold 180% sans-serif !important; }
+  .itemPriceDrop .a-text-bold::after { content: "\A"; white-space: pre !important; }
+
 
   /* Opaque elements */
   #kcpApp_feature_div,    /* Kindle無料アプリをダウンロード */
@@ -54,13 +59,10 @@
   #sellYoursHere_feature_div,       /* この商品をお持ちですか？ */
   #usedBuySection, #usedbuyBox, #unqualifiedBuyBox,               /* 中古品（カートに入れるボタン） */
   #tellAFriendBox_feature_div, #tellAFriendBylineBox_feature_div, /* シェアする */
+
   .itemUsedAndNew,                                     /* ○○点の新品/中古品 ○○円より @wishlist */
   .itemNotGiftableMessage, .itemNotGiftablePopoverLink /* 現在この商品はギフトとして購入することができません @wishlist */
   { opacity: 0.3 !important; }
 
-  /* 値下がりしました ○○% @wishlist */
-  .itemPriceDrop { font: bold 120% sans-serif !important; }
-  .itemPriceDrop .a-text-bold { color: #d00 !important; font: bold 180% sans-serif !important; }
-  .itemPriceDrop .a-text-bold::after { content: "\A"; white-space: pre !important; }
 }
 
