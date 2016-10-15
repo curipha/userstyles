@@ -6,12 +6,10 @@
   #nav-cart[aria-label$="：0"]:not(:hover) { opacity: 0.3 !important; }
 
   /* 3rd party reseller */
-  .buying b > a[href*="seller="], #BBAvailPlusMerchID b,    /* Old */
   #merchant-info > a[href*="seller="], #soldByThirdParty b, /* New */
   .sc-seller > a[href*="seller="]                           /* Shopping cart */
   { color: #d00 !important; font: bold 240% sans-serif !important; word-wrap: break-word !important; }
 
-  #BBAvailPlusMerchID b::before, /* Old */
   #soldByThirdParty b::before    /* New */
   { content: "\A"; white-space: pre !important; }
 
@@ -47,16 +45,11 @@
   }
 
 
-  #kcpAppBaseBox_embed_atf,/* Kindle無料アプリ */
-  #buyboxusedDivId,        /* 中古品を購入 */
-  #prime_buybox_lower_div, /* お急ぎ便無料でショッピングカートに入れる */
-  #ftMessage,              /* ○○日にお届けします */
   #primenote_feature_div,  /* 別の出品者から価格が低い商品が出品されています */
   .itemUsedAndNew,         /* ○○点の新品/中古品 ○○円より @wishlist */
-  .mbcBox, #moreBuyingChoices_feature_div,          /* こちらからもご購入いただけます (Old, New)  */
-  #tafContainerDiv, #tellAFriendBox_feature_div,    /* シェアする (Old, New) */
-  #tellAFriendBylineBox_feature_div, #tell-a-friend,/* シェアする (New) */
-  #olpDivId, #olp_feature_div,                      /* 新品の出品 : ○ ￥○○より (Old, New) */
+  #moreBuyingChoices_feature_div,                   /* こちらからもご購入いただけます */
+  #tellAFriendBox_feature_div, #tellAFriendBylineBox_feature_div, /* シェアする */
+  #olp_feature_div,                                 /* 新品の出品 : ○ ￥○○より */
   .tmm-olp-links,                                   /* \○○ からの ○ 中古 (New) */
   #sellYoursHere_feature_div                        /* この商品をお持ちですか？ (New) */
   { opacity: 0.3 !important; }
