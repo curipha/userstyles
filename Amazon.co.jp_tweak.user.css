@@ -45,6 +45,7 @@
   }
 
 
+  /* Opaque elements */
   #primenote_feature_div,  /* 別の出品者から価格が低い商品が出品されています */
   .itemUsedAndNew,         /* ○○点の新品/中古品 ○○円より @wishlist */
   #moreBuyingChoices_feature_div,                   /* こちらからもご購入いただけます */
