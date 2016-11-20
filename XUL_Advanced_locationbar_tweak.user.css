@@ -16,6 +16,14 @@
   margin-left: -1px !important;
 }
 
+.textbox-presentation-protocol,
+.textbox-presentation-subdomain,
+.textbox-presentation-port,
+.textbox-presentation-path,
+.textbox-presentation-file {
+  color: #888 !important;
+}
+
 .textbox-presentation-protocol[value^="https:"] {
   color: #0a0 !important;
 }
