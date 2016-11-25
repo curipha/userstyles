@@ -18,6 +18,17 @@
 
 .textbox-presentation-protocol,
 .textbox-presentation-subdomain,
+.textbox-presentation-slash,
+.textbox-presentation-port,
+.textbox-presentation-path,
+.textbox-presentation-file,
+.textbox-presentation-query,
+.textbox-presentation-fragment {
+  opacity: initial !important;
+}
+
+.textbox-presentation-protocol,
+.textbox-presentation-subdomain,
 .textbox-presentation-port,
 .textbox-presentation-path,
 .textbox-presentation-file {
