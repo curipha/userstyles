@@ -20,6 +20,7 @@
     top: initial !important;
     bottom: 4px !important;
     right: 4px !important;
+    font: bold 24px/1.2 sans-serif !important;
   }
 
   #map-size-btn { display: none !important; }
