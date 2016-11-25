@@ -1,4 +1,4 @@
-/* Excite translation tweak */
+/* Cleaner for Excite translation */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document url-prefix("http://www.excite.co.jp/world/") {
   #contents > :not(#transForm):not(#webPageMin):not(#techDict):not(.content),
