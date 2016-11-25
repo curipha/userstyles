@@ -1,4 +1,4 @@
-/* Slashdot Japan tweak */
+/* Advertisement blocker for Slashdot Japan */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("srad.jp") {
   .ads-leaderbord,
