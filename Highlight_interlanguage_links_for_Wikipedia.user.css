@@ -1,7 +1,6 @@
-/* Wikipedia tweak */
+/* Highlight interlanguage links for Wikipedia */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("wikipedia.org") {
-  /* Highlight interlanguage links */
   #p-lang li.interwiki-en a,
   #p-lang li.interwiki-ja a {
     color: #fff !important;
@@ -27,20 +26,4 @@
 
   .mw-headline:target, .reference:target, .references li:target { padding-top: 3rem !important; background: transparent !important; }
   .reference:target > a, .references li:target a[href^="#cite_ref-"] { color: #f70 !important; font-weight: bold !important; }
-
-
-  /* Show last modified timestamp at header section */
-  #footer-info-lastmod {
-    color: #888 !important;
-    font: 0.8rem/1 sans-serif !important;
-    padding: 0.2rem 0 !important;
-    position: absolute !important;
-    top: 3.5rem !important;
-    left: 18rem !important;
-    display: block !important;
-    width: 28rem !important;
-    white-space: nowrap !important;
-    overflow: hidden !important;
-    text-overflow: ellipsis !important;
-  }
 }
