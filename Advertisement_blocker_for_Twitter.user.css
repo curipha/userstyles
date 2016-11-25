@@ -1,0 +1,5 @@
+/* Advertisement blocker for Twitter */
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("twitter.com") {
+  .promoted-tweet { display: none !important; }
+}
