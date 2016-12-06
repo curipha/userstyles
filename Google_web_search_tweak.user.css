@@ -4,11 +4,9 @@
                url-prefix("https://www.google.co.jp/search"),
                url-prefix("https://www.google.com/#q="),
                url-prefix("https://www.google.co.jp/#q=") {
-  .mw #center_col { width: 46em !important; }
-  .mw .s { max-width: 45em !important; line-height: 1.5 !important;  }
+  /* Result */
+  .mw .s { line-height: 1.5 !important; }
 
-  .mw #rhs { margin-left: 62em !important; }
-  .mw #nyc { margin-left: 55em !important; }
 
   /* ADs */
   .mw :-moz-any(#tads, #bottomads) { background: #ffd !important; }
