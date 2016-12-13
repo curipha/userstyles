@@ -19,6 +19,10 @@
   .mw ._Tib   { font: bold large/2 sans-serif !important; }
   .mw ._Tib s { text-decoration: none !important; }
 
+  /* Hacked / Compromised */
+  .mw .slp a.fl:-moz-any([href^="/url"], [href^="/support"]):only-child { color: #d00 !important; font-weight: bold !important; }
+
+
   /* Google promotion */
   .mw #wmxmsg { opacity: 0.3 !important; }
 }
