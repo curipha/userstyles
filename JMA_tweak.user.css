@@ -2,7 +2,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("www.jma.go.jp") {
   /* Common */
-  #main, table.forecast { width: 50rem !important; }
+  #main, table.forecast { width: 850px !important; }
   #others td:first-of-type { float: left !important; white-space: nowrap !important; }
 
   #yjsearch    { display: none !important; }
@@ -12,5 +12,5 @@
   .info { width: 18em !important; }
 
   /* Weekly forecast */
-  .for { width: 6.2em !important; }
+  .for { width: 100px !important; }
 }
