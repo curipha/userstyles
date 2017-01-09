@@ -3,6 +3,11 @@
 @-moz-document domain("www.jma.go.jp") {
   /* Common */
   #main, table.forecast { width: 850px !important; }
+  #sidebar, #submenu { width: 300px !important; }
+
+  #submenu { position: initial !important; left: initial !important; }
+
+  #info, #info table:not(#ASFC_Table) { width: 100% !important; }
 
   #yjsearch    { display: none !important; }
   #header_link { float: right !important; width: 28em !important; }
