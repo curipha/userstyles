@@ -2,6 +2,8 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("www.jma.go.jp") {
   /* Common */
+  body { width: 1200px !important; margin: 0 auto !important; }
+
   #main, table.forecast { width: 850px !important; }
   #sidebar, #submenu { width: 300px !important; }
 
