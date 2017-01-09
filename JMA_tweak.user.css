@@ -3,10 +3,14 @@
 @-moz-document domain("www.jma.go.jp") {
   /* Common */
   #main, table.forecast { width: 850px !important; }
-  #others td:first-of-type { float: left !important; white-space: nowrap !important; }
 
   #yjsearch    { display: none !important; }
   #header_link { float: right !important; width: 28em !important; }
+
+  /* Bug fix */
+  #others { width: auto !important; }
+  #tablist :-moz-any(.button-up, .button-off) { height: auto !important; }
+
 
   /* Forecast */
   .info { width: 18em !important; }
