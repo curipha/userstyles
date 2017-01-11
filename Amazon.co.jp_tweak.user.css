@@ -15,10 +15,10 @@
 
 
   /* お客様は〇〇にこの商品を注文しました */
-  #instantOrderUpdate_feature_div       .a-alert-info,
-  #ebooksInstantOrderUpdate_feature_div .a-alert-info       { border-color: #fa0 !important; width: 720px !important; }
-  #instantOrderUpdate_feature_div       .a-alert-container,
-  #ebooksInstantOrderUpdate_feature_div .a-alert-container  { background-color: #feb !important; }
+  :-moz-any(#instantOrderUpdate_feature_div, #ebooksInstantOrderUpdate_feature_div, #pantryInstantOrderUpdate_feature_div)
+    .a-alert-info      { border-color: #fa0 !important; width: 720px !important; }
+  :-moz-any(#instantOrderUpdate_feature_div, #ebooksInstantOrderUpdate_feature_div, #pantryInstantOrderUpdate_feature_div)
+    .a-alert-container { background-color: #feb !important; }
 
   /* 〇〇日にお届けするには今から〇〇時間以内にお急ぎ便 */
   #ddmDeliveryMessage { text-align: left !important; padding: 0.7em 1.2em 1em !important; background: #efe !important; }
