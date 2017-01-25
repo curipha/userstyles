@@ -1,0 +1,21 @@
+/* Show URI of article for Inoreader */
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("www.inoreader.com") {
+  /* Column view */
+  #three_way_contents .article_title_link::after {
+    content: attr(href);
+
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 85%;
+    padding: 0.4em 0 0.1em;
+
+    color: #bbb;
+    font: 12px/1 Arial,sans-serif;
+  }
+  #three_way_contents .article_title_link:hover::after {
+    color: inherit !important;
+  }
+}
