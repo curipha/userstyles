@@ -9,8 +9,10 @@
   background-color: #ffb !important;
 }
 
-#urlbar[pageproxystate="valid"] #identity-box.verifiedDomain::after,
-#urlbar[pageproxystate="valid"] #identity-box.mixedActiveBlocked:not(.verifiedIdentity)::after {
+#urlbar[pageproxystate="valid"] #identity-icon-labels { visibility: visible !important; }
+
+#urlbar[pageproxystate="valid"] #identity-box.verifiedDomain #identity-icon-labels::after,
+#urlbar[pageproxystate="valid"] #identity-box.mixedActiveBlocked:not(.verifiedIdentity) #identity-icon-labels::after {
   content: attr(tooltiptext);
   display: flex !important;
   color: #888 !important;
