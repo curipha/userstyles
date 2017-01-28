@@ -1,5 +1,6 @@
 /* [XUL] Advanced locationbar tweak */
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
 /* for the environment on which "Advanced locationbar" is installed */
 .textbox-presentation-protocol,
 /* .textbox-presentation-subdomain, */
