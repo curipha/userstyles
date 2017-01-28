@@ -1,5 +1,6 @@
 /* Bye-bye MS Gothic */
 @namespace url(http://www.w3.org/1999/xhtml);
+
 @font-face {
   font-family: "ＭＳ Ｐゴシック";
   src: local("Meiryo"), local("MS PGothic");

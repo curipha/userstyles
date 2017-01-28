@@ -1,5 +1,6 @@
 /* Add file icons to links */
 @namespace url(http://www.w3.org/1999/xhtml);
+
 @-moz-document url-prefix('http:') {
   a[href$=".pdf"], a[href$=".PDF"] { padding-right: 18px !important; background: url("moz-icon://.pdf?size=16") no-repeat right center; }
 

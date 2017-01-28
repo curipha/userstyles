@@ -1,5 +1,6 @@
 /* Amazon Cloud Player tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
+
 @-moz-document domain("music.amazon.co.jp") {
   .recFooter,                             /* Not interested */
   .recDescription > span[action="buy"],   /* Buy */

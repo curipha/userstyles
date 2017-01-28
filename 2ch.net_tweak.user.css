@@ -1,5 +1,6 @@
 /* 2ch.net tweak */
 @namespace url(http://www.w3.org/1999/xhtml);
+
 @-moz-document domain("2ch.net"), domain("bbspink.com") {
   hr, iframe, .banner, [class*='ad--'] { display: none !important; }
 

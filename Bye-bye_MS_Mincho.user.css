@@ -1,5 +1,6 @@
 /* Bye-bye MS Mincho */
 @namespace url(http://www.w3.org/1999/xhtml);
+
 @font-face {
   font-family: "ＭＳ Ｐ明朝";
   src: local("HiraMinProN-W3"), local("MS PMincho");

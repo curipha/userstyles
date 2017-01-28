@@ -1,5 +1,6 @@
 /* Comfortable layout for Sakura control panel */
 @namespace url(http://www.w3.org/1999/xhtml);
+
 @-moz-document url-prefix("https://secure.sakura.ad.jp/rscontrol/") {
   body > div > table[width] { width: 900px !important; }
   .viewbox { width: 100% !important; }
