@@ -14,7 +14,7 @@
     padding: 0.4em 0 0.1em;
 
     color: #bbb;
-    font: 12px/1 Arial,sans-serif;
+    font: 12px/1 Arial, sans-serif;
   }
   #three_way_contents .article_title_link:hover::after {
     color: inherit !important;
