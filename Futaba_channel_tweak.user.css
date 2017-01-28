@@ -8,9 +8,9 @@
     width: 80% !important;
   }
   hr {
-   visibility: hidden !important;
-   clear: both !important;
-   height: 1em !important;
+    visibility: hidden !important;
+    clear: both !important;
+    height: 1em !important;
   }
   a {
     text-decoration: none !important;
