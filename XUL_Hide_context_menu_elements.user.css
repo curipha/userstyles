@@ -46,5 +46,7 @@
 
 /* Toolbar menu */
 #toolbar-context-menu
-{ display: none !important; }
+{
+  display: none !important;
+}
 
