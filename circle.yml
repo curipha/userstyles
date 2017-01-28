@@ -3,7 +3,8 @@ machine:
     version: 6.1.0
 dependencies:
   override:
-    - npm install --global stylelint stylelint-config-standard
+    - npm install --global stylelint
+    - npm install stylelint-config-standard
 test:
   override:
     - stylelint ./*.css
