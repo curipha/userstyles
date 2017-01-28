@@ -5,6 +5,7 @@
   font-family: "ＭＳ Ｐゴシック";
   src: local("Meiryo"), local("MS PGothic");
 }
+
 @font-face {
   font-family: "MS PGothic";
   src: local("Meiryo"), local("MS PGothic");
@@ -14,6 +15,7 @@
   font-family: "ＭＳ ゴシック";
   src: local("MigMix 2M Regular"), local("MS Gothic");
 }
+
 @font-face {
   font-family: "MS Gothic";
   src: local("MigMix 2M Regular"), local("MS Gothic");

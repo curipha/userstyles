@@ -5,6 +5,7 @@
   font-family: "ＭＳ Ｐ明朝";
   src: local("HiraMinProN-W3"), local("MS PMincho");
 }
+
 @font-face {
   font-family: "MS PMincho";
   src: local("HiraMinProN-W3"), local("MS PMincho");
@@ -14,6 +15,7 @@
   font-family: "ＭＳ 明朝";
   src: local("HiraMinProN-W3"), local("MS Mincho");
 }
+
 @font-face {
   font-family: "MS Mincho";
   src: local("HiraMinProN-W3"), local("MS Mincho");
