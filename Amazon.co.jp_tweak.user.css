@@ -10,7 +10,11 @@
   #merchant-info > a[href*="seller="], /* Item page (Description) */
   #soldByThirdParty b,                 /* Item page (Add to Cart) */
   .sc-seller > a[href*="seller="]      /* Shopping cart */
-  { color: #d00 !important; font: bold 240% sans-serif !important; word-wrap: break-word !important; }
+  {
+    color: #d00 !important;
+    font: bold 240% sans-serif !important;
+    word-wrap: break-word !important;
+  }
 
   #soldByThirdParty b::before { content: "\A"; white-space: pre !important; }
 
@@ -22,8 +26,15 @@
     .a-alert-container { background-color: #feb !important; }
 
   /* 〇〇日にお届けするには今から〇〇時間以内にお急ぎ便 */
-  #ddmDeliveryMessage { text-align: left !important; padding: 0.7em 1.2em 1em !important; background: #efe !important; }
-  #ddmDeliveryMessage b, #ddmFastestCountdown { font: bold 150% sans-serif !important; white-space: nowrap !important; }
+  #ddmDeliveryMessage {
+    text-align: left !important;
+    padding: 0.7em 1.2em 1em !important;
+    background: #efe !important;
+  }
+  #ddmDeliveryMessage b, #ddmFastestCountdown {
+    font: bold 150% sans-serif !important;
+    white-space: nowrap !important;
+  }
 
   /* Amazonプライム会員資格は〇〇に終了します */
   .prime-alert-warning {
@@ -69,7 +80,8 @@
 
   .itemUsedAndNew,                                     /* ○○点の新品/中古品 ○○円より @wishlist */
   .itemNotGiftableMessage, .itemNotGiftablePopoverLink /* 現在この商品はギフトとして購入することができません @wishlist */
-  { opacity: 0.3 !important; }
-
+  {
+    opacity: 0.3 !important;
+  }
 }
 
