@@ -1,5 +1,7 @@
 userstyles
 ==========
+[![CircleCI](https://circleci.com/gh/curipha/userstyles.svg?style=svg)](https://circleci.com/gh/curipha/userstyles)
+
 The styles whose name begins with "XUL" are only for Firefox UI.
 
 Others may be able to use in any modern web browsers.
