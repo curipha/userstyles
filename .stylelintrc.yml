@@ -1,0 +1,26 @@
+extends: stylelint-config-standard
+rules:
+  indentation: 2
+
+  declaration-block-single-line-max-declarations: 2
+
+  max-empty-lines: 2
+  selector-max-empty-lines: 2
+
+  declaration-empty-line-before:
+    - never
+    - ignore:
+      - after-declaration
+
+  rule-nested-empty-line-before: null
+  rule-non-nested-empty-line-before: null
+
+  block-opening-brace-space-before: null
+
+  selector-list-comma-newline-after: null
+
+  selector-type-no-unknown:
+    - true
+    - ignoreTypes:
+      - menuseparator
+      - dropmarker
