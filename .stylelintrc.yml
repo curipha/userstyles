@@ -12,8 +12,7 @@ rules:
     - ignore:
       - after-declaration
 
-  rule-nested-empty-line-before: null
-  rule-non-nested-empty-line-before: null
+  rule-empty-line-before: null
 
   block-opening-brace-space-before: null
 
