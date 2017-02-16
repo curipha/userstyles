@@ -12,10 +12,8 @@ rules:
     - ignore:
       - after-declaration
 
-  rule-empty-line-before: null
-
   block-opening-brace-space-before: null
-
+  rule-empty-line-before: null
   selector-list-comma-newline-after: null
 
   selector-type-no-unknown:
