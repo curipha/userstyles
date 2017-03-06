@@ -16,7 +16,7 @@
     padding: 0 !important;
   }
   #AreaUpperLeft {
-    margin: 0 !important;
+    margin: 5rem 0 !important;
     padding: 0 !important;
   }
   #AreaUpperLeftContainer {
@@ -25,10 +25,14 @@
   }
 
   #fixedBox {
-    position: relative !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
     margin: 0 !important;
+    padding: 0.8rem 0 !important;
     height: auto !important;
     border: none !important;
+    background: #fff !important;
   }
   .search_box {
     width: 100% !important;
