@@ -11,6 +11,19 @@
     display: none !important;
   }
 
+  #AreaBody {
+    margin: 0 2rem !important;
+    padding: 0 !important;
+  }
+  #AreaUpperLeft {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  #AreaUpperLeftContainer {
+    max-width: 80% !important;
+    margin: 0 !important;
+  }
+
   #fixedBox {
     position: relative !important;
     margin: 0 !important;
