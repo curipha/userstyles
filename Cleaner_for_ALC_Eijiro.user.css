@@ -89,4 +89,9 @@
   }
 
   .label::before { content: "\A"; white-space: pre; }
+
+  #resultsList > div[style] {
+    margin-left: 0 !important;
+    font: small/1.4 sans-serif !important;
+  }
 }
