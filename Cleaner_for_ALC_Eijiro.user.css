@@ -37,7 +37,7 @@
   }
   .search_box {
     width: 100% !important;
-    margin: 0 2em 0 !important;
+    margin: 0 0 0 2em !important;
     padding: 0.2em 0.4em !important;
   }
   #q {
