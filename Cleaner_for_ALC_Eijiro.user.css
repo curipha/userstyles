@@ -94,4 +94,9 @@
     margin-left: 0 !important;
     font: small/1.4 sans-serif !important;
   }
+  #resultsArea > p:first-of-type {
+    font: small/1 sans-serif !important;
+    margin: 0 !important;
+    opacity: 0.2 !important;
+  }
 }
