@@ -97,6 +97,7 @@
   #resultsArea > p:first-of-type {
     font: small/1 sans-serif !important;
     margin: 0 !important;
+    clear: both !important;
     opacity: 0.2 !important;
   }
 }
