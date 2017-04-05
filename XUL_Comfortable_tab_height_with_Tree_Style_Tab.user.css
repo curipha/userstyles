@@ -1,6 +1,6 @@
 /* [XUL] Comfortable tab height with Tree Style Tab */
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 .tabbrowser-tabs[treestyletab-mode="vertical"] .tabbrowser-tab {
-  min-height: 32px !important;
+  min-height: 30px !important;
 }
 
