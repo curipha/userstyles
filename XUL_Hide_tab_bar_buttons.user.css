@@ -1,0 +1,5 @@
+/* [XUL] Hide tab bar buttons */
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+#new-tab-button, .tabs-newtab-button, #alltabs-button {
+  visibility: collapse !important;
+}

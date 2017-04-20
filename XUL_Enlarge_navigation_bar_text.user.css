@@ -1,0 +1,6 @@
+/* [XUL] Enlarge navigation bar text */
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+#urlbar .textbox-input-box {
+  font-size: 13px !important;
+  margin-top: -1px !important;
+}
