@@ -1,0 +1,5 @@
+/* [XUL] Hide close button on tab */
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+.tab-close-button {
+  visibility: collapse !important;
+}
