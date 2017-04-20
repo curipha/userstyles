@@ -2,7 +2,6 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("music.amazon.co.jp") {
-  .recFooter,                             /* Not interested */
   .recDescription > span[action="buy"],   /* Buy */
   a[href^="#remove/"],                    /* Delete */
   #contextMenu > li:nth-child(2)          /* Remove from library */
