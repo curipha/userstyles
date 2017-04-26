@@ -8,6 +8,16 @@
     display: none !important;
   }
 
+  #container {
+    width: auto !important;
+    float: initial !important;
+    margin: 0 !important;
+  }
+
+  #wrapper, #nav, #wrapperInner {
+    width: 80% !important;
+  }
+
   #contents { margin: 0 !important; }
 }
 
