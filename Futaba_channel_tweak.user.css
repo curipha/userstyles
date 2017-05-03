@@ -118,10 +118,6 @@
   }
 
   /* del */
-  .deleted {
-    display: table !important;
-  }
-
   #ddel, .del, input[value="delete"] {
     display: none !important;
   }
