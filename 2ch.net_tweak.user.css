@@ -9,10 +9,10 @@
     clear: both !important;
   }
 
-  dt a {
+  :-moz-any(dt, .name) a {
     color: #080 !important;
     text-decoration: none !important;
   }
-  dt a[href^="mailto:"]::after { content: " [" attr(href) "]"; }
+  :-moz-any(dt, .name) a[href^="mailto:"]::after { content: " [" attr(href) "]"; }
   dd { line-height: 1.7 !important; }
 }
