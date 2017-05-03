@@ -6,7 +6,6 @@
 
   h1 {
     font: bold x-large/1.8 sans-serif !important;
-    clear: both !important;
   }
 
   :-moz-any(dt, .name) a {
