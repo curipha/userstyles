@@ -1,4 +1,4 @@
-/* Amazon Cloud Player tweak */
+/* Hide delete button from Amazon music library */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("music.amazon.co.jp") {
@@ -6,9 +6,5 @@
   #contextMenu > li:nth-child(2)  /* Remove from library */
   {
     display: none !important;
-  }
-
-  #header .listViewDuration {
-    font-size: 1.8rem !important;
   }
 }

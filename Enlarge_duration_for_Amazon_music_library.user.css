@@ -1,0 +1,8 @@
+/* Enlarge duration for Amazon music library */
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("music.amazon.co.jp") {
+  #header .listViewDuration {
+    font-size: 1.8rem !important;
+  }
+}
