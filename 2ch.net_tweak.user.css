@@ -13,5 +13,5 @@
     text-decoration: none !important;
   }
   :-moz-any(dt, .name) a[href^="mailto:"]::after { content: " [" attr(href) "]"; }
-  dd, .message { line-height: 1.7 !important; }
+  dd, .message { line-height: 1.8 !important; }
 }
