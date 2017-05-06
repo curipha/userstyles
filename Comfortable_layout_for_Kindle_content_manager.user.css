@@ -1,0 +1,23 @@
+/* Comfortable layout for Kindle content manager */
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url-prefix("https://www.amazon.co.jp/mn/dcw/myx.html") {
+  /* Add more height to "List of collection" box in "Add to collection" screen */
+  .bulkAddToCollectionDialog_myx .myx-lgtbox-collection-vertical-scroll.recentCollection_myx {
+    height: 300px !important;
+  }
+
+  /* Enlarge the count of contents */
+  .contentCount_myx {
+    font: 1rem/2 sans-serif !important;
+  }
+  .contentCount_myx b {
+    padding-right: 0.2em !important;
+  }
+
+  /* Avoid text wrap on table header */
+  div[list-view-header-dmyx] .myx-column {
+    white-space: nowrap !important;
+    font-size: 12px !important;
+  }
+}
