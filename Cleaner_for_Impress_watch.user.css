@@ -1,0 +1,14 @@
+/* Cleaner for Impress watch */
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("impress.co.jp") {
+  /* Hide category menu */
+  #category-nav { display: none !important; }
+  .gnav-hide header { padding-bottom: 0 !important; }
+
+  /* Hide gadgets */
+  .social { display: none !important; }
+
+  /* Kill ads */
+  .ad.billboard { display: none !important; }
+}

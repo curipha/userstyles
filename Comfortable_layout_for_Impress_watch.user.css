@@ -1,4 +1,4 @@
-/* Impress watch tweak */
+/* Comfortable layout for Impress watch */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("impress.co.jp") {
@@ -18,15 +18,4 @@
   #main-image-wrap, #main-image { max-width: 100% !important; }
 
   #zoom-btn { display: none !important; }
-
-
-  /* Hide category menu */
-  #category-nav { display: none !important; }
-  .gnav-hide header { padding-bottom: 0 !important; }
-
-  /* Hide gadgets */
-  .social { display: none !important; }
-
-  /* Kill ads */
-  .ad.billboard { display: none !important; }
 }
