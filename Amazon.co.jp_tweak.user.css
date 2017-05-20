@@ -54,8 +54,8 @@
   .itemPriceDrop .a-text-bold::after { content: "\A"; white-space: pre !important; }
 
   /* ウォッチリストに追加/から削除 */
-  [data-action="s-watchlist-add"] .a-button-text { font-weight: bold !important; }
-  [data-action="s-watchlist-remove"] .a-button-text { color: #c00 !important; }
+  span[data-action="s-watchlist-add"] .a-button-text { font-weight: bold !important; }
+  span[data-action="s-watchlist-remove"] .a-button-text { color: #c00 !important; }
 
   /* Opaque elements */
   #kcpApp_feature_div,              /* Kindle無料アプリをダウンロード */
