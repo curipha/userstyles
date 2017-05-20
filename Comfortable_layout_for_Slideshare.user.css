@@ -2,5 +2,5 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("www.slideshare.net") {
-  .row { max-width: 90% !important; }
+  .row { max-width: 85vw !important; }
 }

@@ -3,9 +3,9 @@
 
 @-moz-document domain("www.jma.go.jp") {
   /* Common */
-  body { width: 1200px !important; margin: 0 auto !important; }
+  body { width: 75vw !important; margin: 0 auto !important; }
 
-  #main, table.forecast { width: 850px !important; }
+  #main, table.forecast { width: calc(75vw - 340px) !important; }
   #sidebar, #submenu { width: 300px !important; }
 
   #submenu { position: initial !important; left: initial !important; }

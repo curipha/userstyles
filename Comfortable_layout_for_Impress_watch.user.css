@@ -4,7 +4,7 @@
 @-moz-document domain("impress.co.jp") {
   /* Loose page width */
   #page-wrap { width: 100% !important; }
-  #page, #global-nav > div { width: 80% !important; }
+  #page, #global-nav > div { width: 80vw !important; }
 
   #main {
     float: none !important;
