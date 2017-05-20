@@ -34,18 +34,6 @@
     white-space: nowrap !important;
   }
 
-  /* Amazonプライム会員資格は〇〇に終了します */
-  .prime-alert-warning {
-    font: x-small/1.4 sans-serif !important;
-    position: absolute !important;
-    right: 1rem !important;
-    padding: 0.4em 1em !important;
-    width: 480px !important;
-    border: none !important;
-    background: #fee !important;
-  }
-  .prime-alert-content { padding: 0 !important; }
-
   /* このKindle版は読者によって問題が報告されています */
   #kcqWarning .a-alert-content { font: bold larger/1 sans-serif !important; }
   #kcqWarning .a-icon, #kcqWarning + i { transform: scale(1.5) !important; vertical-align: middle !important; }
