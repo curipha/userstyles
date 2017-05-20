@@ -39,4 +39,7 @@
   .menu { margin: 4px 0.4em 0 0 !important; }
 
   header > div:empty, .menu br { display: none !important; }
+
+  /* Hide footer */
+  footer { display: none !important; }
 }
