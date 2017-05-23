@@ -4,7 +4,7 @@
 @-moz-document domain("eow.alc.co.jp") {
   #AreaBody > :not(#fixedBox):not(#AreaUpperLeft),
   #fixedBox > :not(.search_area_left),
-  #AreaUpperLeftInner > :not(#resultsArea),
+  #AreaUpperLeftInner > :not(#resultsArea):not(#resultsArea_je),
   #searchHeader, #sw, #eijiro_img, .tango, .ex_sentence, .pr_text,
   #itemsNumber .smallredfont,
   input[type="image"] {
@@ -46,7 +46,7 @@
     border: 1px solid #aaa !important;
   }
 
-  #resultsArea {
+  #resultsArea, #resultsArea_je {
     font: 0.9rem/1.7 Arial, sans-serif !important;
   }
   .sas {
@@ -94,7 +94,8 @@
     margin-left: 0 !important;
     font: small/1.4 sans-serif !important;
   }
-  #resultsArea > p:first-of-type {
+  #resultsArea > p:first-of-type,
+  #resultsArea_je > p:first-of-type {
     font: small/1 sans-serif !important;
     margin: 0 !important;
     clear: both !important;
