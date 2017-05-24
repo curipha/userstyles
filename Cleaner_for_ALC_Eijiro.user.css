@@ -64,6 +64,10 @@
     padding: 0 !important;
   }
 
+  a {
+    border-bottom: none !important;
+  }
+
   .itemPostion {
     margin: 0 !important;
   }
