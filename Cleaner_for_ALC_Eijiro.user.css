@@ -68,6 +68,10 @@
     border-bottom: none !important;
   }
 
+  .ul_je + br {
+    display: none !important;
+  }
+
   .itemPostion {
     margin: 0 !important;
   }
