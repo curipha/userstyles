@@ -24,7 +24,7 @@
   [id$="OrderUpdate_feature_div"] .a-alert-container { background-color: #feb !important; }
 
   /* 〇〇日にお届けするには今から〇〇時間以内にお急ぎ便 */
-  #ddmDeliveryMessage {
+  #ddmDeliveryMessage:not(:-moz-only-whitespace) {
     text-align: left !important;
     padding: 0.7em 1.2em 1em !important;
     background: #efe !important;
