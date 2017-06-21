@@ -16,9 +16,6 @@
     word-wrap: break-word !important;
   }
 
-  #soldByThirdParty b::before { content: "\A"; white-space: pre !important; }
-
-
   /* お客様は〇〇にこの商品を注文しました */
   [id$="OrderUpdate_feature_div"] .a-alert-info      { border-color: #fa0 !important; width: 720px !important; }
   [id$="OrderUpdate_feature_div"] .a-alert-container { background-color: #feb !important; }
