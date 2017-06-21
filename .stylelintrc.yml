@@ -20,4 +20,5 @@ rules:
     - true
     - ignoreTypes:
       - menuseparator
+      - toolbarseparator
       - dropmarker
