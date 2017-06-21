@@ -1,0 +1,31 @@
+/* Add company name in portfolio for Google Finance */
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url-prefix("https://www.google.com/finance") {
+  /* Enlarge title of Portfolio */
+  .miniPort tr[id^="pHeader"] td {
+    vertical-align: bottom !important;
+  }
+  .miniPort tr[id^="pHeader"] td:first-child b a {
+    font: bold larger sans-serif !important;
+  }
+
+  /* Add company name on the top of Ticker symbol */
+  .miniPort table[id^="portfolio"] td {
+    height: calc(2em + 2px) !important;
+    padding: 3px 0 !important;
+    vertical-align: bottom !important;
+  }
+
+  .miniPort .symbol {
+    position: relative !important;
+  }
+  .miniPort .symbol a::before {
+    color: #777;
+    font-size: smaller;
+    content: attr(title);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
