@@ -47,8 +47,11 @@
 
   /* 値下がりしました ○○% @wishlist */
   .itemPriceDrop { font: bold 120% sans-serif !important; }
-  .itemPriceDrop .a-text-bold { color: #d00 !important; font: bold 180% sans-serif !important; }
-  .itemPriceDrop .a-text-bold::after { content: "\A"; white-space: pre !important; }
+  .itemPriceDrop .a-text-bold {
+    color: #d00 !important;
+    font: bold 180% sans-serif !important;
+    display: block !important;
+  }
 
   /* ウォッチリストに追加/から削除 */
   span[data-action="s-watchlist-add"] .a-button-text { font-weight: bold !important; }
