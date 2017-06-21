@@ -1,0 +1,6 @@
+/* [XUL] Pretty separator on Bookmark toolbar */
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+#PersonalToolbar toolbarseparator {
+  border-left: 1px dotted #ccc !important;
+  margin: 0.2em 0.1em 0.3em !important;
+}
