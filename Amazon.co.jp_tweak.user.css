@@ -9,8 +9,7 @@
   /* 3rd party reseller */
   #merchant-info > a[href*="seller="], /* Item page (Description) */
   #soldByThirdParty b,                 /* Item page (Add to Cart) */
-  .sc-seller > a[href*="seller="]      /* Shopping cart */
-  {
+  .sc-seller > a[href*="seller="] {    /* Shopping cart */
     color: #d00 !important;
     font: bold 220% sans-serif !important;
     word-wrap: break-word !important;
