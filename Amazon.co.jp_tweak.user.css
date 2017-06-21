@@ -12,7 +12,7 @@
   .sc-seller > a[href*="seller="]      /* Shopping cart */
   {
     color: #d00 !important;
-    font: bold 240% sans-serif !important;
+    font: bold 220% sans-serif !important;
     word-wrap: break-word !important;
   }
 
