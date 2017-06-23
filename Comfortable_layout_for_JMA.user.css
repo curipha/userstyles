@@ -16,7 +16,9 @@
   #header_link { float: right !important; width: 28em !important; }
 
   /* Bug fix */
-  #others { width: auto !important; }
+  #others    { width: auto !important; }
+  #others td { white-space: nowrap !important; }
+
   #tablist :-moz-any(.button-up, .button-off) { height: auto !important; }
 
 
@@ -24,5 +26,8 @@
   .info { width: 18em !important; }
 
   /* Weekly forecast */
-  .for { width: 100px !important; }
+  .for {
+    width: calc((75vw - 340px) / 8) !important;
+    max-width: 90px !important;
+  }
 }
