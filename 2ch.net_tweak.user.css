@@ -2,7 +2,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("2ch.net"), domain("bbspink.com") {
-  iframe, [class^="banner"], [class*="ad--"] { display: none !important; }
+  iframe, [class^="banner"], [class*="ad--"], .socialmedia { display: none !important; }
   hr { visibility: hidden !important; }
 
   h1 {
