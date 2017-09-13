@@ -7,6 +7,11 @@ rules:
   max-empty-lines: 2
   selector-max-empty-lines: 2
 
+  at-rule-empty-line-before:
+    - always
+    - ignoreAtRules:
+      - font-face
+
   declaration-empty-line-before:
     - never
     - ignore:
