@@ -12,9 +12,9 @@ rules:
     - except:
       - blockless-after-same-name-blockless
       - first-nested
-    - ignore:
+      ignore:
       - after-comment
-    - ignoreAtRules:
+      ignoreAtRules:
       - font-face
 
   declaration-empty-line-before:
