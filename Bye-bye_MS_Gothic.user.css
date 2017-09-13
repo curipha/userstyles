@@ -13,12 +13,12 @@
 
 @font-face {
   font-family: "ＭＳ ゴシック";
-  src: local("MigMix 2M Regular"), local("MS Gothic");
+  src: local("Source Han Code JP R"), local("MS Gothic");
 }
 
 @font-face {
   font-family: "MS Gothic";
-  src: local("MigMix 2M Regular"), local("MS Gothic");
+  src: local("Source Han Code JP R"), local("MS Gothic");
 }
 
 @font-face {
