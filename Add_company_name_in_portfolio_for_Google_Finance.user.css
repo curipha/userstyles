@@ -1,7 +1,7 @@
 /* Add company name in portfolio for Google Finance */
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document url-prefix("https://www.google.com/finance") {
+@-moz-document domain("finance.google.com") {
   /* Enlarge title of Portfolio */
   .miniPort tr[id^="pHeader"] td {
     vertical-align: bottom !important;
