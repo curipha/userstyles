@@ -1,0 +1,26 @@
+/* Comfortable layout for MyJCB */
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("my.jcb.co.jp") {
+  .platformY1 {
+    min-width: 70vw !important;
+    background-image: none !important;
+  }
+  .platformY1 > table {
+    width: 100% !important;
+  }
+
+  .platformY1 table[summary="カードご利用明細"] {
+    width: calc(100% - 20px - 15px) !important;
+  }
+  .platformY1 table[summary="カードご利用明細"] th,
+  .platformY1 table[summary="カードご利用明細"] th p,
+  .platformY1 table[summary="カードご利用明細"] td,
+  .platformY1 table[summary="カードご利用明細"] td p {
+    white-space: nowrap !important;
+    width: auto !important;
+  }
+  .platformY1 table[summary="カードご利用明細"] br {
+    display: none !important;
+  }
+}
