@@ -23,7 +23,7 @@ grep -P -- '-moz(?!-document)\b' *.css
 Descriptions
 -------------------------
 ### Bye-bye_MS_*.user.css
-This style is works fine on Firefox only. It is incompatible with Google Chrome.
+These styles work fine on Firefox only. It is incompatible with Google Chrome.
 There is a difference in interpretation of `@font-face` directive between Firefox and Google Chrome.
 
 ### _export.sh
