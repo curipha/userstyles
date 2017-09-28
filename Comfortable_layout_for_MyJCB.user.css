@@ -20,7 +20,4 @@
     white-space: nowrap !important;
     width: auto !important;
   }
-  .platformY1 table[summary="カードご利用明細"] br {
-    display: none !important;
-  }
 }
