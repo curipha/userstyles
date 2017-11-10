@@ -7,9 +7,7 @@
   #nav-cart[aria-label$="：0"]:not(:hover) { opacity: 0.3 !important; }
 
   /* 3rd party reseller */
-  #merchant-info > a[href*="seller="], /* Item page (Description) */
-  #soldByThirdParty b,                 /* Item page (Add to Cart) */
-  .sc-seller > a[href*="seller="] {    /* Shopping cart */
+  #merchant-info > a[href*="seller="] {
     color: #d00 !important;
     font: bold 220% sans-serif !important;
     word-wrap: break-word !important;
@@ -31,11 +29,10 @@
   #kcqWarning .a-icon, #kcqWarning + i { transform: scale(1.5) !important; vertical-align: middle !important; }
 
   /* 品薄または希少等の理由により参考価格よりも高い価格で販売されている */
-  .listPriceAlertPopover   { transform: scale(1.5) !important; margin: 0.4em 0.8em !important; }
-  .listPriceAlertPopover i { vertical-align: middle !important; }
-
-  .listPriceAlertPopover + a { vertical-align: bottom !important; }
-  .listPriceAlertPopover + a > span:first-child {
+  .listPriceAlertPopoverIcon {
+    transform: scale(1.4) !important;
+  }
+  .listPriceAlertPopover + a .a-price-whole {
     font-weight: normal !important;
     text-decoration: line-through double !important;
   }
