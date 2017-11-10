@@ -26,7 +26,7 @@
   #p-lang li.interwiki-en a:hover,  #p-lang li.interwiki-ja a:hover  { background: #f70 !important; }
 
   .mw-headline:target, .reference:target, .references li:target {
-    padding-top: 3rem !important;
+    padding-top: 2.4rem !important;
     background: transparent !important;
   }
   .reference:target > a, .references li:target a[href^="#cite_ref-"] {
