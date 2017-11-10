@@ -2,8 +2,12 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("2ch.net"), domain("bbspink.com") {
-  iframe, [class^="banner"], [class*="ad--"], .socialmedia { display: none !important; }
-  hr { visibility: hidden !important; }
+  iframe, [class^="banner"], [class*="ad--"], .socialmedia {
+    display: none !important;
+  }
+  hr {
+    visibility: hidden !important;
+  }
 
   h1 {
     font: bold x-large/1.8 sans-serif !important;
@@ -13,6 +17,10 @@
     color: #080 !important;
     text-decoration: none !important;
   }
-  dt a[href^="mailto:"]::after, .name a[href^="mailto:"]::after { content: " [" attr(href) "]"; }
-  dd, .message { line-height: 1.8 !important; }
+  dt a[href^="mailto:"]::after, .name a[href^="mailto:"]::after {
+    content: " [" attr(href) "]";
+  }
+  dd, .message {
+    line-height: 1.8 !important;
+  }
 }

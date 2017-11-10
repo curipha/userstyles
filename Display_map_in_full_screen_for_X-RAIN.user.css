@@ -3,8 +3,12 @@
 
 @-moz-document url-prefix("https://www.river.go.jp/x/krd0107010.php") {
   /* Display map in full screen */
-  #main { width: 100% !important; }
-  #map-contents { width: auto !important; }
+  #main {
+    width: 100% !important;
+  }
+  #map-contents {
+    width: auto !important;
+  }
 
   #single-mp-radar, #mp-radar {
     width: auto !important;
@@ -41,5 +45,7 @@
   header > div:empty, .menu br { display: none !important; }
 
   /* Hide footer */
-  footer { display: none !important; }
+  footer {
+    display: none !important;
+  }
 }

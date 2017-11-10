@@ -13,24 +13,40 @@
     width: calc(75vw - 340px) !important;
     min-width: 660px !important;
   }
-  #sidebar, #submenu { width: 300px !important; }
+  #sidebar, #submenu {
+    width: 300px !important;
+  }
 
-  #submenu { position: initial !important; left: initial !important; }
+  #submenu {
+    position: initial !important;
+    left: initial !important;
+  }
 
-  #info, #info table:not(#ASFC_Table) { width: 100% !important; }
+  #info, #info table:not(#ASFC_Table) {
+    width: 100% !important;
+  }
 
-  #yjsearch    { display: none !important; }
-  #header_link { float: right !important; width: 28em !important; }
+  #yjsearch {
+    display: none !important;
+  }
+  #header_link {
+    float: right !important;
+    width: 28em !important;
+  }
 
   /* Bug fix */
   #others    { width: auto !important; }
   #others td { white-space: nowrap !important; }
 
-  #tablist .button-up, #tablist .button-off { height: auto !important; }
+  #tablist .button-up, #tablist .button-off {
+    height: auto !important;
+  }
 
 
   /* Forecast */
-  .info { width: 18em !important; }
+  .info {
+    width: 18em !important;
+  }
 
   /* Weekly forecast */
   .for {
