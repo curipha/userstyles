@@ -56,9 +56,10 @@
     display: block !important;
   }
 
-  /* ウォッチリストに追加/から削除 */
-  span[data-action="s-watchlist-add"] .a-button-text { font-weight: bold !important; }
-  span[data-action="s-watchlist-remove"] .a-button-text { color: #c00 !important; }
+  /* ウォッチリストから削除 */
+  .a-declarative[data-action="s-watchlist-remove"] .a-button-text {
+    color: #c00 !important;
+  }
 
   /* Opaque elements */
   #kcpApp_feature_div,              /* Kindle無料アプリをダウンロード */
