@@ -3,12 +3,20 @@
 
 @-moz-document domain("impress.co.jp") {
   /* Hide category menu */
-  #category-nav { display: none !important; }
-  .gnav-hide header { padding-bottom: 0 !important; }
+  #category-nav {
+    display: none !important;
+  }
+  .gnav-hide header {
+    padding-bottom: 0 !important;
+  }
 
   /* Hide gadgets */
-  .social { display: none !important; }
+  .social {
+    display: none !important;
+  }
 
   /* Kill ads */
-  .ad.billboard { display: none !important; }
+  .ad.billboard {
+    display: none !important;
+  }
 }

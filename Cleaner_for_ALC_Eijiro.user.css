@@ -96,7 +96,10 @@
     padding: 0 !important;
   }
 
-  .attr .label::before { content: "\A"; white-space: pre; }
+  .attr .label::before {
+    content: "\A";
+    white-space: pre;
+  }
 
   #resultsList > div[style] {
     margin-left: 0 !important;

@@ -1,4 +1,9 @@
 /* Change the appearance of the cursor on a link */
 @namespace url(http://www.w3.org/1999/xhtml);
-a[target="_blank"]     { cursor: alias !important; }
-a[href^="javascript:"] { cursor: help !important; }
+
+a[target="_blank"] {
+  cursor: alias !important;
+}
+a[href^="javascript:"] {
+  cursor: help !important;
+}

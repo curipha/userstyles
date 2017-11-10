@@ -20,8 +20,12 @@
   }
 
   /* Overray element opacity */
-  .immersive_slide_area { opacity: 0.4 !important; }
-  .immersive_slide_area:hover { opacity: 0.8 !important; }
+  .immersive_slide_area {
+    opacity: 0.4 !important;
+  }
+  .immersive_slide_area:hover {
+    opacity: 0.8 !important;
+  }
 
   /* Footer height adjustment */
   #kindleReader_footer {

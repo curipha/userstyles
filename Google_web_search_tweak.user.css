@@ -10,8 +10,9 @@
   url-prefix("https://www.google.co.jp/#q=")
 {
   /* Result */
-  .mw .s { line-height: 1.5 !important; }
-
+  .mw .s {
+    line-height: 1.5 !important;
+  }
 
   /* ADs */
   .mw #tads, .mw #bottomads {
@@ -25,7 +26,11 @@
   /* Missing words and/or Recently visited page */
   .mw ._Tib   { font: bold larger/2 sans-serif !important; }
   .mw ._Tib s { text-decoration: none !important; }
-  .mw ._Tib s::before { content: "\2718"; color: #c00; }
+
+  .mw ._Tib s::before {
+    content: "\2718";
+    color: #c00;
+  }
 
   /* Hacked / Compromised */
   .mw .slp a.fl[href^="/url"]:only-child,
@@ -35,5 +40,7 @@
   }
 
   /* Google promotion */
-  .mw #wmxmsg { opacity: 0.3 !important; }
+  .mw #wmxmsg {
+    opacity: 0.3 !important;
+  }
 }

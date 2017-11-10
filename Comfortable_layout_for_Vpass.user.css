@@ -13,6 +13,11 @@
     width: 75vw !important;
     overflow-x: visible !important;
   }
-  .left      { width: 220px !important; }
-  .container { width: calc(75vw - 250px) !important; }
+
+  .left      {
+    width: 220px !important;
+  }
+  .container {
+    width: calc(75vw - 250px) !important;
+  }
 }

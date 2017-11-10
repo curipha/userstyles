@@ -2,10 +2,18 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document url-prefix("https://secure.sakura.ad.jp/rscontrol/") {
-  body > div > table[width] { width: 900px !important; }
-  .viewbox { width: 100% !important; }
-  .viewbox td[width] { width: auto !important; }
-  #DESC > table[width]  { width: 100% !important; }
+  body > div > table[width] {
+    width: 900px !important;
+  }
+  .viewbox {
+    width: 100% !important;
+  }
+  .viewbox td[width] {
+    width: auto !important;
+  }
+  #DESC > table[width] {
+    width: 100% !important;
+  }
 
   /* Enlarge graph area */
   #placeholder {

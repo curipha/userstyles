@@ -3,8 +3,12 @@
 
 @-moz-document domain("impress.co.jp") {
   /* Loose page width */
-  #page-wrap { width: 100% !important; }
-  #page, #global-nav > div { width: 80vw !important; }
+  #page-wrap {
+    width: 100% !important;
+  }
+  #page, #global-nav > div {
+    width: 80vw !important;
+  }
 
   #main {
     float: none !important;
@@ -14,8 +18,14 @@
   }
 
   /* Show bigger image by default */
-  #zoom #page { width: 100% !important; }
-  #main-image-wrap, #main-image { max-width: 100% !important; }
+  #zoom #page {
+    width: 100% !important;
+  }
+  #main-image-wrap, #main-image {
+    max-width: 100% !important;
+  }
 
-  #zoom-btn { display: none !important; }
+  #zoom-btn {
+    display: none !important;
+  }
 }
