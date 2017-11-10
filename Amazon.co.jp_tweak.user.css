@@ -68,8 +68,8 @@
   #olp_feature_div, .tmm-olp-links, /* 新品の出品 : ○ ￥○○より / \○○ からの ○ 中古 */
   #moreBuyingChoices_feature_div,   /* こちらからもご購入いただけます */
   #sellYoursHere_feature_div,       /* この商品をお持ちですか？ */
-  #usedBuySection, #usedbuyBox, #unqualifiedBuyBox > * > :not(#wishlistButtonStack), /* 中古品（カートに入れるボタン） */
-  #tellAFriendBox_feature_div, #tellAFriendBylineBox_feature_div,                    /* シェアする */
+  #usedBuySection, #usedbuyBox, #unqualifiedBuyBox                /* 中古品（カートに入れるボタン） */
+  #tellAFriendBox_feature_div, #tellAFriendBylineBox_feature_div, /* シェアする */
 
   .itemUsedAndNew,                                     /* ○○点の新品/中古品 ○○円より @wishlist */
   .itemNotGiftableMessage, .itemNotGiftablePopoverLink /* 現在この商品はギフトとして購入することができません @wishlist */
