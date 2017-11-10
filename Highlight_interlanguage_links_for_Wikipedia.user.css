@@ -22,8 +22,14 @@
     z-index: 255 !important;
   }
 
-  #p-lang .interwiki-en a::after, #p-lang .interwiki-ja a::after { content: " \bb\a0 " attr(title); }
-  #p-lang .interwiki-en a:hover,  #p-lang .interwiki-ja a:hover  { background: #f70 !important; }
+  #p-lang .interwiki-en a::after,
+  #p-lang .interwiki-ja a::after {
+    content: " \bb\a0 " attr(title);
+  }
+  #p-lang .interwiki-en a:hover,
+  #p-lang .interwiki-ja a:hover {
+    background: #f70 !important;
+  }
 
   .mw-headline:target, .reference:target, .references li:target {
     padding-top: 2.4rem !important;
