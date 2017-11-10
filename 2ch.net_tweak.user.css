@@ -9,10 +9,10 @@
     font: bold x-large/1.8 sans-serif !important;
   }
 
-  :-moz-any(dt, .name) a {
+  dt a, .name a {
     color: #080 !important;
     text-decoration: none !important;
   }
-  :-moz-any(dt, .name) a[href^="mailto:"]::after { content: " [" attr(href) "]"; }
+  dt a[href^="mailto:"]::after, .name a[href^="mailto:"]::after { content: " [" attr(href) "]"; }
   dd, .message { line-height: 1.8 !important; }
 }

@@ -14,7 +14,9 @@
 
 
   /* ADs */
-  .mw :-moz-any(#tads, #bottomads) { background: #ffd !important; }
+  .mw #tads, .mw #bottomads {
+    background: #ffd !important;
+  }
 
   /* ChillingEffects */
   .mw .mfr   { font: x-small/1.4 sans-serif !important; opacity: 0.6 !important; }
@@ -26,8 +28,11 @@
   .mw ._Tib s::before { content: "\2718"; color: #c00; }
 
   /* Hacked / Compromised */
-  .mw .slp a.fl:-moz-any([href^="/url"], [href^="/support"]):only-child { color: #d00 !important; font-weight: bold !important; }
-
+  .mw .slp a.fl[href^="/url"]:only-child,
+  .mw .slp a.fl[href^="/support"]:only-child {
+    color: #d00 !important;
+    font-weight: bold !important;
+  }
 
   /* Google promotion */
   .mw #wmxmsg { opacity: 0.3 !important; }

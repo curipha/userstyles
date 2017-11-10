@@ -26,7 +26,7 @@
   #others    { width: auto !important; }
   #others td { white-space: nowrap !important; }
 
-  #tablist :-moz-any(.button-up, .button-off) { height: auto !important; }
+  #tablist .button-up, #tablist .button-off { height: auto !important; }
 
 
   /* Forecast */

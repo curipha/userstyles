@@ -103,7 +103,8 @@
   }
 
   /* EOL */
-  .thre > :-moz-any(.sod, .del) + small {
+  .thre > .sod + small,
+  .thre > .del + small {
     display: block !important;
     float: right !important;
     font: x-large/1.8 sans-serif !important;
