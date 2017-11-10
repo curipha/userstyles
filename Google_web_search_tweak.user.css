@@ -1,5 +1,5 @@
 /* Google web search tweak */
-@namespace url(http://www.w3.org/1999/xhtml);
+@namespace url("http://www.w3.org/1999/xhtml");
 
 @-moz-document
   url-prefix("https://www.google.com/search"),

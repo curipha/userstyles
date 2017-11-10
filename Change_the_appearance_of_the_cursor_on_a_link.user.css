@@ -1,5 +1,5 @@
 /* Change the appearance of the cursor on a link */
-@namespace url(http://www.w3.org/1999/xhtml);
+@namespace url("http://www.w3.org/1999/xhtml");
 
 a[target="_blank"] {
   cursor: alias !important;

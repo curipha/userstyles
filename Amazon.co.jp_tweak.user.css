@@ -1,5 +1,5 @@
 /* Amazon.co.jp tweak */
-@namespace url(http://www.w3.org/1999/xhtml);
+@namespace url("http://www.w3.org/1999/xhtml");
 
 @-moz-document domain("www.amazon.co.jp") {
   /* Cart button on top navigation */

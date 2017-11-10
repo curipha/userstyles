@@ -1,5 +1,5 @@
 /* Add company name in portfolio for Google Finance */
-@namespace url(http://www.w3.org/1999/xhtml);
+@namespace url("http://www.w3.org/1999/xhtml");
 
 @-moz-document domain("finance.google.com") {
   /* Enlarge title of Portfolio */

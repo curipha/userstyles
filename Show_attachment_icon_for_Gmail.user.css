@@ -1,5 +1,5 @@
 /* Show attachment icon for Gmail */
-@namespace url(http://www.w3.org/1999/xhtml);
+@namespace url("http://www.w3.org/1999/xhtml");
 
 @-moz-document domain("mail.google.com") {
   img[alt^='Attachment'][title$='.pdf'], img[alt^='Attachment'][title$='.PDF'] { background: url("moz-icon://.pdf?size=16") no-repeat right center !important; }
