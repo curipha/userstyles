@@ -4,7 +4,6 @@ Various userstyles to enhance browsing experience.
 
 These userstyles work fine with modern web browsers/extensions.
 
-e.g.
 - [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) with Google Chrome (use import functionality for Mozilla format)
 - [Stylish](https://addons.mozilla.org/ja/firefox/addon/stylish/) with Firefox
 
