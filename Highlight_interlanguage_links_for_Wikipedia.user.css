@@ -21,7 +21,6 @@
     text-overflow: ellipsis !important;
     z-index: 255 !important;
   }
-
   #p-lang .interwiki-en a::after,
   #p-lang .interwiki-ja a::after {
     content: " \bb\a0 " attr(title);
