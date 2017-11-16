@@ -5,8 +5,8 @@ Various userstyles to enhance browsing experience.
 These userstyles work fine with modern web browsers/extensions.
 
 e.g.
-- Stylus with Google Chrome (use import functionality for Mozilla format)
-- Stylish with Firefox
+- [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) with Google Chrome (use import functionality for Mozilla format)
+- [Stylish](https://addons.mozilla.org/ja/firefox/addon/stylish/) with Firefox
 
 
 Notes
@@ -15,9 +15,12 @@ Notes
 These styles work fine on Firefox only. It is incompatible with Google Chrome.
 There is a difference in interpretation of `@font-face` directive between Firefox and Google Chrome.
 
-### _export.sh
-Run this script to export all userstyles stored in Firefox's user profile directory.
-It works for **Stylish with Firefox on Windows only**.
+### _export.rb
+Run this script to convert Stylus (or maybe also works with Stylish) exported JSON file to standard user.css files.
+
+```bash
+$ ./_export.rb ./path/to/stylus-yyyy-mm-dd.json
+```
 
 
 Links
