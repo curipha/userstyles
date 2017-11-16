@@ -16,7 +16,7 @@ These styles work fine on Firefox only. It is incompatible with Google Chrome.
 There is a difference in interpretation of `@font-face` directive between Firefox and Google Chrome.
 
 ### _export.rb
-Run this script to convert Stylus (or maybe also works with Stylish) exported JSON file to standard user.css files.
+Run this script to convert Stylus (or maybe also works with Stylish) exported JSON file to standard `user.css` files.
 
 ```bash
 $ ./_export.rb ./path/to/stylus-yyyy-mm-dd.json
