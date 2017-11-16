@@ -3,6 +3,7 @@
 
 @-moz-document
   domain("2ch.net"),
+  domain("5ch.net"),
   domain("bbspink.com")
 {
   iframe, [class^="banner"], [class*="ad--"], .socialmedia {
