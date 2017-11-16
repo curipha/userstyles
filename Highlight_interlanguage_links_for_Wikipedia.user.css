@@ -32,10 +32,8 @@
 
   .mw-headline:target, .reference:target, .references li:target {
     padding-top: 2.4rem !important;
-    background: transparent !important;
   }
   .reference:target > a, .references li:target a[href^="#cite_ref-"] {
-    color: #f70 !important;
     font-weight: bold !important;
   }
 }
