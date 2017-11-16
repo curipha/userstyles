@@ -30,10 +30,15 @@
     background: #f70 !important;
   }
 
-  .mw-headline:target, .reference:target, .references li:target {
-    padding-top: 2.4rem !important;
-  }
-  .reference:target > a, .references li:target a[href^="#cite_ref-"] {
+  :target {
     font-weight: bold !important;
+    position: relative !important;
+  }
+  :target::before, :target::after {
+    content: 'x';
+    display: block;
+    top: -2.4rem;
+    position: absolute;
+    visibility: hidden;
   }
 }
