@@ -2,25 +2,14 @@ userstyles [![CircleCI](https://circleci.com/gh/curipha/userstyles.svg?style=svg
 ==========
 Various userstyles to enhance browsing experience.
 
-These userstyles work fine on:
+These userstyles work fine with modern web browsers/extensions.
 
-- Stylish with Firefox
+e.g.
 - Stylus with Google Chrome (use import functionality for Mozilla format)
-- ... and also other modern browsers/extensions
-
-----
-
-Userstyles beginning with "XUL" are dedicated for Firefox UI.
-
-Just a few of styles still contain incompatibility with Google Chrome since the `-moz` prefix is used.
-Run the following command to find these scripts.
-
-```bash
-grep -P -- '-moz(?!-document)\b' *.css
-```
+- Stylish with Firefox
 
 
-Descriptions
+Notes
 -------------------------
 ### Bye-bye_MS_*.user.css
 These styles work fine on Firefox only. It is incompatible with Google Chrome.
