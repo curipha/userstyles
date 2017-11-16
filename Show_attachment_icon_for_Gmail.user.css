@@ -34,7 +34,7 @@
   }
 
   img[alt^='Attachment'][title$=".doc"], img[alt^='Attachment'][title$=".DOC"],
-  img[alt^='Attachment'][title$=".docx"], img[alt^='Attachment'][title$=".DOCX"]
+  img[alt^='Attachment'][title$=".docx"], img[alt^='Attachment'][title$=".DOCX"],
   img[alt^='Attachment'][title$='.rtf'], img[alt^='Attachment'][title$='.RTF'] {
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACCElEQVR4AY2TtXt4NRRAT/Lk51Z393bC3WHCdYSJLjgjNuIOM/634O7uUvf2SZJLL1K3833x5MSNiKAYY5qAWiBiZ0aBX0QkoKhAA3BylmXTZVl655xsFZbb5YUXXngWaAOsjlsrOE0Hz8/Py8LCwkqYmZmRqakpGRkZUYn8+eef8uKLL65IzE3PffxbkblpVyztb6s53hm8gIegwQVcKXjneezWZioqKiiKghACb7zxxnPDw8NPc+0TH365lDspXdgyjExkcvNDH8jY2NimLemqY194l0SW+1/+mpnMM1BzgG//WOJIEnH8cMTHPyziSyFNU6anp3V2nHPU1NSgWF2yAFkupGJorj3A1EKg+nhMlnukAFMKcRyrhCRJ2LdvH4pitYOyHwi58NbH05RF4I+RnJ9/LThj6BDWCVEUqUSDSlgR+CKglLnw56JnfLLkuDHL2/BYI1x2Vi26SmutSlZEKwKdFYGFpYDNhUtPr6DiWMyBA5bzTjlB5fEUFRhjUFSgsjUrEGwEupL2yoQrLqhHgCPiuOiMGiJrCP+9FZVoupbYeA6MT+Y8cncfCCxljntv6URRxiZzXLEyaGX2FUEoAtff/s4XLs/2dzSf6AgBJARENBVCMFizsoVNmP+WZoBTnXNvAYa9EeI4PtMCiFogeO+XNGV3tO8i4Nd+52agFrDsDQ+M/g1utXmjkvpQRAAAAABJRU5ErkJggg==") no-repeat right center !important;
   }
