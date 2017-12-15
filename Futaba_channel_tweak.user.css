@@ -57,7 +57,7 @@
   }
   .rtd {
     width: 800px !important;
-    padding: 0.8em !important;
+    padding: 0.6em 0.8em !important;
     border-radius: 4px !important;
   }
   .rtd blockquote {
