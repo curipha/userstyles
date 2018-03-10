@@ -9,13 +9,14 @@ rules:
 
   at-rule-empty-line-before:
     - always
-    - except:
-      - blockless-after-same-name-blockless
-      - first-nested
+    -
+      except:
+        - blockless-after-same-name-blockless
+        - first-nested
       ignore:
-      - after-comment
+        - after-comment
       ignoreAtRules:
-      - font-face
+        - font-face
 
   declaration-empty-line-before:
     - never
