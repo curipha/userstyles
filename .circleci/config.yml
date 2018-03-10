@@ -12,9 +12,7 @@ jobs:
             npm install stylelint-config-standard
       - run:
           name: System information
-          command: |
-            lsb_release -dc
-            uname -a
+          command: uname -a
       - run:
           name: Node.js version
           command: node --version
