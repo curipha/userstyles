@@ -13,8 +13,11 @@ jobs:
       - run:
           name: System information
           command: |
+            lsb_release -dc
             uname -a
-            node --version
+      - run:
+          name: Node.js version
+          command: node --version
       - run:
           name: Run stylelint
           command: stylelint ./*.css
