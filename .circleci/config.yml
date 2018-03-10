@@ -6,7 +6,7 @@ jobs:
     steps:
       - run:
           name: Install stylelint
-          command: npm install --global stylelint
+          command: sudo npm install --global stylelint
       - run:
           name: Install stylelint-config-standard
           command: npm install stylelint-config-standard
