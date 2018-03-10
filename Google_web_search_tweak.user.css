@@ -34,7 +34,8 @@
 
   /* Hacked / Compromised */
   .mw .slp a.fl[href^="/url"]:only-child,
-  .mw .slp a.fl[href^="/support"]:only-child {
+  .mw .slp a.fl[href^="/support"]:only-child,
+  .mw .slp a.fl[href^="https://support.google.com/"]:only-child {
     color: #d00 !important;
     font-weight: bold !important;
   }
