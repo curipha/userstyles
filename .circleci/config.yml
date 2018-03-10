@@ -11,5 +11,10 @@ jobs:
             sudo npm install --global stylelint
             npm install stylelint-config-standard
       - run:
+          name: System information
+          command: |
+            uname -a
+            node --version
+      - run:
           name: Run stylelint
           command: stylelint ./*.css
