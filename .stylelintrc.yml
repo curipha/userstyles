@@ -23,6 +23,8 @@ rules:
       - after-declaration
 
   block-opening-brace-space-before: null
+  no-descending-specificity: null
+  no-duplicate-selectors: null
   rule-empty-line-before: null
   selector-list-comma-newline-after: null
 
