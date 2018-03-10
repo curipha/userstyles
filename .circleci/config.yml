@@ -4,25 +4,12 @@ jobs:
     docker:
       - image: circleci/node:latest
     steps:
-      - run:
-          name: Install stylelint
-          command: sudo npm install --global stylelint
-      - run:
-          name: Install stylelint-config-standard
-          command: npm install stylelint-config-standard
-  test:
-    docker:
-      - image: circleci/node:latest
-    steps:
       - checkout
       - run:
-          name: Stylelint
+          name: Install stylelint
+          command: |
+            sudo npm install --global stylelint
+            npm install stylelint-config-standard
+      - run:
+          name: Run stylelint
           command: stylelint ./*.css
-workflows:
-  version: 2
-  stylelint:
-    jobs:
-      - build
-      - test:
-          requires:
-            - build
