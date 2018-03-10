@@ -5,7 +5,7 @@ rules:
   declaration-block-single-line-max-declarations: 2
 
   max-empty-lines: 2
-  selector-max-empty-lines: 2
+  selector-max-empty-lines: 1
 
   at-rule-empty-line-before:
     - always
