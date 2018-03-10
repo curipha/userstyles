@@ -28,10 +28,3 @@ rules:
   no-duplicate-selectors: null
   rule-empty-line-before: null
   selector-list-comma-newline-after: null
-
-  selector-type-no-unknown:
-    - true
-    - ignoreTypes:
-      - menuseparator
-      - toolbarseparator
-      - dropmarker
