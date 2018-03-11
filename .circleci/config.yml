@@ -33,7 +33,7 @@ jobs:
           root: ~/
           paths:
             - project
-  build:
+  version:
     <<: *defaults
     steps:
       - attach_workspace:
@@ -49,7 +49,7 @@ jobs:
       - run:
           name: stylelint version
           command: stylelint --version
-  test:
+  lint:
     <<: *defaults
     steps:
       - attach_workspace:
@@ -66,10 +66,10 @@ workflows:
   stylelint:
     jobs:
       - install
-      - build:
+      - version:
           requires:
             - install
-      - test:
+      - lint:
           requires:
             - install
 
