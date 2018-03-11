@@ -66,7 +66,7 @@ workflows:
   stylelint:
     jobs:
       - install
-      - build
+      - build:
           requires:
             - install
       - test:
