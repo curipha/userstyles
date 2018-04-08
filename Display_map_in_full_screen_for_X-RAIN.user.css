@@ -45,17 +45,26 @@
   .ol-zoom-out { border-radius: 0 0 10px 10px !important; }
 
   /* Adjust top menu position */
-  header { display: flex !important; }
-  header div { width: auto !important; }
+  header {
+    display: flex !important;
+  }
+  header div {
+    width: auto !important;
+  }
 
-  #logo { margin-right: auto !important; }
-
+  #logo {
+    margin-right: auto !important;
+  }
   #logo-img { vertical-align: middle !important; }
   .logo_cap { display: inline-block !important; }
 
-  .menu { margin: 4px 0.4em 0 0 !important; }
+  .menu {
+    margin: 4px 0.4em 0 0 !important;
+  }
 
-  header > div:empty, .menu br { display: none !important; }
+  header > div:empty, .menu br {
+    display: none !important;
+  }
 
   /* Hide footer */
   footer {
