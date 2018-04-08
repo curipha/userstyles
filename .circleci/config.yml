@@ -8,27 +8,17 @@ jobs:
   install:
     <<: *defaults
     steps:
+      - checkout
       - restore_cache:
           key: stylelint-application
-      - checkout
       - run:
           name: Install stylelint
-          command: |
-            npm install --global stylelint
-            npm install stylelint-config-standard
+          command: npm install stylelint stylelint-config-standard
       - save_cache:
           paths:
-            - /usr/local/bin/stylelint
-            - /usr/local/lib/node_modules
-          key: stylelint-application-{{ checksum "/usr/local/lib/node_modules/stylelint/package.json" }}
-      - persist_to_workspace:
-          root: /usr/local/bin
-          paths:
-            - stylelint
-      - persist_to_workspace:
-          root: /usr/local/lib
-          paths:
-            - node_modules
+            - ./node_modules
+            - ./package-lock.json
+          key: stylelint-application-{{ checksum "./package-lock.json" }}
       - persist_to_workspace:
           root: ~/
           paths:
@@ -37,9 +27,7 @@ jobs:
     <<: *defaults
     steps:
       - attach_workspace:
-          at: /usr/local/bin
-      - attach_workspace:
-          at: /usr/local/lib
+          at: ~/
       - run:
           name: System information
           command: uname -a
@@ -48,19 +36,15 @@ jobs:
           command: node --version
       - run:
           name: stylelint version
-          command: stylelint --version
+          command: ./node_modules/.bin/stylelint --version
   lint:
     <<: *defaults
     steps:
       - attach_workspace:
-          at: /usr/local/bin
-      - attach_workspace:
-          at: /usr/local/lib
-      - attach_workspace:
           at: ~/
       - run:
           name: Run stylelint
-          command: stylelint ./*.css
+          command: ./node_modules/.bin/stylelint -- ./*.css
 workflows:
   version: 2
   stylelint:
