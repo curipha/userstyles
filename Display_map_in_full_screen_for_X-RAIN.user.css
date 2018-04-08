@@ -30,6 +30,19 @@
 
   #map-size-btn { display: none !important; }
 
+  /* Adjust button size */
+  #reload {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .ol-zoom-in, .ol-zoom-out {
+    font: bold 60px/1 Arial, sans-serif  !important;
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .ol-zoom-in  { border-radius: 10px 10px 0 0 !important; }
+  .ol-zoom-out { border-radius: 0 0 10px 10px !important; }
 
   /* Adjust top menu position */
   header { display: flex !important; }
