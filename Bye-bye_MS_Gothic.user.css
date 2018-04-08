@@ -6,47 +6,18 @@
   src: local("Meiryo"), local("MS PGothic");
 }
 @font-face {
-  font-family: "ＭＳ Ｐゴシック";
-  font-weight: bold;
-  src: local("Meiryo Bold"), local("MS PGothic");
-}
-
-@font-face {
   font-family: "MS PGothic";
   src: local("Meiryo"), local("MS PGothic");
 }
 @font-face {
-  font-family: "MS PGothic";
-  font-weight: bold;
-  src: local("Meiryo Bold"), local("MS PGothic");
-}
-
-@font-face {
   font-family: "ＭＳ ゴシック";
-  src: local("Source Han Code JP R"), local("MS Gothic");
-}
-@font-face {
-  font-family: "ＭＳ ゴシック";
-  font-weight: bold;
-  src: local("Source Han Code JP B"), local("MS Gothic");
-}
-
-@font-face {
-  font-family: "MS Gothic";
-  src: local("Source Han Code JP R"), local("MS Gothic");
+  src: local("Source Han Code JP"), local("MS Gothic");
 }
 @font-face {
   font-family: "MS Gothic";
-  font-weight: bold;
-  src: local("Source Han Code JP B"), local("MS Gothic");
+  src: local("Source Han Code JP"), local("MS Gothic");
 }
-
 @font-face {
   font-family: "MS UI Gothic";
   src: local("Meiryo UI"), local("MS UI Gothic");
-}
-@font-face {
-  font-family: "MS UI Gothic";
-  font-weight: bold;
-  src: local("Meiryo UI Bold"), local("MS UI Gothic");
 }
