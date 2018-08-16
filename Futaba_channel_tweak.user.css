@@ -3,7 +3,7 @@
 
 @-moz-document domain("2chan.net") {
   /* General */
-  body {
+  body[bgcolor] {
     margin: 1rem auto !important;
     width: 80% !important;
   }
