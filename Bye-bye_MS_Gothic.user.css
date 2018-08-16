@@ -3,11 +3,11 @@
 
 @font-face {
   font-family: "ＭＳ Ｐゴシック";
-  src: local("Meiryo"), local("MS PGothic");
+  src: local("Noto Sans CJK JP"), local("ヒラギノ角ゴ ProN"), local("Meiryo"), local("MS PGothic");
 }
 @font-face {
   font-family: "MS PGothic";
-  src: local("Meiryo"), local("MS PGothic");
+  src: local("Noto Sans CJK JP"), local("ヒラギノ角ゴ ProN"), local("Meiryo"), local("MS PGothic");
 }
 @font-face {
   font-family: "ＭＳ ゴシック";
@@ -19,5 +19,5 @@
 }
 @font-face {
   font-family: "MS UI Gothic";
-  src: local("Meiryo UI"), local("MS UI Gothic");
+  src: local("Noto Sans CJK JP"), local("ヒラギノ角ゴ ProN"), local("Meiryo UI"), local("MS UI Gothic");
 }
