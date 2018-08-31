@@ -9,3 +9,7 @@
   font-family: "Meiryo";
   src: local("Noto Sans CJK JP"), local("ヒラギノ角ゴ ProN"), local("Meiryo"), local("MS PGothic");
 }
+@font-face {
+  font-family: "Meiryo UI";
+  src: local("Noto Sans CJK JP"), local("ヒラギノ角ゴ ProN"), local("Meiryo"), local("MS PGothic");
+}
