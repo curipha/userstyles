@@ -1,14 +1,12 @@
 version: 2.1
-
 executors:
-  node:
+  node-latest:
     docker:
       - image: node:latest
     working_directory: ~/project
-
 jobs:
   install:
-    executor: node
+    executor: node-latest
     steps:
       - checkout
       - restore_cache:
@@ -26,7 +24,7 @@ jobs:
           paths:
             - project
   version:
-    executor: node
+    executor: node-latest
     steps:
       - attach_workspace:
           at: ~/
@@ -43,14 +41,13 @@ jobs:
           name: stylelint version
           command: ./node_modules/.bin/stylelint --version
   lint:
-    executor: node
+    executor: node-latest
     steps:
       - attach_workspace:
           at: ~/
       - run:
           name: Run stylelint
           command: ./node_modules/.bin/stylelint -- ./*.css
-
 workflows:
   version: 2
   stylelint:
