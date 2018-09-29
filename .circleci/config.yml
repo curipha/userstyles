@@ -39,7 +39,7 @@ jobs:
           command: node --version
       - run:
           name: stylelint version
-          command: ./node_modules/.bin/stylelint --version
+          command: npx stylelint --version
   lint:
     executor: node-latest
     steps:
@@ -47,7 +47,7 @@ jobs:
           at: ~/
       - run:
           name: Run stylelint
-          command: ./node_modules/.bin/stylelint -- ./*.css
+          command: npx stylelint -- ./*.css
 workflows:
   version: 2
   stylelint:
