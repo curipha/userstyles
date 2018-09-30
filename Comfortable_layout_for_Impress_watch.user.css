@@ -11,6 +11,7 @@
     min-width: 980px !important;
   }
   #global-nav > div {
+    position: initial !important;
     width: auto !important;
   }
 
