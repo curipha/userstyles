@@ -6,8 +6,12 @@
   #page-wrap {
     width: 100% !important;
   }
-  #page, #global-nav > div {
+  #page, #global-nav {
     width: 70vw !important;
+    min-width: 980px !important;
+  }
+  #global-nav > div {
+    width: auto !important;
   }
 
   #main {
