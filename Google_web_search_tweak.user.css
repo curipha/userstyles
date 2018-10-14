@@ -3,11 +3,7 @@
 
 @-moz-document
   url-prefix("https://www.google.com/search"),
-  url-prefix("https://www.google.com/webhp"),
-  url-prefix("https://www.google.com/#q="),
-  url-prefix("https://www.google.co.jp/search"),
-  url-prefix("https://www.google.co.jp/webhp"),
-  url-prefix("https://www.google.co.jp/#q=")
+  url-prefix("https://www.google.co.jp/search")
 {
   /* Result */
   .mw .s {
