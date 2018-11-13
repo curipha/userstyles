@@ -2,7 +2,7 @@
 @namespace url("http://www.w3.org/1999/xhtml");
 
 @-moz-document domain("www.slideshare.net") {
-  #clips-button-top {
+  #clips-button-top, .clips-toolbar {
     display: none !important;
   }
 }
