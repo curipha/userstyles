@@ -17,20 +17,8 @@
   }
 
   /* Catalog */
-  body > table[align="center"] tr {
-    display: inline !important;
-    border-style: none !important;
-  }
-  body > table[align="center"] td {
-    display: block !important;
-    float: left !important;
-    width: 100px !important;
-    height: 140px !important;
-    border-style: none !important;
-  }
-  body > table[align="center"] img {
-    width: 70px !important;
-    height: auto !important;
+  #cattable td {
+    vertical-align: bottom !important;
   }
 
   /* Form */
