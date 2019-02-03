@@ -24,10 +24,10 @@ json.each do |style|
       fp.puts
 
       rules = []
-      rules += section['urls'].map {|url| "url(\"#{url}\")" }
-      rules += section['urlPrefixes'].map {|url| "url-prefix(\"#{url}\")" }
-      rules += section['domains'].map {|dom| "domain(\"#{dom}\")" }
-      rules += section['regexps'].map {|reg| "regexp(\"#{reg}\")" }
+      rules += section['urls'].map {|url| "url(\"#{url}\")" } unless section['urls'].nil?
+      rules += section['urlPrefixes'].map {|url| "url-prefix(\"#{url}\")" } unless section['urlPrefixes'].nil?
+      rules += section['domains'].map {|dom| "domain(\"#{dom}\")" } unless section['domains'].nil?
+      rules += section['regexps'].map {|reg| "regexp(\"#{reg}\")" } unless section['regexps'].nil?
 
       if rules.count > 0
         fp.print '@-moz-document'
