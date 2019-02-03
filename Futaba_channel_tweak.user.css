@@ -85,7 +85,7 @@
   }
 
   /* Text (Thumbnail view) */
-  small {
+  .rtd small {
     display: none !important;
   }
 
