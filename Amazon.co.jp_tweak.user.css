@@ -13,7 +13,8 @@
   /* 3rd party reseller */
   #merchant-info > a[href*="seller="] {
     color: #d00 !important;
-    font: bold 220% sans-serif !important;
+    background: #fee !important;
+    font: bold 140% sans-serif !important;
   }
 
   /* 〇〇日にお届けするには今から〇〇時間以内にお急ぎ便 */
