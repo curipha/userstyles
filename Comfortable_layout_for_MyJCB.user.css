@@ -3,16 +3,9 @@
 
 @-moz-document domain("my.jcb.co.jp") {
   .platformY1 {
-    min-width: 70vw !important;
     background-image: none !important;
   }
-  .platformY1 > table {
-    width: 100% !important;
-  }
 
-  .platformY1 table:not([class]) {
-    width: calc(100% - 20px - 15px) !important;
-  }
   .platformY1 table:not([class]) th,
   .platformY1 table:not([class]) td,
   .platformY1 table:not([class]) p {
