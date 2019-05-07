@@ -14,9 +14,8 @@
     width: calc(100% - 20px - 15px) !important;
   }
   .platformY1 table:not([class]) th,
-  .platformY1 table:not([class]) th p,
   .platformY1 table:not([class]) td,
-  .platformY1 table:not([class]) td p {
+  .platformY1 table:not([class]) p {
     white-space: nowrap !important;
     width: auto !important;
   }
