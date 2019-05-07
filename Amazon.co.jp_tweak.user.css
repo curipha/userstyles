@@ -14,34 +14,19 @@
   #merchant-info > a[href*="seller="] {
     color: #d00 !important;
     font: bold 220% sans-serif !important;
-    word-wrap: break-word !important;
   }
 
   /* 〇〇日にお届けするには今から〇〇時間以内にお急ぎ便 */
   #ddmDeliveryMessage {
     background: #efe !important;
-  }
-  #ddmDeliveryMessage b,
-  #ddmFastestCountdown {
-    font: bold 100% sans-serif !important;
-    white-space: nowrap !important;
-  }
-
-  #buybox #ddmDeliveryMessage {
     margin: 0 -0.7em !important;
     padding: 0.7em !important;
   }
-  #buybox #ddmDeliveryMessage b,
-  #buybox #ddmFastestCountdown {
-    font-size: 125% !important;
-  }
-
-  #centerCol #ddmDeliveryMessage {
-    padding: 0.7em 1.2em 1em !important;
-  }
-  #centerCol #ddmDeliveryMessage b,
-  #centerCol #ddmFastestCountdown {
-    font-size: 150% !important;
+  #ddmDeliveryMessage b,
+  #ddmFastestCountdown {
+    color: #000 !important;
+    font: bold 110% sans-serif !important;
+    white-space: nowrap !important;
   }
 
   /* このKindle版は読者によって問題が報告されています */
