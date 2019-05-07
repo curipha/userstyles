@@ -7,49 +7,11 @@
     background: floralwhite !important;
   }
 
-  #kindleReader_center {
-    left: 3% !important;
-    right: 3% !important;
-  }
-  #kindleReader_pageTurnAreaLeft {
-    width: 3% !important;
-  }
-  #kindleReader_pageTurnAreaRight {
-    width: 3% !important;
-    left: 97% !important;
-  }
-
   /* Overray element opacity */
   .immersive_slide_area {
     opacity: 0.4 !important;
   }
   .immersive_slide_area:hover {
     opacity: 0.8 !important;
-  }
-
-  /* Footer height adjustment */
-  #kindleReader_footer {
-    height: 40px !important;
-  }
-  #kindleReader_footer_readerControls_left,
-  #kindleReader_footer_readerControls_middle,
-  #kindleReader_footer_readerControls_right {
-    min-height: 40px !important;
-    height: 100% !important;
-  }
-
-  #kindleReader_footer_readerControls_left,
-  #kindleReader_footer_readerControls_right {
-    padding-top: 8px !important;
-  }
-
-  #kindleReader_progressbar_div {
-    top: 8px !important;
-  }
-  #kindleReader_footer_message {
-    margin-top: 12px !important;
-    font: 12px/1 sans-serif !important;
-    letter-spacing: 0.2em !important;
-    word-spacing: 1em !important;
   }
 }
