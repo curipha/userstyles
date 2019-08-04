@@ -3,13 +3,13 @@
 
 @font-face {
   font-family: "メイリオ";
-  src: local("Noto Sans CJK JP"), local("ヒラギノ角ゴ ProN"), local("Meiryo"), local("MS PGothic");
+  src: local("Noto Sans JP"), local("Noto Sans CJK JP"), local("ヒラギノ角ゴ ProN"), local("Meiryo");
 }
 @font-face {
   font-family: "Meiryo";
-  src: local("Noto Sans CJK JP"), local("ヒラギノ角ゴ ProN"), local("Meiryo"), local("MS PGothic");
+  src: local("Noto Sans JP"), local("Noto Sans CJK JP"), local("ヒラギノ角ゴ ProN"), local("Meiryo");
 }
 @font-face {
   font-family: "Meiryo UI";
-  src: local("Noto Sans CJK JP"), local("ヒラギノ角ゴ ProN"), local("Meiryo"), local("MS PGothic");
+  src: local("Noto Sans JP"), local("Noto Sans CJK JP"), local("ヒラギノ角ゴ ProN"), local("Meiryo UI");
 }
