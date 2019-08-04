@@ -11,11 +11,11 @@
 }
 @font-face {
   font-family: "ＭＳ ゴシック";
-  src: local("Source Han Code JP"), local("MS Gothic");
+  src: local("Source Han Code JP"), local("Consolas"), local("MS Gothic");
 }
 @font-face {
   font-family: "MS Gothic";
-  src: local("Source Han Code JP"), local("MS Gothic");
+  src: local("Source Han Code JP"), local("Consolas"), local("MS Gothic");
 }
 @font-face {
   font-family: "MS UI Gothic";
