@@ -15,7 +15,7 @@
 
   #AreaBody > .wrap,
   #AreaUpperLeftContainer {
-    margin : 0 !important;
+    margin: 0 !important;
     max-width: initial !important;
   }
   #main {
@@ -26,7 +26,7 @@
 
   #fix {
     position: fixed !important;
-    top : 0 !important;
+    top: 0 !important;
     left: 8rem !important;
   }
   #q {
@@ -52,7 +52,7 @@
   }
 
   p {
-    padding : 0 !important;
+    padding: 0 !important;
   }
 
   #paging {
