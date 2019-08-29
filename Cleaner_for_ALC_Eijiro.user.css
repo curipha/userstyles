@@ -2,40 +2,32 @@
 @namespace url("http://www.w3.org/1999/xhtml");
 
 @-moz-document domain("eow.alc.co.jp") {
-  #AreaBody > :not(#fixedBox):not(#AreaUpperLeft),
-  #fixedBox > :not(.search_area_left),
-  #AreaUpperLeftInner > :not(#resultsArea):not(#resultsArea_je),
-  #resultsList .aboutword, .aboutword h1,
-  #searchHeader, .tango, .pr_text, .adbox,
-  #itemsNumber .smallredfont,
-  div[id^="dac-"] {
+  .header > :not(#fix),
+  #AreaBody > .wrap > :not(#main),
+  #footer,
+  #AreaUpperLeftContainer > br,
+  #tabbodyLeft > :not(.search_box),
+  #tabbodyRight,
+  h2.gray,
+  .tango, .pr_text, .sas, .adbox, #navigation, #random_links_area {
     display: none !important;
   }
 
-  #AreaBody {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-  #AreaUpperLeft {
-    float: initial !important;
-    margin: 5rem 4rem !important;
-    padding: 0 !important;
-  }
+  #AreaBody > .wrap,
   #AreaUpperLeftContainer {
-    max-width: 80% !important;
-    margin: 0 !important;
+    margin : 0 !important;
+    max-width: initial !important;
+  }
+  #main {
+    margin: 0 8rem !important;
+    width: 40rem !important;
+    max-width: initial !important;
   }
 
-  #fixedBox {
+  #fix {
     position: fixed !important;
-    top: 0 !important;
-    left: 0 !important;
-    margin: 0 !important;
-    padding: 0.8rem 3rem 0 !important;
-    width: 100% !important;
-    height: auto !important;
-    border: none !important;
-    background: #fff !important;
+    top : 0 !important;
+    left: 8rem !important;
   }
   #q {
     font: 22px/1 monospace !important;
@@ -43,6 +35,7 @@
 
   #resultsArea, #resultsArea_je {
     font: 0.9rem/1.7 Arial, sans-serif !important;
+    margin-top: 60px !important;
   }
 
   .midashi, .midashi_je {
@@ -51,37 +44,18 @@
   }
   .midashi + div, .midashi_je + div {
     line-height: 1.75 !important;
-    margin: 0.2em 0 1em !important;
+    margin: 0.1em 0 1em !important;
     padding: 0 !important;
   }
   a {
     border-bottom: none !important;
   }
 
-  .ul_je + br {
-    display: none !important;
-  }
-
-  #navigation {
-    margin: 0 !important;
-  }
-  #itemsNumber {
-    clear: both !important;
-  }
-  .navif {
-    border-style: none !important;
-  }
   p {
-    padding: 0 !important;
+    padding : 0 !important;
   }
 
   #paging {
-    font-size: 120% !important;
-    margin: 0 !important;
-    float: right !important;
-    text-align: right !important;
-  }
-  #pagetop {
     margin: 0 !important;
   }
 
