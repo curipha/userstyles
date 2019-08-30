@@ -40,6 +40,9 @@
     font: 0.9rem/1.7 Arial, sans-serif !important;
     margin-top: 60px !important;
   }
+  #resultsList > div[style]:first-child {
+    margin: 0 !important;
+  }
 
   .midashi, .midashi_je {
     font-size: 120% !important;
