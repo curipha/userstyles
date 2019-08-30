@@ -29,6 +29,9 @@
     top: 0 !important;
     left: 8rem !important;
   }
+  #fixedBox {
+    height: initial !important;
+  }
   #q {
     font: 22px/1 monospace !important;
   }
