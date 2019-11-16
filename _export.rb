@@ -2,14 +2,8 @@
 
 require 'json'
 
-if ARGV.count > 0
-  file = ARGV.first
-else
-  file = Time.now.strftime('./stylus-%Y-%m-%d.json')
-end
-
-abort "JSON file does not exist: #{file}" unless File.exist?(file)
-
+file = ARGV.first || Dir.glob(File.expand_path('~/Desktop/stylus-*.json')).first
+abort 'JSON file does not exist.' if file.nil? || !File.exist?(file)
 
 json = JSON.load(File.read(file))
 
@@ -51,3 +45,4 @@ json.each do |style|
   end
 end
 
+File.delete(file)
