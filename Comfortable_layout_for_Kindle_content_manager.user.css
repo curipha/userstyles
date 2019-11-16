@@ -1,7 +1,7 @@
 /* Comfortable layout for Kindle content manager */
 @namespace url("http://www.w3.org/1999/xhtml");
 
-@-moz-document url-prefix("https://www.amazon.co.jp/mn/dcw/myx.html") {
+@-moz-document url-prefix("https://www.amazon.co.jp/hz/mycd/myx") {
   /* Add more height to "List of collection" box in "Add to collection" screen */
   .bulkAddToCollectionDialog_myx .myx-lgtbox-collection-vertical-scroll.recentCollection_myx {
     height: 35vh !important;
