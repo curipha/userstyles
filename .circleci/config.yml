@@ -1,16 +1,16 @@
 version: 2.1
 executors:
-  node-latest:
+  node-alpine:
     docker:
-      - image: node:latest
+      - image: node:alpine
     working_directory: ~/project
 jobs:
   install:
-    executor: node-latest
+    executor: node-alpine
     steps:
       - checkout
       - restore_cache:
-          key: stylelint-application
+          key: stylelint-alpine
       - run:
           name: Install stylelint
           command: npm install stylelint stylelint-config-standard
@@ -18,22 +18,19 @@ jobs:
           paths:
             - ./node_modules
             - ./package-lock.json
-          key: stylelint-application-{{ checksum "./package-lock.json" }}
+          key: stylelint-alpine-{{ checksum "./package-lock.json" }}
       - persist_to_workspace:
           root: ~/
           paths:
             - project
   version:
-    executor: node-latest
+    executor: node-alpine
     steps:
       - attach_workspace:
           at: ~/
       - run:
           name: OS release
-          command: cat /etc/debian_version
-      - run:
-          name: Kernel version
-          command: uname -a
+          command: cat /etc/os-release
       - run:
           name: Node.js version
           command: node --version
@@ -41,7 +38,7 @@ jobs:
           name: stylelint version
           command: npx stylelint --version
   lint:
-    executor: node-latest
+    executor: node-alpine
     steps:
       - attach_workspace:
           at: ~/
