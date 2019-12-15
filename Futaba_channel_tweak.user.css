@@ -5,7 +5,7 @@
   /* General */
   body[bgcolor] {
     margin: 1rem auto !important;
-    width: 80% !important;
+    width: 80vw !important;
   }
   hr {
     visibility: hidden !important;
@@ -106,7 +106,7 @@
   }
 
   /* del */
-  #ddel, .del, input[value="delete"] {
+  .del, input[value="delete"] {
     display: none !important;
   }
 
@@ -117,10 +117,7 @@
 
   /* Ad blocker */
   iframe,
-  body > div,
-  body > form > div:not(.thre),
-  .chui > div,
-  .tue {
+  body > div:not(.thre) {
     display: none !important;
   }
 }
