@@ -10,13 +10,10 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 85%;
-    padding: 0.2em 0 0.1em;
+    max-width: 90%;
+    padding: 0.4em 0 0 0.2em;
 
     color: #bbb;
-    font: 12px/1 Arial, sans-serif;
-  }
-  #three_way_contents .article_title_link:hover::after {
-    color: inherit !important;
+    font: 14px/1 Arial, sans-serif;
   }
 }
