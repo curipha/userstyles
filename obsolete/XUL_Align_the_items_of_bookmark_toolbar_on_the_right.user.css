@@ -1,5 +1,0 @@
-/* [XUL] Align the items of bookmark toolbar on the right */
-@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
-#PlacesToolbarItems {
-  -moz-box-pack: end !important;
-}

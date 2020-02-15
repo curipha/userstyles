@@ -1,4 +1,0 @@
-/* [XUL] Workaround for no gap between thumbnail and tab label */
-@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
-/* for the environment on which "Tree style tab" and "Informational tab" are installed */
-.tab-label, .tab-text { padding-left: 0.4em !important; }
