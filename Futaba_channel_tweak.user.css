@@ -58,7 +58,7 @@
 
   /* Reload */
   #contres {
-    position: static !important;
+    position: initial !important;
     display: block !important;
     margin: 1em 1em 0 !important;
     font-size: 1.8rem !important;
