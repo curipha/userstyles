@@ -48,7 +48,7 @@
   .rtd blockquote {
     margin: 0; /* w/o !important. Give a priority to site-style. */
     padding-top: 0.4em !important;
-    border-top: 1px dashed #800000 !important;
+    border-top: 1px dashed #c84 !important;
   }
 
   /* Reply */
