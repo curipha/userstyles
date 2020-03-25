@@ -7,6 +7,13 @@
     display: none !important;
   }
 
+  /* Hide revolving payments banner */
+  a[href^="/memx/atrevodiv/"] {
+    opacity: 0.2 !important;
+  }
+}
+
+@-moz-document url-prefix("https://www.smbc-card.com/memx/web_meisai/") {
   /* Detail table prettify */
   #meisaiTable td {
     line-height: 1 !important;
@@ -14,10 +21,5 @@
   }
   #meisaiTable td:only-child {
     background-color: #ffc !important;
-  }
-
-  /* Hide revolving payments banner */
-  a[href^="/memx/atrevodiv/"] {
-    opacity: 0.2 !important;
   }
 }
