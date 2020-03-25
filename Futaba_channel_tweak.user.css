@@ -31,9 +31,7 @@
     background: #ffe !important;
   }
 
-  #reszb,
-  .chui li:not(:nth-of-type(2)),
-  .chui br {
+  #reszb {
     display: none !important;
   }
 
