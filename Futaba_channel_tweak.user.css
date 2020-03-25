@@ -51,16 +51,6 @@
     border-top: 1px dashed #800000 !important;
   }
 
-  .rtd > font:first-of-type::before {
-    counter-increment: res;
-    content: counter(res) " : ";
-    color: #800000 !important;
-    font-weight: bold !important;
-  }
-  hr {
-    counter-reset: res;
-  }
-
   /* Reply */
   .hsbn {
     font-size: 1.8rem !important;
@@ -77,18 +67,8 @@
     margin-left: 1.4em !important;
   }
 
-  #contres + hr {
-    display: none !important;
-  }
-
-  /* Text (Thumbnail view) */
-  .rtd small {
-    display: none !important;
-  }
-
   /* EOL */
-  .thre > .sod + small,
-  .thre > .del + small {
+  .cntd {
     display: block !important;
     float: right !important;
     font: x-large/1.8 sans-serif !important;
@@ -100,11 +80,6 @@
 
   .thre > blockquote + font[color] > b {
     font: bold x-large/1 sans-serif !important;
-  }
-
-  /* del */
-  .del, input[value="delete"] {
-    display: none !important;
   }
 
   /* Soudane */
