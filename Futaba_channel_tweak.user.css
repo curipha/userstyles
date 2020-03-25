@@ -36,13 +36,13 @@
   }
 
   /* Res */
-  table[border="0"] {
+  .thre table {
     clear: both !important;
-    padding-top: 1em !important;
+    padding-top: 0.4em !important;
   }
   .rtd {
     width: 800px !important;
-    padding: 0.6em 0.8em !important;
+    padding: 0.4em 0.6em !important;
     border-radius: 4px !important;
   }
   .rtd blockquote {
@@ -69,13 +69,7 @@
 
   /* EOL */
   .cntd {
-    display: block !important;
-    float: right !important;
     font: x-large/1.8 sans-serif !important;
-    color: #800000 !important;
-    background: #ea8 !important;
-    padding: 0.4em 0.8em !important;
-    border-radius: 0.5em !important;
   }
 
   .thre > blockquote + font[color] > b {
