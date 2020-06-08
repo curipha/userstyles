@@ -8,7 +8,8 @@
   }
 
   /* Hide revolving payments banner */
-  a[href^="/memx/atrevodiv/"] {
+  a[href^="/memx/atrevodiv/"],
+  a[href^="/mem/loancash/"] {
     opacity: 0.2 !important;
   }
 }
