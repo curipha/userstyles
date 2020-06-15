@@ -5,11 +5,6 @@
   url-prefix("https://www.google.com/search"),
   url-prefix("https://www.google.co.jp/search")
 {
-  /* Result */
-  .mw .s {
-    line-height: 1.5 !important;
-  }
-
   /* ADs */
   .mw #tads, .mw #bottomads {
     background: #ffd !important;
