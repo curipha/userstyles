@@ -49,10 +49,7 @@
   }
 
   /* 値下がりしました ○○% @wishlist */
-  .itemPriceDrop {
-    font: bold 120% sans-serif !important;
-  }
-  .itemPriceDrop .a-text-bold {
+  span[id^="itemPriceDrop_"] {
     color: #d00 !important;
     font: bold 180% sans-serif !important;
     display: block !important;
