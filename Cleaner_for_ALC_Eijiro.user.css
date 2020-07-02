@@ -32,6 +32,9 @@
   #fixedBox {
     height: initial !important;
   }
+  #tabbodyLeft {
+    width: 100% !important;
+  }
   #q {
     font: 22px/1 monospace !important;
   }
