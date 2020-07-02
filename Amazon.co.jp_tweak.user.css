@@ -63,6 +63,7 @@
   /* Opaque elements */
   #kcpApp_feature_div,            /* Kindle無料アプリをダウンロード */
   #SendSample,                    /* 無料サンプルを送信 */
+  #issuancePriceblockAmabot_feature_div, /* Amazonクラシックカード新規ご入会で○○ポイント */
   #olp_feature_div,               /* 新品の出品 : ○ ￥○○より */
   .tmm-olp-links,                 /* \○○ からの ○ 中古 @kindlebook */
   #moreBuyingChoices_feature_div, /* こちらからもご購入いただけます */
