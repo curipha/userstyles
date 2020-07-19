@@ -67,6 +67,7 @@
   #olp_feature_div,               /* 新品の出品 : ○ ￥○○より */
   .tmm-olp-links,                 /* \○○ からの ○ 中古 @kindlebook */
   #moreBuyingChoices_feature_div, /* こちらからもご購入いただけます */
+  #usedBuySection, #usedbuyBox,   /* 中古品 / カートに入れる */
   #sellYoursHere_feature_div,     /* この商品をお持ちですか？ */
   #tellAFriendBox_feature_div, #tellAFriendBylineBox_feature_div /* シェアする */
   {
