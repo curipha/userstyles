@@ -9,6 +9,9 @@
   .mw #tads, .mw #bottomads {
     background: #ffd !important;
   }
+  .mw #tads * {
+    background-color: inherit !important;
+  }
 
   /* ChillingEffects */
   #extrares {
