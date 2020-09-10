@@ -1,7 +1,10 @@
 /* Hide delete button from Kindle content manager */
 @namespace url("http://www.w3.org/1999/xhtml");
 
-@-moz-document url-prefix("https://www.amazon.co.jp/hz/mycd/myx") {
+@-moz-document
+  url-prefix("https://www.amazon.co.jp/hz/mycd/myx"),
+  url-prefix("https://www.amazon.co.jp/mn/dcw/myx")
+{
   #contentAction_delete_myx {
     display: none !important;
   }

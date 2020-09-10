@@ -1,7 +1,10 @@
 /* Highlight a selected row for Kindle content manager */
 @namespace url("http://www.w3.org/1999/xhtml");
 
-@-moz-document url-prefix("https://www.amazon.co.jp/hz/mycd/myx") {
+@-moz-document
+  url-prefix("https://www.amazon.co.jp/hz/mycd/myx"),
+  url-prefix("https://www.amazon.co.jp/mn/dcw/myx")
+{
   .contentTableList_myx .myx-active {
     background-color: #fee !important;
   }
