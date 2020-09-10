@@ -6,6 +6,6 @@
   url-prefix("https://www.amazon.co.jp/mn/dcw/myx")
 {
   .contentTableList_myx .myx-active {
-    background-color: #fee !important;
+    background-color: #fed !important;
   }
 }
