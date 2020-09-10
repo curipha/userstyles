@@ -21,7 +21,9 @@
 
   /* Avoid text wrap on table header */
   div[list-view-header-dmyx] .myx-column {
+    color: #faa !important;
     white-space: nowrap !important;
-    font-size: 12px !important;
+    overflow-x: hidden !important;
+    text-overflow: ellipsis !important;
   }
 }
