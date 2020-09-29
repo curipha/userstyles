@@ -30,24 +30,6 @@
     white-space: nowrap !important;
   }
 
-  /* このKindle版は読者によって問題が報告されています */
-  #kcqWarning .a-alert-content {
-    font: bold larger/1 sans-serif !important;
-  }
-  #kcqWarning .a-icon, #kcqWarning + i {
-    transform: scale(1.5) !important;
-    vertical-align: middle !important;
-  }
-
-  /* 品薄または希少等の理由により参考価格よりも高い価格で販売されている */
-  .listPriceAlertPopoverIcon {
-    transform: scale(1.4) !important;
-  }
-  .listPriceAlertPopover + a .a-price-whole {
-    font-weight: normal !important;
-    text-decoration: line-through double !important;
-  }
-
   /* 値下がりしました ○○% @wishlist */
   span[id^="itemPriceDrop_"] {
     color: #d00 !important;
