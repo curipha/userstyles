@@ -16,6 +16,10 @@
     background: #fee !important;
     font: bold 140% sans-serif !important;
   }
+  #sellerProfileTriggerId {
+    color: #d00 !important;
+    font-weight: bold !important;
+  }
 
   /* 〇〇日にお届けするには今から〇〇時間以内にお急ぎ便 */
   #ddmDeliveryMessage {
