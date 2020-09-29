@@ -23,12 +23,6 @@
     margin: 0 -0.7em !important;
     padding: 0.7em !important;
   }
-  #ddmDeliveryMessage b,
-  #ddmFastestCountdown {
-    color: #000 !important;
-    font: bold 110% sans-serif !important;
-    white-space: nowrap !important;
-  }
 
   /* 値下がりしました ○○% @wishlist */
   span[id^="itemPriceDrop_"] {
