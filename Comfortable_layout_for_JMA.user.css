@@ -58,3 +58,9 @@
     max-width: 90px !important;
   }
 }
+
+@-moz-document domain("jma.go.jp") {
+  .jma_ad_space {
+    display: none !important;
+  }
+}
