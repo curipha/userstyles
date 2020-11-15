@@ -1,8 +1,0 @@
-/* Cleaner for Facebook */
-@namespace url("http://www.w3.org/1999/xhtml");
-
-@-moz-document domain("facebook.com") {
-  ._5hn6 {
-    display: none !important;
-  }
-}
