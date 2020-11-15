@@ -3,14 +3,18 @@
 
 @-moz-document domain("www.jma.go.jp") {
   /* Common */
+  :root {
+    --page-width: 75vw;
+  }
+
   body {
-    width: 75vw !important;
+    width: var(--page-width) !important;
     min-width: 1000px !important;
     margin: 0 auto !important;
   }
 
   #main, table.forecast {
-    width: calc(75vw - 340px) !important;
+    width: calc(var(--page-width) - 340px) !important;
     min-width: 660px !important;
   }
   #sidebar, #submenu {
@@ -50,7 +54,7 @@
 
   /* Weekly forecast */
   .for {
-    width: calc((75vw - 340px) / 8) !important;
+    width: calc((var(--page-width) - 340px) / 8) !important;
     max-width: 90px !important;
   }
 }
