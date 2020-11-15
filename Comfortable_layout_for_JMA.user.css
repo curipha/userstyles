@@ -4,7 +4,7 @@
 @-moz-document domain("www.jma.go.jp") {
   /* Common */
   :root {
-    --page-width: 75vw;
+    --page-width: 62vw;
   }
 
   body {
