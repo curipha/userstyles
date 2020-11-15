@@ -26,24 +26,9 @@
     left: initial !important;
   }
 
-  #info, #info table:not(#ASFC_Table) {
-    width: 100% !important;
-  }
-
-  #yjsearch {
-    display: none !important;
-  }
-  #header_link {
-    float: right !important;
-    width: 28em !important;
-  }
-
   /* Bug fix */
-  #others    { width: auto !important; }
-  #others td { white-space: nowrap !important; }
-
-  #tablist .button-up, #tablist .button-off {
-    height: auto !important;
+  #others td {
+    white-space: nowrap !important;
   }
 
 
