@@ -9,6 +9,7 @@ json = JSON.load(File.read(file))
 
 json.each do |style|
   name = style['name']
+  next if name.nil?
 
   File.open("./#{name.gsub(/[ \/]/, '_')}.user.css", 'w', 0644) do |fp|
     fp.puts "/* #{name} */"
