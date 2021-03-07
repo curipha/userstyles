@@ -8,11 +8,6 @@ a[href$=".pdf"], a[href$=".PDF"] {
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABv0lEQVR4AY2QA+xVcRiGqzHbnNmQp+aGrDHbtt28bJtTHrJtG9c49u39f79vu+bZnuP3+VANAENHG6Iz0a0MHYgaqVyGoLNlWZLrugnP81AI+o5t27ZtTklyBN1EWJNlyOsWQb1xDbquQ6bneDyOYDDIEr/fj+3bt6ckyXB1IRA/mKoCeeVc6C+fwjRNqKoKSZIQCoVYYBgGNE3D7t27WZInsG0bsQWToZw4wAIRUBQF4XA4bySRyRPQGIitnAf1/Am+p7lTo0QiEe7E5/MVFwhCk4YjsmAa32dKqBPeRzQaLS6wvn+Fb8RgBKaMgvn+baaEx6GdsKiowD9/OqL7dsL89gX/JpPk62f+2XEc3g9JmIICO+jHj6F9YP37C+PzR/ydMQGfe3TEjwG98Hv8cPxbPAfRsye5m4KCv8sX4t/qJYhfvYjw0YOQ79yE9u4NfBtX49e08fi7bAGCh/bmC+62bNRwd5N6K78M7Q87xgtKzU6I9hkzGICtqnyfEjxr0bAnsfFmswYvlCePUuFcSS4pweOm9fYS17bVr7WSXv4nUCGJ5AjJPXShLeviQyVh+lelTOdMQVshYWtldBaZKiQ5s+ApBO9qAAAAAElFTkSuQmCC") no-repeat right center;
 }
 
-a[href$=".txt"], a[href$=".TXT"] {
-  padding-right: 18px !important;
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAA6ElEQVQoFQXBMW5TQRgGwNnHnoE0QbiCjoIooUmTU3AuS1BwIoTSUdJBigg3GCWOg9/++zHTop078wIAsPMrE4SL5/1aIyMjIyMjz/m0tbFECFdrPeaQQw75mz/5nZH7fN7aWILmauSYfznmmIfss8vIUx7zZWsTTXM5vpWvTk5Wq9VHQP/gtgOLa0Qpw940vAQdaG6thpOhlOkG0AEuAVGmEkAH+G4YSikxXQM6wDsAMRFAB/ihDNNUmN4DOsAbBAEAdICfpmmaAt4COoj2GgCASbIkZh1NAACznhQt2itnFgAAlF3u/gMDtJXPzQxoswAAAABJRU5ErkJggg==") no-repeat right center;
-}
-
 a[href$=".zip"], a[href$=".cab"], a[href$=".7z"], a[href$=".rar"],
 a[href$=".gz"], a[href$=".bz2"], a[href$=".xz"] {
   padding-right: 18px !important;
