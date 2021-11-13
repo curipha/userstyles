@@ -2,46 +2,30 @@
 @namespace url("http://www.w3.org/1999/xhtml");
 
 @-moz-document domain("eow.alc.co.jp") {
-  .header > :not(#fix),
+  .header-result, .header-ad, .header-menu, .header-search-box-att,
   #AreaBody > .wrap > :not(#main),
+  #AreaUpperRight,
+  #AreaUpperLeftContainer > a,
   #footer,
-  #AreaUpperLeftContainer > br,
-  #tabbodyLeft > :not(.search_box),
-  #tabbodyRight,
   h2.gray,
-  .tango, .pr_text, .sas, .adbox, #navigation, #random_links_area {
+  .tango,
+  div[id*="ad"] {
     display: none !important;
   }
 
-  #AreaBody > .wrap,
-  #AreaUpperLeftContainer {
-    margin: 0 !important;
-    max-width: initial !important;
-  }
-  #main {
-    margin: 0 8rem !important;
-    width: 40rem !important;
-    max-width: initial !important;
+  .navif {
+    border-style: none !important;
   }
 
-  #fix {
-    position: fixed !important;
-    top: 0 !important;
-    left: 8rem !important;
+  #main {
+    margin: 0 !important;
   }
-  #fixedBox {
-    height: initial !important;
-  }
-  #tabbodyLeft {
-    width: 100% !important;
-  }
-  #q {
-    font: 22px/1 monospace !important;
+  .wrap, .wrap-inner {
+    margin: 0 8rem !important;
   }
 
   #resultsArea, #resultsArea_je {
     font: 0.9rem/1.7 Arial, sans-serif !important;
-    margin-top: 60px !important;
   }
   #resultsList > div[style]:first-child {
     margin: 0 !important;
@@ -60,16 +44,7 @@
     border-bottom: none !important;
   }
 
-  p {
+  .aboutword p {
     padding: 0 !important;
-  }
-
-  #paging {
-    margin: 0 !important;
-  }
-
-  .attr .label::before {
-    content: "\A";
-    white-space: pre;
   }
 }
