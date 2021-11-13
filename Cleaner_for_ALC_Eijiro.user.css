@@ -32,7 +32,7 @@
   }
 
   .midashi, .midashi_je {
-    font-size: 120% !important;
+    font-size: 140% !important;
     padding: 0 !important;
   }
   :is(.midashi, .midashi_je) + div {
