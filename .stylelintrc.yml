@@ -23,6 +23,7 @@ rules:
     - ignore:
       - after-declaration
 
+  alpha-value-notation: null
   block-opening-brace-space-before: null
   no-descending-specificity: null
   no-duplicate-selectors: null
