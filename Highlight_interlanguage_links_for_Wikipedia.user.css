@@ -2,8 +2,7 @@
 @namespace url("http://www.w3.org/1999/xhtml");
 
 @-moz-document domain("wikipedia.org") {
-  #p-lang .interwiki-en a,
-  #p-lang .interwiki-ja a {
+  #p-lang :is(.interwiki-en, .interwiki-ja) a {
     color: #fff !important;
     font: 1.2rem/1 sans-serif !important;
     text-align: center !important;
@@ -21,12 +20,10 @@
     text-overflow: ellipsis !important;
     z-index: 255 !important;
   }
-  #p-lang .interwiki-en a::after,
-  #p-lang .interwiki-ja a::after {
+  #p-lang :is(.interwiki-en, .interwiki-ja) a::after {
     content: " \bb\a0 " attr(title);
   }
-  #p-lang .interwiki-en a:hover,
-  #p-lang .interwiki-ja a:hover {
+  #p-lang :is(.interwiki-en, .interwiki-ja) a:hover {
     background: #f70 !important;
   }
 

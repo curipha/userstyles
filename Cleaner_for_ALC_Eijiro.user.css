@@ -35,7 +35,7 @@
     font-size: 120% !important;
     padding: 0 !important;
   }
-  .midashi + div, .midashi_je + div {
+  :is(.midashi, .midashi_je) + div {
     line-height: 1.75 !important;
     margin: 0.1em 0 1em !important;
     padding: 0 !important;
