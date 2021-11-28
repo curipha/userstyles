@@ -6,9 +6,6 @@
   #category-nav {
     display: none !important;
   }
-  .gnav-hide header {
-    padding-bottom: 0 !important;
-  }
 
   /* Hide gadgets */
   .social {
