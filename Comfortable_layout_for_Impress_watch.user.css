@@ -22,15 +22,8 @@
     line-height: 2 !important;
   }
 
-  /* Show bigger image by default */
+  /* for photo page */
   #zoom #page {
     width: 100% !important;
-  }
-  #main-image-wrap, #main-image {
-    max-width: 100% !important;
-  }
-
-  #zoom-btn {
-    display: none !important;
   }
 }
