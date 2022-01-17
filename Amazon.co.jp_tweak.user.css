@@ -22,7 +22,7 @@
   }
 
   /* 〇〇日にお届けするには今から〇〇時間以内にお急ぎ便 */
-  #ddmDeliveryMessage {
+  #deliveryBlockMessage {
     background: #efe !important;
     margin: 0 -0.7em !important;
     padding: 0.7em !important;
