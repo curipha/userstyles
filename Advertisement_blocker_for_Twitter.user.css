@@ -1,0 +1,10 @@
+/* Advertisement blocker for Twitter */
+@namespace url("http://www.w3.org/1999/xhtml");
+
+@-moz-document domain("twitter.com") {
+  div[data-testid="primaryColumn"]
+  div[data-testid="placementTracking"]
+  article[data-testid="tweet"] {
+    display: none !important;
+  }
+}
