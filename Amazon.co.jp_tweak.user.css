@@ -35,11 +35,6 @@
     display: block !important;
   }
 
-  /* ウォッチリストから削除 */
-  .a-declarative[data-action="s-watchlist-remove"] .a-button-text {
-    color: #c00 !important;
-  }
-
   /* Opaque elements */
   #kcpApp_feature_div,            /* Kindle無料アプリをダウンロード */
   #SendSample,                    /* 無料サンプルを送信 */
