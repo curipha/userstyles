@@ -44,7 +44,7 @@
 
 @-moz-document url-prefix("https://www.amazon.co.jp/hz/wishlist/") {
   /* 値下がりしました ○○% @wishlist */
-  span[id^="itemPriceDrop_"] {
+  .itemPriceDrop span:first-child {
     color: #d00 !important;
     font: bold 180% sans-serif !important;
     display: block !important;
