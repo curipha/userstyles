@@ -28,13 +28,6 @@
     padding: 0.7em !important;
   }
 
-  /* 値下がりしました ○○% @wishlist */
-  span[id^="itemPriceDrop_"] {
-    color: #d00 !important;
-    font: bold 180% sans-serif !important;
-    display: block !important;
-  }
-
   /* Opaque elements */
   #kcpApp_feature_div,            /* Kindle無料アプリをダウンロード */
   #SendSample,                    /* 無料サンプルを送信 */
@@ -46,5 +39,14 @@
   .AdHolder                       /* スポンサー @searchresult */
   {
     opacity: 0.3 !important;
+  }
+}
+
+@-moz-document url-prefix("https://www.amazon.co.jp/hz/wishlist/") {
+  /* 値下がりしました ○○% @wishlist */
+  span[id^="itemPriceDrop_"] {
+    color: #d00 !important;
+    font: bold 180% sans-serif !important;
+    display: block !important;
   }
 }
