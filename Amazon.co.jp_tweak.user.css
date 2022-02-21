@@ -49,4 +49,9 @@
     font: bold 180% sans-serif !important;
     display: block !important;
   }
+
+  /* 〇〇点の新品/中古品 \x,xxx より @wishlist */
+  .itemUsedAndNew {
+    opacity: 0.3 !important;
+  }
 }
