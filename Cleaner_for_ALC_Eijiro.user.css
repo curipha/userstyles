@@ -22,6 +22,7 @@
   }
   .wrap, .wrap-inner {
     margin: 0 8rem !important;
+    padding-left: 0 !important;
   }
 
   #resultsArea, #resultsArea_je {
