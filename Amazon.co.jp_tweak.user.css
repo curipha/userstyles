@@ -35,7 +35,8 @@
   .olp-link-widget,               /* 新品 (x)件の出品 */
   .tmm-olp-links,                 /* \x,xxx より ○○ 中古品 @kindlebook */
   #moreBuyingChoices_feature_div, /* こちらからもご購入いただけます */
-  #tellAFriendBox_feature_div, #tellAFriendBylineBox_feature_div, /* シェアする */
+  #tellAFriendBox_feature_div,       /* シェアする */
+  #tellAFriendBylineBox_feature_div, /* シェアする */
   .AdHolder                       /* スポンサー @searchresult */
   {
     opacity: 0.3 !important;

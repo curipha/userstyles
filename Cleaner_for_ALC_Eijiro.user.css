@@ -2,7 +2,10 @@
 @namespace url("http://www.w3.org/1999/xhtml");
 
 @-moz-document domain("eow.alc.co.jp") {
-  .header-result, .header-ad, .header-menu, .header-search-box-att,
+  .header-result,
+  .header-ad,
+  .header-menu,
+  .header-search-box-att,
   #AreaBody > .wrap > :not(#main),
   #AreaUpperRight,
   #AreaUpperLeftContainer > a,

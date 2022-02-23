@@ -3,7 +3,9 @@
 
 @-moz-document domain("srad.jp") {
   .ads-leaderbord,
-  #ads-article-left, #ads-article-right, #ads-footer-rec {
+  #ads-article-left,
+  #ads-article-right,
+  #ads-footer-rec {
     display: none !important;
   }
 }
