@@ -2,28 +2,11 @@ extends: stylelint-config-standard
 rules:
   indentation: 2
 
-  declaration-block-single-line-max-declarations: 2
-
-  max-empty-lines: 2
-  selector-max-empty-lines: 1
-
-  at-rule-empty-line-before:
-    - always
-    -
-      except:
-        - blockless-after-same-name-blockless
-        - first-nested
-      ignore:
-        - after-comment
-      ignoreAtRules:
-        - font-face
-
   declaration-empty-line-before:
     - never
     - ignore:
       - after-declaration
 
-  alpha-value-notation: null
   block-opening-brace-space-before: null
   no-descending-specificity: null
   no-duplicate-selectors: null
