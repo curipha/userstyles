@@ -11,11 +11,6 @@
   #offer_area {
     opacity: 0.2 !important;
   }
-
-  /* Open header menu immediately */
-  .megaMenu_itemBody, #header_overlay {
-    transition: initial !important;
-  }
 }
 
 @-moz-document url-prefix("https://www.smbc-card.com/memx/web_meisai/") {
