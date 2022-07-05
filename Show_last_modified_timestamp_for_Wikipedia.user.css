@@ -3,16 +3,10 @@
 
 @-moz-document domain("wikipedia.org") {
   #footer-info-lastmod {
-    color: #888 !important;
-    font: 0.8rem/1 sans-serif !important;
-    padding: 0.2rem 0 !important;
+    padding: 0 !important;
     position: absolute !important;
     top: 3.5rem !important;
-    left: 21.5rem !important;
+    left: 18.8rem !important;
     display: block !important;
-    width: 28rem !important;
-    white-space: nowrap !important;
-    overflow: hidden !important;
-    text-overflow: ellipsis !important;
   }
 }
