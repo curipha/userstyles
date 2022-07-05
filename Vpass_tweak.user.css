@@ -14,11 +14,6 @@
 }
 
 @-moz-document url-prefix("https://www.smbc-card.com/memx/web_meisai/") {
-  /* Comfortable layout */
-  .container {
-    width: 100% !important;
-  }
-
   /* Detail table prettify */
   #meisaiTable td {
     line-height: 1 !important;
