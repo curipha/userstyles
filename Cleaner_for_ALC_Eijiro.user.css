@@ -16,7 +16,7 @@
   }
 
   :is(.midashi, .midashi_je) h2 {
-    margin-left :0 !important;
+    margin-left: 0 !important;
   }
 
   .result-item {
