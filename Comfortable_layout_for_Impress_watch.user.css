@@ -5,11 +5,13 @@
   #page-wrap {
     width: 100% !important;
   }
-  #page, #global-nav {
+  #page,
+  #global-nav {
     width: 65vw !important;
     min-width: 980px !important;
   }
-  #global-nav > div {
+  #global-nav > div,
+  #gnav {
     position: initial !important;
     width: auto !important;
   }
