@@ -6,49 +6,24 @@
   .header-ad,
   .header-menu,
   .header-search-box-att,
-  #AreaBody > .wrap > :not(#main),
-  #AreaUpperRight,
+  .box-ad,
   #AreaUpperLeftContainer > a,
-  #footer,
-  h2.gray,
+  .wrap > br,
+  .footer,
   .tango,
-  div[id*="ad"] {
+  .btn-sns {
     display: none !important;
   }
 
-  .navif {
-    border-style: none !important;
+  :is(.midashi, .midashi_je) h2 {
+    margin-left :0 !important;
   }
 
-  #main {
-    margin: 0 !important;
-  }
-  .wrap, .wrap-inner {
-    margin: 0 8rem !important;
-    padding-left: 0 !important;
+  .result-item {
+    border-top: none !important;
   }
 
-  #resultsArea, #resultsArea_je {
-    font: 0.9rem/1.7 Arial, sans-serif !important;
-  }
-  #resultsList > div[style]:first-child {
-    margin: 0 !important;
-  }
-
-  .midashi, .midashi_je {
-    font-size: 140% !important;
-    padding: 0 !important;
-  }
-  :is(.midashi, .midashi_je) + div {
-    line-height: 1.75 !important;
-    margin: 0.1em 0 1em !important;
-    padding: 0 !important;
-  }
   a {
-    border-bottom: none !important;
-  }
-
-  .aboutword p {
-    padding: 0 !important;
+    text-decoration: none !important;
   }
 }
