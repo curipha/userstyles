@@ -5,7 +5,7 @@
   #page-wrap {
     width: 100% !important;
   }
-  #page,
+  :is(#top, #article, #listing) #page,
   #global-nav {
     width: 65vw !important;
     min-width: 980px !important;
@@ -25,6 +25,6 @@
 
   /* for photo page */
   #zoom #page {
-    width: 100% !important;
+    min-width: 100vw !important;
   }
 }
