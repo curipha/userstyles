@@ -46,7 +46,6 @@ jobs:
           name: Run stylelint
           command: npx stylelint -- ./*.css
 workflows:
-  version: 2
   stylelint:
     jobs:
       - install
