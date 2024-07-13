@@ -29,15 +29,15 @@
   }
 
   /* Opaque elements */
-  #kcpApp_feature_div,            /* Kindle無料アプリをダウンロード */
-  #SendSample,                    /* 無料サンプルを送信 */
+  #kcpApp_feature_div, /* Kindle無料アプリをダウンロード */
+  #SendSample, /* 無料サンプルを送信 */
   #issuancePriceblockAmabot_feature_div, /* Amazon Prime Mastercard新規ご入会で x,xxx ポイント */
-  .olp-link-widget,               /* 新品 (x)件の出品 */
-  .tmm-olp-links,                 /* \x,xxx より ○○ 中古品 @kindlebook */
+  .olp-link-widget, /* 新品 (x)件の出品 */
+  .tmm-olp-links, /* \x,xxx より ○○ 中古品 @kindlebook */
   #moreBuyingChoices_feature_div, /* こちらからもご購入いただけます */
-  #tellAFriendBox_feature_div,       /* シェアする */
+  #tellAFriendBox_feature_div, /* シェアする */
   #tellAFriendBylineBox_feature_div, /* シェアする */
-  .AdHolder                       /* スポンサー @searchresult */
+  .AdHolder/* スポンサー @searchresult */
   {
     opacity: 0.3 !important;
   }
