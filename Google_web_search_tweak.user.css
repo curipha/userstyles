@@ -9,9 +9,11 @@
   #tads, #bottomads {
     background: #ffd !important;
   }
+  /*
   #tads * {
     background-color: inherit !important;
   }
+  */
 
   /* ChillingEffects */
   #extrares {
