@@ -11,7 +11,8 @@
   .wrap > br,
   .footer,
   .tango,
-  .btn-sns {
+  .btn-sns,
+  #popup {
     display: none !important;
   }
 
