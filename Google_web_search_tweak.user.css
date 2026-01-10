@@ -6,14 +6,14 @@
   url-prefix("https://www.google.co.jp/search")
 {
   /* ADs */
-  #tads, #bottomads {
+  #tads, #tadsb {
     background: #ffd !important;
   }
-  /*
-  #tads * {
+
+  :is(#tads, #tadsb) * {
     background-color: inherit !important;
   }
-  */
+
 
   /* ChillingEffects */
   #extrares {
