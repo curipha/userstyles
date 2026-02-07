@@ -3,13 +3,15 @@
 
 @-moz-document domain("impress.co.jp") {
   #page-wrap {
-    width: 100% !important;
+    width: 100vw !important;
   }
   :is(#top, #article, #listing) #page,
-  #global-nav {
+  #global-nav,
+  #category-nav {
     width: 65vw !important;
     min-width: 980px !important;
   }
+
   #global-nav > div,
   #gnav {
     position: initial !important;
